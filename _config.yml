@@ -1,6 +1,6 @@
-domain: bsidesbrisbane.github.io
-url: https://bsidesbrisbane.github.io
-baseurl: /website
+#domain: bsidesbrisbane.github.io
+#url: https://bsidesbrisbane.github.io
+#baseurl: /
 
 title: BSides Brisbane
 author: bman013
