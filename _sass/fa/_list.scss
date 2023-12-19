@@ -3,7 +3,7 @@
 
 .#{$fa-css-prefix}-ul {
   list-style-type: none;
-  margin-left: $fa-li-width * calc(5 / 4);
+  margin-left: 1.25 * $fa-li-width;
   padding-left: 0;
 
   > li { position: relative; }

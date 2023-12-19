@@ -61,7 +61,7 @@ dash:
   avatar_path: /assets/avatar-bsides.png
 
 # Build settings
-remote_theme: jekyll-dash
+theme: jekyll-dash
 
 plugins:
  - jekyll-feed
