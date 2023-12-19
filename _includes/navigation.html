@@ -1,0 +1,32 @@
+{%   assign today = site.time | date: '%s' %}
+{%   assign start = '13-07-2024 09:00:00' | date: '%s' %}
+{%   assign secondsTo = start | minus: today %}
+{%   assign hoursTo = secondsTo | divided_by: 60 | divided_by: 60 %}
+{%   assign daysTo = hoursTo | divided_by: 24 %}
+
+<div class="container">
+  <div class="Nav">
+    <nav>
+      <h2>Navigation</h2>
+      <p style="font-size:22px">
+        {% for item in site.data.navigation %}
+          [ <a href="{{ item.link }}" {% if page.url == item.link %}style="color: cyan;"{% endif %}>
+            {{ item.name }}
+          </a> ] <br /> 
+        {% endfor %}
+      </p>
+    </nav>
+  </div>
+  <div class="Countdown">
+    <h2>Event Details</h2>
+    <p style="font-size:22px">
+      {{ daysTo }} days remaining!
+    </p>
+    <br />
+    <p>
+      <button>
+        <strong>Buy tickets now!</strong>
+      </button>
+    </p>
+  </div>
+</div>
