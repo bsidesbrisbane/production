@@ -1,4 +1,4 @@
-baseurl: ""  # Set to empty to publish to the root of the domain
+baseurl: "/production"  # Set to empty to publish to the root of the domain
 url: "https://bsidesbrisbane.github.io"  # Your GitHub Pages URL
 
 title: BSides Brisbane
