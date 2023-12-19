@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About
+  link: /about/
+- name: Code of Conduct
+  link: /code/
+- name: Recent Posts
+  link: /recent/
+- name: Sponsorship
+  link: /sponsorship/
+- name: Sponsors
+  link: /sponsors/

@@ -1,0 +1,71 @@
+domain: bsidesbrisbane.github.io
+url: https://bsidesbrisbane.github.io
+baseurl: /website
+
+title: BSides Brisbane
+author: bman013
+email: contact@bsidesbrisbane.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  BSides Brisbane is a conference that provides a platform for first-time speakers, 
+  students, new and experienced professionals an environment to present their 
+  work in a friendly and welcoming environment.
+show_excerpts: true # set to true to show excerpts on the homepage
+
+paginate: 3
+paginate_path: "/recent/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+permalink: /recent/:year/:month/:day/:title:output_ext
+
+environment: production
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  # the way how dates should be displayed
+  date_format: "%b %-d, %Y"
+
+  # (optional) discqus comment configuration
+  #disqus:
+  #  shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/bsides_bne
+      icon: twitter-square
+      color: cyan
+    - url: https://www.linkedin.com/company/bsides-brisbane/
+      icon: linkedin
+      color: blue
+    - url: https://discord.com/invite/A8KUcuuGQC
+      icon: discord
+      color: purple
+
+  # wether the author box should be displayed
+  show_author: true
+
+  # the animation speed of the scroll-in effect
+  animation_speed: 50
+
+  # wether to enable Right-to-Left support or not
+  rtl: false
+
+  # Replaces the default avatar provider (gravatar)
+  #avatar_source: github
+  #github_username: bitbrain
+  avatar_source: local
+  avatar_path: /assets/avatar-bsides.png
+
+# Build settings
+remote_theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
