@@ -1,4 +1,8 @@
+domain: "bsidesbrisbane.github.io"
+url: "https://bsidesbrisbane.github.io/"
+page_url: "https://bsidesbrisbane.github.io/"
 baseurl: ""
+base_path: ""
 
 title: BSides Brisbane
 author: bman013
