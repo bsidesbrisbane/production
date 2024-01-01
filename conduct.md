@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code of Conduct
-permalink: /code/
+permalink: /conduct/
 ---
 
 ## General Conduct
