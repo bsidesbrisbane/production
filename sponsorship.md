@@ -21,7 +21,7 @@ BSides enables its supporters and participants to identify and connect with indu
 ## Big fish, small pond
 For some, sponsoring large events is not within their price range, leaving them with no ability to communicate their message. At BSides we leave no one out. Sponsorship comes in all sizes and this community atmosphere brings together active and engaged participants who want to listen. As a sponsor you can be heard and share your message to an active and attentive audience.
 
-### [DOWNLOAD THE PROSPECTUS HERE](assets/2024/prospectus.pdf)
+### [DOWNLOAD THE PROSPECTUS HERE](/assets/2024/prospectus.pdf)
  
 ## Contact us
 Our current sponsorship pack can be downloaded here when available.
