@@ -10,7 +10,7 @@
       <h2>Navigation</h2>
       <p style="font-size:22px">
         {% for item in site.data.navigation %}
-          [ <a href="{{ item.link }}" {% if page.url == item.link %}style="color: cyan;"{% endif %}>
+          [ <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #777;"{% endif %}>
             {{ item.name }}
           </a> ] <br /> 
         {% endfor %}
