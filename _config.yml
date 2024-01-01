@@ -1,6 +1,6 @@
 baseurl: ""  # Set to empty to publish to the root of the domain
 #url: "https://bsidesbrisbane.github.io"  # Your GitHub Pages URL
-url: "https://bsidesbrisbane.dev"  # Your GitHub Pages URL
+url: "https://bsidesbrisbane.com"  # Your GitHub Pages URL
 
 title: BSides Brisbane
 author: bman013
