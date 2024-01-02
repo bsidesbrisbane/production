@@ -24,6 +24,6 @@ For some, sponsoring large events is not within their price range, leaving them 
 ### [DOWNLOAD THE PROSPECTUS HERE](/assets/2024/prospectus.pdf){:target="_blank"}
  
 ## Contact us
-Our current sponsorship pack can be downloaded here when available.
+Our current sponsorship pack can be downloaded above.
 
-If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Click below or email sponsorship@bsidesbrisbane.com to register your interest and find out more.
+If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email sponsorship@bsidesbrisbane.com to register your interest and find out more.
