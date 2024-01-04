@@ -11,11 +11,11 @@ function timer() {
   var hours       = Math.floor(hoursLeft/3600);
   var minutesLeft = Math.floor((hoursLeft) - (hours*3600));
   var minutes     = Math.floor(minutesLeft/60);
-  var remainingSeconds = seconds % 60;
+  var remainingSeconds = Math.floor(seconds % 60);
   function pad(n) {
     return (n < 10 ? "0" + n : n);
   }
-  document.getElementById('countdown').innerHTML = pad(days) + "d " + pad(hours) + "h " + pad(minutes) + "m " + pad(Math.floor(remainingSeconds)) + "s";
+  document.getElementById('countdown').innerHTML = pad(days) + "d " + pad(hours) + "h " + pad(minutes) + "m " + pad(remainingSeconds) + "s";
   if (seconds == 0) {
     clearInterval(countdownTimer);
     document.getElementById('countdown').innerHTML = "It's show time!";
