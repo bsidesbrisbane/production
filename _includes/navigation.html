@@ -1,9 +1,3 @@
-{%   assign today = site.time | date: '%s' %}
-{%   assign start = '13-07-2024 09:00:00' | date: '%s' %}
-{%   assign secondsTo = start | minus: today %}
-{%   assign hoursTo = secondsTo | divided_by: 60 | divided_by: 60 %}
-{%   assign daysTo = hoursTo | divided_by: 24 %}
-
 <div class="container">
   <div class="Nav">
     <nav>
@@ -23,7 +17,7 @@
       Saturday, 13th July 2024
     </p>
     <p style="font-size:18px">
-      {{ daysTo }} days remaining!
+      Time left: <span id="countdown" class="timer"></span>
     </p>
     <br />
     <p>
