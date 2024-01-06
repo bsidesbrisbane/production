@@ -209,7 +209,17 @@ pre {
   padding: 5px;
 }
 
-.sponsors {
+/**
+ * Sponsor logo formatting for consistency
+ */
+img[src$="#sponsor"] {
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+}
+
+.sponsor {
   height: auto; 
   width: auto; 
   max-width: 300px; 
