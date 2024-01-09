@@ -31,6 +31,11 @@ function activateDarkTheme() {
     document.documentElement.classList.remove('theme--light');
 	document.getElementById("theme-toggle").className = 'light';
 	window.localStorage.setItem('theme', 'dark');
+
+    if (window.location.href.indexOf("sponsors") > -1) {
+        document.getElementById("imgDeiterate").src="/assets/2024/deiterate-dark.png#sponsor";
+        document.getElementById("imgPayatu").src="/assets/2024/payatu-dark.png#sponsor";
+    }
 }
 
 function activateLightTheme() {
@@ -40,6 +45,12 @@ function activateLightTheme() {
     document.documentElement.classList.remove('theme--dark');
 	document.getElementById("theme-toggle").className = 'dark';
 	window.localStorage.setItem('theme', 'light');
+
+    if (window.location.href.indexOf("sponsors") > -1) {
+        document.getElementById("imgDeiterate").src="/assets/2024/deiterate-light.png#sponsor";
+        document.getElementById("imgPayatu").src="/assets/2024/payatu-light.png#sponsor";
+    }
+
 }
 
 if (theme === "dark") {
