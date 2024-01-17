@@ -7,6 +7,14 @@ permalink: /sponsors/
 ## This years sponsors
 We're still looking for sponsors to help run BSides Brisbane, head over to our [sponsorship page](/sponsorship/) for more information and a copy of our prospectus.
 
+### Special Tier
+<br />
+#### Electronic Badge and Lanyards
+<br />
+[![Sekuro](/assets/2024/sekuro-dark.png#sponsor){:#imgSekuro}](https://sekuro.io/){:target="_blank"}
+<br /><br />
+*Sekuro is a cyber security and digital resiliency solutions provider that helps clients take a strategic approach to cyber security risk mitigation and digital transformation by providing a range of end-to-end services and solutions across the business lifecycle.*
+
 ### Platinum Tier
 
 ### Gold Tier
