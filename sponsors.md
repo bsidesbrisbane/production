@@ -14,6 +14,12 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 [![Sekuro](/assets/2024/sekuro-dark.png#sponsor){:#imgSekuro}](https://sekuro.io/){:target="_blank"}
 <br /><br />
 *Sekuro is a cyber security and digital resiliency solutions provider that helps clients take a strategic approach to cyber security risk mitigation and digital transformation by providing a range of end-to-end services and solutions across the business lifecycle.*
+<br />
+#### Much Needed Coffee
+<br />
+[![Sekuro](/assets/2024/cybersec_people.png#sponsor){:#imgCyberSec}](https://www.cybersecpeople.com/){:target="_blank"}
+<br /><br />
+*CyberSec People is Australia’s ultimate community-connected recruitment agency for matching the best Cyber Security talent to the right roles.*
 
 ### Platinum Tier
 
