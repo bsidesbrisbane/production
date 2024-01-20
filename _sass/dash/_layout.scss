@@ -109,7 +109,7 @@
  .author-box {
    margin-bottom: 1em;
    text-align: left;
-   min-height: 72px;
+   min-height: 120px;
    font-style: italic;
    display: inline-flex;
    & > .description {
@@ -117,7 +117,7 @@
    }
    & > .author-avatar {
      margin-right: 1em;
-     width: 72px;
+     width: 120px;
      height: 100%;
      border-radius: 0.3em;
      flex: 1;
