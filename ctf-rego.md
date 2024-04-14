@@ -50,7 +50,7 @@ let webhook = {
   embeds: [{
     title: "New Form Submission",
     description: "The following details can be used to register a new team for the AD attack lab.",
-    timestamp: "2024-04-14T04:55:08.379Z",
+    timestamp: new Date().toISOString(),
     footer: {
       icon_url: "https://bsidesbrisbane.com/assets/favicon.png",
       text: "Submitted"
