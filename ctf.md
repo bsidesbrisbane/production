@@ -20,9 +20,9 @@ There are several reasons as to why you may want to participate in a capture the
 
 ### How To Participate
 - General: In order to participate you must attend in-person and use the WiFi that will be provided at the event. You also must bring a laptop capable of performing penetration testing type activities. Good luck!
-- Registration: Registration for the two events occurs differently:
+- Registration: The two events are managed separately and require different methods for registration:
   - Jeopardy style event: Available for registration on the day of the conference. Participants will be able to sign up from the scoreboard link provided on the day.
-  - AD Attack Lab: [Click here to pre-register][1]
+  - AD Attack Lab Scenario: [Click here to pre-register][1]
 - Scoring: Earn points by successfully solving challenges. The team or individual with the highest score at the end of the competition wins! We will announce the winners, and provide a run through of some statistics for the day during the closeout session at the conference.
 
 

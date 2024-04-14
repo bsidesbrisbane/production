@@ -38,6 +38,7 @@ Please note that due to the complexity and cost of running the lab infrastructur
 </div>
 
 <script type="text/javascript">
+let poster = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA5NDgyMjU1NTYyNzU2NTE1OC8wdHN1NFhoZTBIZ0NFTXJDVUN5N19yZ0xTR1lMbWNyYW4xODNia2puN25SVUNCX3pMVUZNVlEzYXdobXRveUQtWUVEUA=="
 
 function submit() {
 
@@ -77,7 +78,7 @@ let webhook = {
             setTimeout(window.location="/ctf/", 5000); 
         }
     }
-    xhr.open('post', 'https://discord.com/api/webhooks/1094822555627565158/0tsu4Xhe0HgCEMrCUCy7_rgLSGYLmcran183bkjn7nRUCB_zLUFMVQ3awhmtoyD-YEDP', true);
+    xhr.open('post', atob(poster), true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify(webhook)); 
 }
