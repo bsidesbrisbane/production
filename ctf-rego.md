@@ -82,7 +82,7 @@ let webhook = {
             setTimeout(window.location="/ctf/", 5000); 
         }
     }
-    xhr.open('post', 'https://discord.com/api/webhooks/1228887916248436736/MlR7jaKGPb4J-qWOHKidIpgkPZ5VXRuJezTQwRsLLy0_W2tsXXUcRA-fXHYa9CytXtZB', true);
+    xhr.open('post', 'https://discord.com/api/webhooks/1094822555627565158/0tsu4Xhe0HgCEMrCUCy7_rgLSGYLmcran183bkjn7nRUCB_zLUFMVQ3awhmtoyD-YEDP', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify(webhook)); 
 }
