@@ -1,0 +1,16 @@
+<input type="submit" value="Send Webhook" onclick="submit()">
+
+<script type="text/javascript">
+    function submit() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                alert(xhr.response);
+            }
+        }
+        xhr.open('post', 'https://discord.com/api/webhooks/1228887916248436736/MlR7jaKGPb4J-qWOHKidIpgkPZ5VXRuJezTQwRsLLy0_W2tsXXUcRA-fXHYa9CytXtZB', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({ content: "hello@user.com" }));
+    }
+
+</script>

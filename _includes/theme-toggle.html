@@ -37,6 +37,12 @@ function activateDarkTheme() {
         document.getElementById("imgPayatu").src="/assets/2024/payatu-dark.png#sponsor";
         document.getElementById("imgSekuro").src="/assets/2024/sekuro-dark.png#sponsor";
     }
+
+    if (window.location.href.indexOf("ctf-rego") > -1) {
+        document.getElementById("tm").style.backgroundColor = "#15171A";
+        document.getElementById("cpt").style.backgroundColor = "#15171A";
+        document.getElementById("mbr").style.backgroundColor = "#15171A";
+    }
 }
 
 function activateLightTheme() {
@@ -51,6 +57,12 @@ function activateLightTheme() {
         document.getElementById("imgDeiterate").src="/assets/2024/deiterate-light.png#sponsor";
         document.getElementById("imgPayatu").src="/assets/2024/payatu-light.png#sponsor";
         document.getElementById("imgSekuro").src="/assets/2024/sekuro-light.png#sponsor";
+    }
+
+    if (window.location.href.indexOf("ctf-rego") > -1) {
+        document.getElementById("tm").style.backgroundColor = "#DAE4ED";
+        document.getElementById("cpt").style.backgroundColor = "#DAE4ED";
+        document.getElementById("mbr").style.backgroundColor = "#DAE4ED";
     }
 
 }
