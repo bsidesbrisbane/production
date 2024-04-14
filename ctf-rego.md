@@ -40,11 +40,6 @@ Please note that due to the complexity and cost of running the lab infrastructur
 <script type="text/javascript">
 
 function submit() {
-    //const data = { };
-
-    //function handleInput(e){
-    //    data[e.name] = e.value;
-    //}
 
 let webhook = {
   embeds: [{
