@@ -17,9 +17,15 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 <br />
 #### Much Needed Coffee
 <br />
-[![Sekuro](/assets/2024/cybersec_people.png#sponsor){:#imgCyberSec}](https://www.cybersecpeople.com/){:target="_blank"}
+[![CyberSec People](/assets/2024/cybersec_people.png#sponsor){:#imgCyberSec}](https://www.cybersecpeople.com/){:target="_blank"}
 <br /><br />
 *CyberSec People is Australia’s ultimate community-connected recruitment agency for matching the best Cyber Security talent to the right roles.*
+<br />
+#### Capture the Flag Prize Sponsor
+<br />
+[![CyberCX](/assets/2024/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
+<br /><br />
+*Australia and New Zealand’s greatest force of cyber security and cloud experts.*
 
 ### Platinum Tier
 
@@ -36,3 +42,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 [![de.iterate](/assets/2024/deiterate-dark.png#sponsor){:#imgDeiterate}](https://deiterate.com/){:target="_blank"}
 <br /><br />
 *The de.iterate compliance platform streamlines compliance with Data Privacy and Data Security standards like ISO27001, SOC2, NIST, Privacy Act and the ACSC Essential 8.*
+<br /><br />
+[![Talenza](/assets/2024/talenza-dark.svg#sponsor){:#imgTalenza}](https://www.talenza.com.au/){:target="_blank"}
+<br />
+*Talenza is an award winning technology, digital and business transformation recruitment agency. We connect innovative organisations with the boldest and brightest talent across Australia.*

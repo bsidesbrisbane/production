@@ -42,7 +42,7 @@ let poster = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA5NDgyMjU1NTYyNzU2NT
 
 function submit() {
 
-let webhook = {
+let req = {
   embeds: [{
     title: "New Form Submission",
     description: "The following details can be used to register a new team for the AD attack lab.",
@@ -80,6 +80,6 @@ let webhook = {
     }
     xhr.open('post', atob(poster), true);
     xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(JSON.stringify(webhook)); 
+    xhr.send(JSON.stringify(req)); 
 }
 </script>
