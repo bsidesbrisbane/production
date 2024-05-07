@@ -21,6 +21,12 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 <br /><br />
 *CyberSec People is Australia’s ultimate community-connected recruitment agency for matching the best Cyber Security talent to the right roles.*
 <br />
+#### Popcorn Stall!
+<br />
+[![Netskope](/assets/2024/netskope-dark.png#sponsor){:#imgNetskope}](https://www.netskope.com/){:target="_blank"}
+<br /><br />
+*Netskope, a global cybersecurity leader, supports organisations in applying Zero Trust principles to protect data. The Netskope platform provides optimised access and zero trust security for people, devices, and data anywhere they go.*
+<br />
 #### Capture the Flag Prize Sponsor
 <br />
 [![CyberCX](/assets/2024/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
