@@ -8,8 +8,8 @@
   link: /cfc/
 #- name: Capture The Flag
 #  link: /ctf/
-#- name: Recent Posts
-#  link: /recent/
+- name: Recent Posts
+  link: /recent/
 - name: Sponsorship
   link: /sponsorship/
 - name: Sponsors

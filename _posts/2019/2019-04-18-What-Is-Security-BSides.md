@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "So what is Security BSides?"
+title: "So what is Security BSides?"
 tags: about
+published: true
 ---
+
 ## About Security BSides
 [Security BSides](https://www.securitybsides.org/) is a community-driven information security conference that provides a platform for cybersecurity enthusiasts, professionals, and experts to share knowledge and collaborate. Established in [2009](https://www.securitybsides.org.uk/), the organisation focuses on creating inclusive and accessible events, fostering networking opportunities, and promoting grassroots involvement in the security community.
 
