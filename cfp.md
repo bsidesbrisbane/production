@@ -14,8 +14,8 @@ Please note the following key dates:
 * April 30, 2024: Call for content closes.
 * May 13, 2024: Speaker shortlisting process begins.
 * May 17, 2024: Speaker list contacted and confirmed.
-* May 27, 2024: Speaker list published to website and announced publicly.
+* June 07, 2024: Speaker list published to website and announced publicly.
 
-## Application Form
+## Submissions Closed
 
-<iframe width="640px" height="490px" src="https://forms.office.com/r/242wMPdiMP?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; height:4310px;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+We would like to thank everyone that submitted to present at BSides Brisbane 2024. We received the most submissions of any BSides Brisbane to date, and the quality of submission has been excellent. Once we have finalised our review, made offers, and have received confirmation from all speakers, we will be in a position to publish a schedule for the day.
