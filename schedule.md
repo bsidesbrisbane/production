@@ -287,9 +287,9 @@ permalink: /schedule/
             </tr>
             <tr>
                 <td>10:45</td>
-                <td>TBC</td>
-                <td class="tooltip">TBC
-                    <span class="tooltiptext">TBC.</span>
+                <td>Jim Burger</td>
+                <td class="tooltip">Is the future really "passwordless"? Exploring WebAuthN and Passkeys
+                    <span class="tooltiptext">In this presentation, we'll take a down-to-earth exploration of the concept of a "passwordless" future, focusing on the practical realities of technologies like WebAuthN and passkeys. We'll discuss the motivations behind moving away from traditional passwords and the potential benefits for both users and organizations. Through a balanced examination of the strengths and limitations of WebAuthn and passkeys, we'll aim to provide a clearer understanding of whether a passwordless future is achievable and what challenges lie ahead.</span>
                 </td>
                 <td>45 mins</td>
             </tr>
