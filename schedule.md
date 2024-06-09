@@ -122,9 +122,9 @@ permalink: /schedule/
             </tr>
             <tr>
                 <td>09:00</td>
-                <td>Christina Cifuentes</td>
+                <td>Cristina Cifuentes</td>
                 <td class="tooltip">Keynote: From Student of Compilation to Mother of Decompilation -- 30 years edition
-                    <span class="tooltiptext">In this keynote presentation, Christina will give a retrospective on her decompilation PhD work, the growing interest on this technology throughout the past three decades, examples of commercial uses of decompilation, and conclude with an application of decompilation to develop a malware analysis tool.</span>
+                    <span class="tooltiptext">In this keynote presentation, Cristina will give a retrospective on her decompilation PhD work, the growing interest on this technology throughout the past three decades, examples of commercial uses of decompilation, and conclude with an application of decompilation to develop a malware analysis tool.</span>
                 </td>
                 <td>60 mins</td>
             </tr>
