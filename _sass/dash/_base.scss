@@ -311,6 +311,94 @@ img[src$="#sponsor"] {
   right: 0;
 }
 
+.trackbtn1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F24784;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.trackbtn1:hover {
+  background-color: #fc985e;
+}
+
+.trackbtn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.trackbtn1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.trackbtn1:hover span {
+  padding-right: 25px;
+}
+
+.trackbtn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.trackbtn2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(255,94,247,1);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.trackbtn2:hover {
+  background-color: rgba(2,245,255,1);
+}
+
+.trackbtn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.trackbtn2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.trackbtn2:hover span {
+  padding-right: 25px;
+}
+
+.trackbtn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .input-container {
   height: 50px;
   position: relative;

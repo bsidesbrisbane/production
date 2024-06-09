@@ -4,8 +4,11 @@
   link: /about/
 - name: Conduct
   link: /conduct/
-- name: Call For Content
-  link: /cfc/
+- name: Schedule
+  link: /schedule/
+#- name: Call For Content
+#  link: /cfc/
+  
 #- name: Capture The Flag
 #  link: /ctf/
 - name: Recent Posts
