@@ -27,11 +27,6 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 <br /><br />
 *Netskope, a global cybersecurity leader, supports organisations in applying Zero Trust principles to protect data. The Netskope platform provides optimised access and zero trust security for people, devices, and data anywhere they go.*
 <br />
-#### Capture the Flag Prize Sponsor
-<br />
-[![CyberCX](/assets/2024/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
-<br /><br />
-*Australia and New Zealand’s greatest force of cyber security and cloud experts.*
 
 ### Platinum Tier
 
@@ -52,3 +47,16 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 [![Talenza](/assets/2024/talenza-dark.svg#sponsor){:#imgTalenza}](https://www.talenza.com.au/){:target="_blank"}
 <br />
 *Talenza is an award winning technology, digital and business transformation recruitment agency. We connect innovative organisations with the boldest and brightest talent across Australia.*
+
+
+### Additional Supporters
+
+#### Prize Sponsors
+<br />
+[![CyberCX](/assets/2024/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
+<br /><br />
+*Australia and New Zealand’s greatest force of cyber security and cloud experts.*
+<br /><br />
+[![CREST](/assets/2024/crest-dark.png#sponsor){:#imgCREST}](https://www.crest-approved.org/){:target="_blank"}
+<br />
+*CREST is an international not-for-profit, membership body representing the global cyber security industry.*
