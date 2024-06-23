@@ -1,19 +1,24 @@
 - name: Home
   link: /
+  target: _parent
 - name: About
   link: /about/
+  target: _parent
 - name: Conduct
   link: /conduct/
+  target: _parent
 - name: Schedule
   link: /schedule/
-#- name: Call For Content
-#  link: /cfc/
-  
-#- name: Capture The Flag
-#  link: /ctf/
+  target: _parent
 - name: Recent Posts
   link: /recent/
+  target: _parent
 - name: Sponsorship
   link: /sponsorship/
+  target: _parent
 - name: Sponsors
   link: /sponsors/
+  target: _parent
+- name: Volunteer Rego
+  link: https://forms.office.com/r/SfNRCVYBKU
+  target: _blank
