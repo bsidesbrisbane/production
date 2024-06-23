@@ -32,13 +32,15 @@ function activateDarkTheme() {
 	document.getElementById("theme-toggle").className = 'light';
 	window.localStorage.setItem('theme', 'dark');
 
-    if (window.location.href.indexOf("sponsors.html") > -1) {
+    if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgDeiterate").src="/assets/2024/deiterate-dark.png#sponsor";
         document.getElementById("imgPayatu").src="/assets/2024/payatu-dark.png#sponsor";
         document.getElementById("imgSekuro").src="/assets/2024/sekuro-dark.png#sponsor";
         document.getElementById("imgCyberCX").src="/assets/2024/cybercx-dark.png#sponsor";
         document.getElementById("imgTalenza").src="/assets/2024/talenza-dark.svg#sponsor";
         document.getElementById("imgNetskope").src="/assets/2024/netskope-dark.png#sponsor";
+        document.getElementById("imgMcGrathNicol").src="/assets/2024/mcgrathnicol-dark.svg#sponsor";
+        document.getElementById("imgQGov").src="/assets/2024/qgov-dark.png#sponsor";
         document.getElementById("imgCREST").src="/assets/2024/crest-dark.png#sponsor";
     }
 
@@ -57,13 +59,15 @@ function activateLightTheme() {
 	document.getElementById("theme-toggle").className = 'dark';
 	window.localStorage.setItem('theme', 'light');
 
-    if (window.location.href.indexOf("sponsors.html") > -1) {
+    if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgDeiterate").src="/assets/2024/deiterate-light.png#sponsor";
         document.getElementById("imgPayatu").src="/assets/2024/payatu-light.png#sponsor";
         document.getElementById("imgSekuro").src="/assets/2024/sekuro-light.png#sponsor";
         document.getElementById("imgCyberCX").src="/assets/2024/cybercx-light.png#sponsor";
         document.getElementById("imgTalenza").src="/assets/2024/talenza-light.svg#sponsor";
         document.getElementById("imgNetskope").src="/assets/2024/netskope-light.png#sponsor";
+        document.getElementById("imgMcGrathNicol").src="/assets/2024/mcgrathnicol-light.svg#sponsor";
+        document.getElementById("imgQGov").src="/assets/2024/qgov-light.png#sponsor";
         document.getElementById("imgCREST").src="/assets/2024/crest-light.png#sponsor";
     }
 
