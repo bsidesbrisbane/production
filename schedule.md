@@ -21,6 +21,9 @@ permalink: /schedule/
     #track2 th {
         background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
     }
+    #track3 th {
+        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
+    }
     #track1 tr:nth-child(even):hover {
         background-image: linear-gradient(#f24784, #fc985e);
     }
@@ -32,6 +35,12 @@ permalink: /schedule/
     }
     #track2 tr:nth-child(odd):hover {
         background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
+    }
+    #track3 tr:nth-child(even):hover {
+        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
+    }
+    #track3 tr:nth-child(odd):hover {
+        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
     }
     .tooltip {
         position: relative;
@@ -69,11 +78,31 @@ permalink: /schedule/
         opacity: 0;
         transition: opacity 0.3s;
     }
+    #track3 .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 350px;
+        background-color: rgba(106,96,245,1);
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
     #track1 .tooltip:hover .tooltiptext {
         visibility: visible;
         opacity: 1;
     }
     #track2 .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+    #track3 .tooltip:hover .tooltiptext {
         visibility: visible;
         opacity: 1;
     }
@@ -91,6 +120,7 @@ permalink: /schedule/
 <div class="tabs">
     <button class="trackbtn1" style="vertical-align:middle" onclick="openTrack('track1')"><span>Track 1</span></button>
     <button class="trackbtn2" style="vertical-align:middle" onclick="openTrack('track2')"><span>Track 2</span></button>
+    <button class="trackbtn3" style="vertical-align:middle" onclick="openTrack('track3')"><span>Workshops</span></button>
 </div>
 
 <!-- Content for Track 1 -->
@@ -376,6 +406,90 @@ permalink: /schedule/
         </tbody>
     </table>
 </div>
+
+<!-- Content for Track 3 -->
+<div id="track3" class="tabcontent">
+    <h2>Workshop Sessions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Tutor</th>
+                <th>Workshop Title</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00</td>
+                <td></td>
+                <td class="tooltip"></td>
+                <td>All day</td>
+            </tr>
+            <tr>
+                <td>08:45</td>
+                <td></td>
+                <td class="tooltip">
+                </td>
+                <td>15 mins</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td>Warren Finch (APNIC)</td>
+                <td class="tooltip">Open Lawful Intercept - Session 1a
+                    <span class="tooltiptext">Are you interested how law enforcement and government are implementing lawful intercept technology? This hands-on tutorial is an overview of Lawful Interception, and how to deploy open-source software called OpenLI in an Internet Service Providers (ISP) network.</span>
+                </td>
+                <td>90 mins</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td></td>
+                <td class="tooltip">Break</td>
+                <td>15 mins</td>
+            </tr>
+            <tr>
+                <td>10:45</td>
+                <td>Warren Finch (APNIC)</td>
+                <td class="tooltip">Open Lawful Intercept - Session 1b
+                    <span class="tooltiptext">Are you interested how law enforcement and government are implementing lawful intercept technology? This hands-on tutorial is an overview of Lawful Interception, and how to deploy open-source software called OpenLI in an Internet Service Providers (ISP) network.</span>
+                </td>
+                <td>75 mins</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td></td>
+                <td class="tooltip">Lunch Time Break
+                    <span class="tooltiptext">A number of lunch options are open around the campus.</span>
+                </td>
+                <td>60 mins</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td>Warren Finch (APNIC)</td>
+                <td class="tooltip">Security Monitoring with Wazuh - Session 1a
+                    <span class="tooltiptext">Security is a broad topic that affects many aspects relating to end-users, applications, and infrastructure. The objective of this tutorial is to give a snapshot of one of the hands-on labs that is part of the 3- or 5-day network security workshops. On completion, you will be able to install Wazuh, the security platform that provides unified XDR and SIEM protection for endpoints and cloud workloads.</span>
+                </td>
+                <td>150 mins</td>
+            </tr>
+            <tr>
+                <td>15:30</td>
+                <td></td>
+                <td class="tooltip">Break</td>
+                <td>15 mins</td>
+            </tr>
+            <tr>
+                <td>15:45</td>
+                <td>Warren Finch (APNIC)</td>
+                <td class="tooltip">Security Monitoring with Wazuh - Session 1b
+                    <span class="tooltiptext">Security is a broad topic that affects many aspects relating to end-users, applications, and infrastructure. The objective of this tutorial is to give a snapshot of one of the hands-on labs that is part of the 3- or 5-day network security workshops. On completion, you will be able to install Wazuh, the security platform that provides unified XDR and SIEM protection for endpoints and cloud workloads.</span>
+                </td>
+                <td>45 mins</td>
+            </tr>
+            </tbody>
+    </table>
+</div>
+
+
 
 <!-- JavaScript to handle tab switching -->
 <script>

@@ -6,7 +6,9 @@ permalink: /ctf-rego/
 
 
 ## AD Attack Lab Scenario
-Welcome to the registration page for the AD attack lab scenario for BSides Brisbane 2024. Due to connectivity and infrastructure requirements, we require teams to pre-register, as to ensure we can provision access prior to the start of the event. 
+Welcome to the registration page for the AD attack lab scenario for BSides Brisbane 2024. Due to connectivity and infrastructure requirements, we require teams to pre-register, as to ensure we can provision access prior to the start of the event.
+
+### [Download the info pack here](..\assets\2024\ctf\Bsides BNE CTF - ApexMotorSport Penetration Testing Brief.pdf){:target="_blank"}
 
 ## Registration Form
 To register for our AD attack lab scenario, please complete the below form. Your details will be sent to our team who will be configuring access prior to the day. 
