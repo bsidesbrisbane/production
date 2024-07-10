@@ -45,7 +45,10 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 [![Talenza](/assets/2024/talenza-dark.svg#sponsor){:#imgTalenza}](https://www.talenza.com.au/){:target="_blank"}
 <br />
 *Talenza is an award winning technology, digital and business transformation recruitment agency. We connect innovative organisations with the boldest and brightest talent across Australia.*
-
+<br /><br />
+[![ProfessionalsAustralia](/assets/2024/pa-dark.png#sponsor){:#imgPA}](https://www.professionalsaustralia.org.au/){:target="_blank"}
+<br /><br />
+*Professionals Australia is a union, representing the industrial and professional interests of over 20,000 professional employees across Australia.*
 
 ### Additional Supporters
 
