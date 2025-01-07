@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-## Engaging presentations
+## Engaging Presentations
 Elevate Your Cybersecurity Knowledge with Engaging Presentations at BSides Brisbane. Dive into a diverse range of informative and thought-provoking presentations that cover the latest trends, best practices, and emerging challenges in cybersecurity. Our lineup features renowned experts and thought leaders who will share their insights on topics such as vulnerability research, threat intelligence, and risk management. Whether you are a seasoned professional or a newcomer to the field, these presentations offer a unique opportunity to expand your knowledge, gain practical insights, and stay ahead of the cybersecurity curve.
 
 ## Capture the Flag
