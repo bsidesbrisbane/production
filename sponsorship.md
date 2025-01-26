@@ -4,6 +4,9 @@ title: Sponsorship
 permalink: /sponsorship/
 ---
 
+## Prospectus
+### [Download the 2025 prospectus here!](/assets/2025/sponsorship/2025_bne_prospectus.pdf){:target="_blank"}
+
 ## Why support BSides Brisbane?
 Recent successes in Australia and abroad have shown that the information security community continues to grow and along with it, the number of BSides events worldwide continues to increase, each event drawing a bigger crowd. BSides Brisbane was born from a desire to give back to the local Brisbane security community. This year will be the third time running this conference, and we promise to again deliver high quality content, keep the audience and attendees engaged, all while keeping the cost down to ensure its affordable to all.
 
@@ -21,9 +24,10 @@ BSides enables its supporters and participants to identify and connect with indu
 ## Big fish, small pond
 For some, sponsoring large events is not within their price range, leaving them with no ability to communicate their message. At BSides we leave no one out. Sponsorship comes in all sizes and this community atmosphere brings together active and engaged participants who want to listen. As a sponsor you can be heard and share your message to an active and attentive audience.
 
-### [DOWNLOAD THE PROSPECTUS HERE](/assets/2024/prospectus.pdf){:target="_blank"}
- 
 ## Contact us
 Our current sponsorship pack can be downloaded above.
 
 If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email sponsorship@bsidesbrisbane.com to register your interest and find out more.
+
+## Prospectus
+Don't forget to [download the 2025 prospectus here!](/assets/2025/sponsorship/2025_bne_prospectus.pdf){:target="_blank"}

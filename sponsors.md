@@ -9,7 +9,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 ### Platinum Tier
 <br />
-[![Queensland Government](/assets/2024/qgov-dark.png#sponsor){:#imgQGov}](https://www.qld.gov.au/){:target="_blank"}
+[![Queensland Government](/assets/2025/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.qld.gov.au/){:target="_blank"}
 <br /><br />
 *The Queensland Government Cyber Security Unit (QGCSU) is dedicated to improving cyber security in Queensland. The QGCSU sets cyber security policy and guidance for the Queensland public sector, managing a number of whole-of-Government cyber security services, developing a public sector cyber workforce and supporting the development of the Queensland cyber security industry.*
 <br />

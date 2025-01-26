@@ -3,20 +3,24 @@
   target: _parent
 - name: About
   link: /about/
-  target: _parent
-- name: Conduct
-  link: /conduct/
-  target: _parent
-- name: Schedule
-  link: /schedule/
-  target: _parent
-- name: Recent Posts
-  link: /recent/
+- name: Tickets
+  link: /tickets/
   target: _parent
 - name: Sponsorship
   link: /sponsorship/
   target: _parent
-- name: Sponsors
+- name: Call for Content
+  link: /cfc/
+  target: _parent
+- name: Recent Posts
+  link: /recent/
+  target: _parent
+- name: Current Sponsors
   link: /sponsors/
   target: _parent
-  
+- name: Code of Conduct
+  link: /conduct/
+  target: _parent
+- name: Volunteers
+  link: /volunteers/
+  target: _parent

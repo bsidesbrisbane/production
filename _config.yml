@@ -6,9 +6,10 @@ title: BSides Brisbane
 author: bman013
 email: contact@bsidesbrisbane.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  BSides Brisbane is a conference that provides a platform for first-time speakers, 
-  students, new and experienced professionals an environment to present their 
-  work in a friendly and welcoming environment.
+  BSides Brisbane is a dynamic and inclusive cybersecurity conference that offers a welcoming environment 
+  for individuals at all stages of their professional journey. Whether you're a first-time speaker eager 
+  to share your ideas, a student exploring cybersecurity, or an experienced professional looking to give 
+  back to the community, BSides Brisbane is the place for you.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 5
@@ -61,7 +62,7 @@ dash:
   #avatar_source: github
   #github_username: bitbrain
   avatar_source: local
-  avatar_path: /assets/avatar-bsides-pixel.png
+  avatar_path: /assets/2025/avatar/2025_avatar.png
 
 # Build settings
 theme: jekyll-dash
