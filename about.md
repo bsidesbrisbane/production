@@ -7,7 +7,7 @@ permalink: /about/
 ## A bit about us
 BSides Brisbane was founded by [joshua1909](https://twitter.com/joshua1909){:target="_blank"} and [bman013](https://www.linkedin.com/in/brodiecarter){:target="_blank"}, driven by a desire to create something unique to the local Brisbane cyber security scene. 
 
-It isn't your typical cyber tech conference; it's more like a cyber jam session where knowledge and experiences collide. We've been running wild since 2019, hosting sessions that dive deep into live hacks, defensive measures, effective security policy, and everything in between. Our vibe? Casual, inclusive, and downright passionate about all things cybersecurity.
+It isn't your typical cyber tech conference; it's more like a cyber jam session where knowledge and experiences collide. We've been running wild since 2019, hosting sessions that dive deep into live hacks, defensive measures, effective security policy, and everything in between. Our vibe? Casual, inclusive, and downright passionate about all things cyber.
 
 Since we kicked off, we've been crafting an atmosphere where bytes meet banter, and everyone is welcome to geek out and grow together.
 
