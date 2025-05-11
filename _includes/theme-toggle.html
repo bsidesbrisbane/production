@@ -36,7 +36,7 @@ function activateDarkTheme() {
     if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-dark.png#sponsor";
         document.getElementById("imgBLarge").style='filter:invert(100%)'
-        document.getElementById("imgDecipher").src="/assets/2025/sponsors/decipher-dark.gif#sponsor";
+        document.getElementById("imgDecipher").style='filter:invert(0%)'
         document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-dark.png#sponsor";
         document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-dark.png#sponsor";
     }
@@ -59,7 +59,7 @@ function activateLightTheme() {
     // Update here for when light theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-light.png#sponsor";
-        document.getElementById("imgBLarge").src="/assets/2025/sponsors/blarge-light.png#sponsor";
+        document.getElementById("imgBLarge").style='filter:invert(0%)'
         document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-light.png#sponsor";
         document.getElementById("imgDecipher").style='filter:invert(100%)'
         document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packaged-light.png#sponsor";
