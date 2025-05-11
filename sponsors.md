@@ -22,7 +22,7 @@ TBC
 
 ### Silver Tier
 <br />
-[![BLARGE](/assets/2025/sponsors/blarge-dark.png#sponsor){:#imgBlarge}](https://www.blarge.io/){:target="_blank"}
+[![BLARGE](/assets/2025/sponsors/blarge-dark.png#sponsor){:#imgBLarge}](https://www.blarge.io/){:target="_blank"}
 <br /><br />
 *BLARGE is a specialist Cyber Security Consultancy dedicated to protecting Australian Critical Infrastructure. Leveraging world-class methodologies and frameworks, they draw insights from the best to help businesses manage cyber security risks effectively. With deep expertise and a commitment to excellence, their team is equipped to guide organisations through complex security challenges and safeguard their most critical assets.*
 <br />
