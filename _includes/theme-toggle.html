@@ -35,9 +35,9 @@ function activateDarkTheme() {
     // Update here for when dark theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-dark.png#sponsor";
-        document.getElementById("imgBLarge").src="/assets/2025/sponsors/blarge-dark.png#sponsor";
+        document.getElementById("imgBLarge").style='filter:invert(100%)'
         document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-dark.png#sponsor";
-        document.getElementById("imgDecipher").src="/assets/2025/sponsors/decipher-dark.gif#sponsor";
+        document.getElementById("imgDecipher").style='filter:invert(100%)'
         document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-dark.png#sponsor";
     }
 
