@@ -24,6 +24,16 @@ BSides enables its supporters and participants to identify and connect with indu
 ## Big fish, small pond
 For some, sponsoring large events is not within their price range, leaving them with no ability to communicate their message. At BSides we leave no one out. Sponsorship comes in all sizes and this community atmosphere brings together active and engaged participants who want to listen. As a sponsor you can be heard and share your message to an active and attentive audience.
 
+## Supporting Local Queensland Businesses
+At BSides Brisbane, we believe in fostering strong local connections and supporting the cyber security ecosystem within Queensland. As part of our commitment to the community, we are offering local small businesses a complimentary upgrade from **Bronze** to **Silver** sponsorship tier.
+
+To qualify for this initiative, your business must:
+- Have **fewer than 5 full-time staff**
+- Be **Queensland-headquartered**
+- Be **less than 3 years old**
+
+There are only **3 available slots**, so we encourage eligible homegrown businesses to apply promptly and take advantage of this exclusive opportunity to gain greater visibility, engage with industry professionals, and contribute to the broader cybersecurity conversation.
+
 ## Contact us
 Our current sponsorship pack can be downloaded above.
 
