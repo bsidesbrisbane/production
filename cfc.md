@@ -11,8 +11,7 @@ Note: We typically DO NOT provide speaker or travel stipends at this time (excep
 
 Please note the following key dates:
 
-* May 16, 2025: Call for content closes.
-* May 24, 2025: Speaker shortlisting process begins.
+* May 24, 2025: Call for content closes and speaker shortlisting process begins.
 * June 07, 2025: Speaker list contacted and confirmed.
 
 

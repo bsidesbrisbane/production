@@ -32,7 +32,7 @@ To qualify for this initiative, your business must:
 - Be **Queensland-headquartered**
 - Be **less than 3 years old**
 
-There are only **3 available slots**, so we encourage eligible homegrown businesses to apply promptly and take advantage of this exclusive opportunity to gain greater visibility, engage with industry professionals, and contribute to the broader cybersecurity conversation.
+There are only **3 available slots**, so we encourage eligible homegrown businesses to apply promptly and take advantage of this exclusive opportunity to gain greater visibility, engage with industry professionals, and contribute to the broader cyber security conversation.
 
 ## Contact us
 Our current sponsorship pack can be downloaded above.
