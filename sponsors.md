@@ -48,8 +48,16 @@ TBC
 
 #### Electronic Badge and Lanyards
 <br />
-TBC
+[![Division 5](/assets/2025/sponsors/d5-dark.png#sponsor){:#imgD5}](https://www.division5.io/){:target="_blank"}
 <br /><br />
+*The Division 5 team provides expert strategy, testing, and attack simulation to help you prepare for cyber attacks before they happen.*
+<br />
+
+#### Venue
+<br />
+[![QUT](/assets/2025/sponsors/qut-dark.png#sponsor){:#imgQUT}](https://www.qut.edu.au/){:target="_blank"}
+<br /><br />
+*QUT (Queensland University of Technology) is a highly successful Australian university with an applied emphasis in courses and research. Based in Brisbane, the university has a global outlook which includes 50,000 students.*
 <br />
 
 #### Much Needed Coffee

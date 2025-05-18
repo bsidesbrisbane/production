@@ -35,8 +35,10 @@ function activateDarkTheme() {
     // Update here for when dark theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-dark.png#sponsor";
-        document.getElementById("imgBLarge").style='filter:invert(100%)'
-        document.getElementById("imgDecipher").style='filter:invert(0%)'
+        document.getElementById("imgBLarge").style='filter:invert(100%)';
+        document.getElementById("imgDecipher").style='filter:invert(0%)';
+        document.getElementById("imgD5").style='filter:invert(0%)';
+        document.getElementById("imgQUT").style='filter:invert(0%)';
         document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-dark.png#sponsor";
         document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-dark.png#sponsor";
     }
@@ -59,9 +61,11 @@ function activateLightTheme() {
     // Update here for when light theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
         document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-light.png#sponsor";
-        document.getElementById("imgBLarge").style='filter:invert(0%)'
+        document.getElementById("imgBLarge").style='filter:invert(0%)';
         document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-light.png#sponsor";
-        document.getElementById("imgDecipher").style='filter:invert(100%)'
+        document.getElementById("imgDecipher").style='filter:invert(100%)';
+        document.getElementById("imgD5").style='filter:invert(100%)';
+        document.getElementById("imgQUT").style='filter:invert(0%)';
         document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-light.png#sponsor";
     }
 
