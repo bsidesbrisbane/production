@@ -11,7 +11,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 <br />
 [![Queensland Government](/assets/2025/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.qld.gov.au/){:target="_blank"}
 <br /><br />
-*The Queensland Government Cyber Security Unit (QGCSU) is dedicated to improving cyber security in Queensland. The QGCSU sets cyber security policy and guidance for the Queensland public sector, managing a number of whole-of-Government cyber security services, developing a public sector cyber workforce and supporting the development of the Queensland cyber security industry.*
+*The newly formed Department of Customer Services, Open Data and Small and Family Business (CDSB) is responsible for driving the Queensland Government's priorities in digital technology, intellectual property and service delivery. They’re also responsible for small and family business advocacy, resilience and economic capacity and potential.*
 <br />
 
 ### Gold Tier
@@ -42,6 +42,11 @@ TBC
 [![Decipher Bureau](/assets/2025/sponsors/decipher-dark.gif#sponsor){:#imgDecipher}](https://www.decipherbureau.com/){:target="_blank"}
 <br /><br />
 *Decipher Bureau offer recruitment and professional services which can be contingent or retained depending on the needs and requirements of our client’s business. Working collaboratively with some of the world’s leading cyber security teams they will decipher the noise and deliver to exacting standards.*
+<br />
+<br />
+[![Tarian Cyber](/assets/2025/sponsors/tarian-dark.svg#sponsor){:#imgTarian}](https://tarian.com.au/){:target="_blank"}
+<br /><br />
+*Tarian is a Brisbane-based Managed Detection and Response (MDR) house founded in 2022. Utilising the extensive experience from their past, they have developed a portfolio of next-generation Managed Security Services that are hyper-focused on the utilisation of the client's existing investments.*
 <br />
 
 ### Additional Supporters
