@@ -16,8 +16,11 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 ### Gold Tier
 <br />
-TBC
+[![EEHA Automation](/assets/2025/sponsors/eeha-dark.png#sponsor){:#imgEEHA}](https://eehaa.com.au/){:target="_blank"}
 <br /><br />
+*EEHA Automation is a specialist provider of industrial control and automation solutions, with deep expertise across mining, manufacturing, utilities, and critical infrastructure. Our team delivers secure, scalable systems that integrate PLCs, SCADA, IIoT, and advanced networking to ensure reliable and efficient operation of industrial assets.
+<br /><br />
+We understand the cybersecurity challenges faced in IT/OT convergence and build resilient systems with security at the core. Through strategic partnerships with vendors like Fortinet, Microsoft, and Siemens, EEHA helps clients safeguard their industrial environments while maintaining performance and compliance.*
 <br />
 
 ### Silver Tier
