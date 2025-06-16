@@ -39,6 +39,13 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 <br /><br />
 *Packaged IT Services is an IT and Cyber Security Managed Service and Consulting provider. We provide monthly priced services, which scale up and down with your business. We have over 35 years of IT experience, which we use to provide modern, cost-effective IT services for your business needs.*
 <br />
+<br />
+[![Rapid7](/assets/2025/sponsors/rapid7-dark.png#sponsor){:#imgRapid7}](https://www.rapid7.com/){:target="_blank"}
+<br /><br />
+*Rapid7 is creating a more secure digital future for all by helping organisations strengthen their security programs in the face of accelerating digital transformation. Our portfolio of best-in-class solutions empowers security professionals to manage risk and eliminate threats across the entire threat landscape from apps to the cloud to traditional infrastructure to the dark web. We foster open source communities and cutting-edge research–using these insights to optimise our products and arm the global security community with the latest in attacker methodology. Trusted by more than 11,000 customers worldwide, our industry-leading solutions and services help businesses stay ahead of attackers, ahead of the competition, and future-ready for what’s next.*
+<br />
+
+
 
 ### Bronze Tier
 <br />
