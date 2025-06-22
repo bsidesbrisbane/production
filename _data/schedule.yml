@@ -37,12 +37,10 @@
     title: "Developer centric security: AppSec for 2025 and beyond"
     presenter: "Ben Gittens"
     summary: "Placeholder"
-    duration: "30 mins"
-    rowspan: 2
+    duration: "45 mins"
+    rowspan: 3
 - time: "10:15"
 - time: "10:30"
-  track2:
-- time: "10:45"
   track2:
     title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
     presenter: "The Prompt Detectives"

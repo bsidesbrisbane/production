@@ -20,12 +20,15 @@ permalink: /schedule/
     .schedule-table th {
         background-color: #f2f2f2;
     }
+    .schedule-table thead .time-col {
+        color: #333;
+    }
     #track1-header {
-        background-image: linear-gradient(#f24784, #fc985e);
+        background-image: linear-gradient(#f24784, #c93a6a);
         color: white;
     }
     #track2-header {
-        background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
+        background-image: linear-gradient(rgba(2,245,255,1), rgba(2,197,204,1));
         color: white;
     }
     .time-col {
@@ -60,12 +63,20 @@ permalink: /schedule/
     }
 
     .popup-summary {
-        background: #fff;
-        padding: 20px;
+        background: #2c2c2c;
+        color: #f1f1f1;
+        padding: 25px;
         width: auto;
-        max-width: 500px;
+        max-width: 600px;
         margin: 20px auto;
         position: relative;
+        border-radius: 8px;
+    }
+    .popup-summary h3 {
+        color: #fff;
+        margin-top: 0;
+        border-bottom: 1px solid #555;
+        padding-bottom: 10px;
     }
 </style>
 
