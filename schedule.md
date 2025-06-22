@@ -128,11 +128,10 @@ permalink: /schedule/
                     </td>
                 {% endif %}
 
-                {% comment %} Logic for Track 2 {% endcomment %}
-                {% if slot.track1.colspan == nil %}
+                {% if slot.track1.colspan == nil and slot.track2 %}
                     {% if slot.track2.title %}
                         {% assign talk = slot.track2 %}
-                        <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
+                        <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %}>
                             {% if talk.summary %}
                             <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
                             {% endif %}
@@ -150,7 +149,7 @@ permalink: /schedule/
                             </div>
                             {% endif %}
                         </td>
-                    {% elsif slot.track2 %}
+                    {% else %}
                         <td></td>
                     {% endif %}
                 {% endif %}
