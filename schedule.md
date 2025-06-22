@@ -17,25 +17,27 @@ permalink: /schedule/
         border: 1px solid #ddd;
         vertical-align: top;
     }
-    .schedule-table td.track-cell {
-        padding: 0;
-    }
     .schedule-table tbody tr {
         height: 65px;
     }
     .schedule-table th {
-        background-color: #f2f2f2;
+        background-color: #2c2c2c;
+        color: #f1f1f1;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 0.9em;
+        border: 1px solid #444;
+        border-bottom-width: 3px;
     }
     .schedule-table thead .time-col {
-        color: #333;
+        /* This column doesn't have a special color, so it gets the default dark underline */
     }
     #track1-header {
-        background-image: linear-gradient(#f24784, #c93a6a);
-        color: white;
+        border-bottom-color: #f24784;
     }
     #track2-header {
-        background-image: linear-gradient(rgba(2,245,255,1), rgba(2,197,204,1));
-        color: white;
+        border-bottom-color: rgba(2,245,255,1);
     }
     .time-col {
         width: 10%;
@@ -46,11 +48,11 @@ permalink: /schedule/
     }
 
     .talk {
-        padding: 10px;
+        padding: 8px;
         border-radius: 5px;
         cursor: pointer;
-        box-sizing: border-box;
         height: 100%;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -187,6 +189,7 @@ permalink: /schedule/
             {% endfor %}
         </tbody>
     </table>
+    <br /><br /><br />
 </div>
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
