@@ -17,6 +17,9 @@ permalink: /schedule/
         border: 1px solid #ddd;
         vertical-align: top;
     }
+    .schedule-table tbody tr {
+        height: 65px;
+    }
     .schedule-table th {
         background-color: #f2f2f2;
     }
@@ -41,9 +44,13 @@ permalink: /schedule/
 
     .talk {
         padding: 8px;
-        margin-bottom: 5px;
         border-radius: 5px;
         cursor: pointer;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .talk.track1 {
@@ -66,6 +73,11 @@ permalink: /schedule/
     }
     .talk.track2 .talk-presenter {
         color: #02a8b3;
+    }
+
+    .popup-trigger {
+        display: block;
+        height: 100%;
     }
 
     .popup-summary {
