@@ -118,28 +118,31 @@ permalink: /schedule/
                     </td>
                 {% endif %}
 
-                {% if slot.track2.title %}
-                    {% assign talk = slot.track2 %}
-                    <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
-                        {% if talk.summary %}
-                        <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
-                        {% endif %}
-                            <div class="talk track2">
-                                <div class="talk-title">{{ talk.title }}</div>
-                                <div class="talk-presenter">{{ talk.presenter }}</div>
-                                <div class="talk-duration">{{ talk.duration }}</div>
+                {% comment %} Logic for Track 2 {% endcomment %}
+                {% if slot.track1.colspan == nil %}
+                    {% if slot.track2.title %}
+                        {% assign talk = slot.track2 %}
+                        <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
+                            {% if talk.summary %}
+                            <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
+                            {% endif %}
+                                <div class="talk track2">
+                                    <div class="talk-title">{{ talk.title }}</div>
+                                    <div class="talk-presenter">{{ talk.presenter }}</div>
+                                    <div class="talk-duration">{{ talk.duration }}</div>
+                                </div>
+                            {% if talk.summary %}
+                            </a>
+                            <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary">
+                                <h3>{{ talk.title }}</h3>
+                                <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
+                                <p>{{ talk.summary }}</p>
                             </div>
-                        {% if talk.summary %}
-                        </a>
-                        <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary">
-                            <h3>{{ talk.title }}</h3>
-                            <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
-                            <p>{{ talk.summary }}</p>
-                        </div>
-                        {% endif %}
-                    </td>
-                {% elsif slot.track1.colspan == nil %}
-                     <td></td>
+                            {% endif %}
+                        </td>
+                    {% elsif slot.track2 %}
+                        <td></td>
+                    {% endif %}
                 {% endif %}
             </tr>
             {% endfor %}
