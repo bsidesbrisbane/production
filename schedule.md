@@ -17,9 +17,6 @@ permalink: /schedule/
         border: 1px solid #ddd;
         vertical-align: top;
     }
-    .schedule-table th {
-        background-color: #f2f2f2;
-    }
     .schedule-table thead .time-col {
         color: #333;
     }
@@ -39,11 +36,25 @@ permalink: /schedule/
         width: 45%;
     }
 
+    .track-cell {
+        padding: 0;
+    }
+
+    .popup-trigger {
+        display: block;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: inherit;
+    }
+
     .talk {
         padding: 8px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
         border-radius: 5px;
         cursor: pointer;
+        height: 100%;
     }
 
     .talk.track1 {
@@ -149,7 +160,7 @@ permalink: /schedule/
         </tbody>
     </table>
 </div>
-
+<br /><br /><br />
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
 $(document).ready(function() {
