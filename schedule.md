@@ -165,27 +165,31 @@ permalink: /schedule/
                         </a>
                         <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary popup-track1">
                             <h3>{{ talk.title }}</h3>
-                            <p class="presenter-info">
-                                <strong>Presented by:</strong> 
-                                {% if talk.link and talk.link != "" %}
-                                    <a href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">{{ talk.presenter }}</a>
-                                {% else %}
-                                    {{ talk.presenter }}
-                                {% endif %}
-                            </p>
-                            
-                            {% if talk.bio and talk.bio != "Placeholder" %}
-                            <div class="popup-section">
-                                <h4>Speaker Bio</h4>
-                                <p>{{ talk.bio }}</p>
-                            </div>
-                            {% endif %}
-
-                            {% if talk.summary and talk.summary != "Placeholder" %}
-                            <div class="popup-section">
-                                <h4>Talk Summary</h4>
+                            {% if talk.type == 'break' %}
                                 <p>{{ talk.summary }}</p>
-                            </div>
+                            {% else %}
+                                <p class="presenter-info">
+                                    <strong>Presented by:</strong> 
+                                    {% if talk.link and talk.link != "" %}
+                                        <a href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">{{ talk.presenter }}</a>
+                                    {% else %}
+                                        {{ talk.presenter }}
+                                    {% endif %}
+                                </p>
+                                
+                                {% if talk.bio and talk.bio != "Placeholder" %}
+                                <div class="popup-section">
+                                    <h4>Speaker Bio</h4>
+                                    <p>{{ talk.bio }}</p>
+                                </div>
+                                {% endif %}
+
+                                {% if talk.summary and talk.summary != "Placeholder" %}
+                                <div class="popup-section">
+                                    <h4>Talk Summary</h4>
+                                    <p>{{ talk.summary }}</p>
+                                </div>
+                                {% endif %}
                             {% endif %}
                         </div>
                         {% endif %}
@@ -209,27 +213,31 @@ permalink: /schedule/
                             </a>
                             <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary popup-track2">
                                 <h3>{{ talk.title }}</h3>
-                                <p class="presenter-info">
-                                    <strong>Presented by:</strong> 
-                                    {% if talk.link and talk.link != "" %}
-                                        <a href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">{{ talk.presenter }}</a>
-                                    {% else %}
-                                        {{ talk.presenter }}
-                                    {% endif %}
-                                </p>
-                                
-                                {% if talk.bio and talk.bio != "Placeholder" %}
-                                <div class="popup-section">
-                                    <h4>Speaker Bio</h4>
-                                    <p>{{ talk.bio }}</p>
-                                </div>
-                                {% endif %}
-
-                                {% if talk.summary and talk.summary != "Placeholder" %}
-                                <div class="popup-section">
-                                    <h4>Talk Summary</h4>
+                                {% if talk.type == 'break' %}
                                     <p>{{ talk.summary }}</p>
-                                </div>
+                                {% else %}
+                                    <p class="presenter-info">
+                                        <strong>Presented by:</strong> 
+                                        {% if talk.link and talk.link != "" %}
+                                            <a href="{{ talk.link }}" target="_blank" rel="noopener noreferrer">{{ talk.presenter }}</a>
+                                        {% else %}
+                                            {{ talk.presenter }}
+                                        {% endif %}
+                                    </p>
+                                    
+                                    {% if talk.bio and talk.bio != "Placeholder" %}
+                                    <div class="popup-section">
+                                        <h4>Speaker Bio</h4>
+                                        <p>{{ talk.bio }}</p>
+                                    </div>
+                                    {% endif %}
+
+                                    {% if talk.summary and talk.summary != "Placeholder" %}
+                                    <div class="popup-section">
+                                        <h4>Talk Summary</h4>
+                                        <p>{{ talk.summary }}</p>
+                                    </div>
+                                    {% endif %}
                                 {% endif %}
                             </div>
                             {% endif %}
