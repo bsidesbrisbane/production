@@ -12,7 +12,8 @@
     title: "Welcome to BSides Brisbane & Opening"
     presenter: "Josh & Brodie"
     summary: "Join us for the official opening of BSides Brisbane 2024. We'll kick off the day with a brief welcome, run through the schedule, and cover everything you need to know to make the most of your conference experience."
-    bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cybersecurity industry. Joshua is a Technical Director with extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience in cybersecurity and is a Director at Division 5 Pty Ltd. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
+    bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience across all aspects of cyber security including both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
+    link: "#"
     duration: "15 mins"
     rowspan: 1
     colspan: 2
@@ -22,6 +23,8 @@
     title: "Keynote"
     presenter: "TBC"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: "#"
     duration: "45 mins"
     rowspan: 3
     colspan: 2
