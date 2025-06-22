@@ -30,15 +30,19 @@
   track1:
     title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
     presenter: "Cameron Fairbairn"
-    summary: "Placeholder"
+    summary: "This presentation explores the attack surface of Microsoft Entra ID, demonstrating how adversaries can enumerate, exploit, and escalate privileges in cloud and hybrid environments. We will walk through real-world attack chains and outline effective mitigation strategies to strengthen Entra ID security."
+    bio: "Cameron Fairbairn is a cybersecurity architect and the CTO of Proaxiom Cyber. With 28 years in IT and 15 years specializing in cybersecurity, he has extensive experience in offensive and defensive security, cloud security, and security operations. Cameron is passionate about practical security implementations and adversary-centric defense strategies."
+    link: "https://www.linkedin.com/in/cameronfairbairn/"
     duration: "60 mins"
     rowspan: 4
   track2:
     title: "Developer centric security: AppSec for 2025 and beyond"
     presenter: "Ben Gittens"
-    summary: "Placeholder"
-    duration: "45 mins"
-    rowspan: 3
+    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
+    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
+    link: "https://www.linkedin.com/in/ben-gittens/"
+    duration: "30 mins"
+    rowspan: 2
 - time: "10:15"
 - time: "10:30"
 - time: "10:45"
@@ -46,13 +50,17 @@
     title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
     presenter: "The Prompt Detectives"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: ""
     duration: "30 mins"
     rowspan: 2
 - time: "11:00"
   track1:
     title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
     presenter: "Rhiana Cooke"
-    summary: "Placeholder"
+    summary: "This talk will highlight why shadow OT is one of the most prevalent cyber issues in the field. I'll walk through why shadow OT is being deployed, the methods used for its detection, and share real-world examples of incidents I've worked on."
+    bio: "Rhiana is a Cybersecurity Specialist and Mechatronics Engineer with a passion for OT security. As an OT Cyber Security Architect at Secolve, she has worked in both mining and manufacturing, gaining experience with control systems, mobile equipment, and cybersecurity operations."
+    link: "https://www.linkedin.com/in/rhiana-cooke/"
     duration: "30 mins"
     rowspan: 2
 - time: "11:15"
@@ -60,13 +68,17 @@
     title: "Beyond Identity: The Future of Trust, Attestation, and Assurance"
     presenter: "Adam Aurisch"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: ""
     duration: "45 mins"
     rowspan: 3
 - time: "11:30"
   track1:
     title: "Deception in Depth Mindset; How to capture an APT"
     presenter: "Brent Muir"
-    summary: "Placeholder"
+    summary: "This session will introduce the strategy of designing and deploying deception strategies across your environments by leveraging the Mitre Engage adversarial framework. A real-world case study will demonstrate how to implement a deception strategy geared towards the adversaries targeting your organization."
+    bio: "Brent has over 18 years of experience in the cybersecurity industry. After 12 years in Australian government and law enforcement leading national cyber teams, he led the global digital forensics and incident response team for a Fortune 500 bank."
+    link: "https://www.linkedin.com/in/brentmuir/"
     duration: "30 mins"
     rowspan: 2
 - time: "11:45"
@@ -89,12 +101,16 @@
     title: "Threat Hunting with Better Data Visualization"
     presenter: "Tatsuya Hasegawa"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: ""
     duration: "30 mins"
     rowspan: 2
   track2:
     title: "Pretty Privilege – How Pleasing Words and Visuals Will Help You Get Ahead."
     presenter: "Abby and Alex"
-    summary: "Placeholder"
+    summary: "In an industry of technical excellence, reports and presentations can seem like an afterthought. This talk will outline why presentation is important, who should care, and how to take your work to the next level by paying attention to the words and visuals you use."
+    bio: "Abby is a Senior GRC specialist at Division 5 with 5 years in cybersecurity. Alex is a freelance writer and editor across various industries, including cybersecurity. Together, they are passionate about enhancing the impact of communication through powerful narratives and visuals."
+    link: "https://www.linkedin.com/in/abby-b-ba3582121/"
     duration: "60 mins"
     rowspan: 4
 - time: "13:45"
@@ -111,13 +127,17 @@
     title: "Beyond Passwords: The Present and Future War on Your Online Identity"
     presenter: "Sam Gillespie"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: ""
     duration: "60 mins"
     rowspan: 4
 - time: "14:45"
   track1:
     title: "SkyJACKER: Why SDR is more Dangerous than Nail Clippers"
     presenter: "Ryan Williams"
-    summary: "Placeholder"
+    summary: "This talk explores how modern aviation's reliance on insecure systems turns the skies into a playground for those who know where to listen. From ADS-B tracking to ACARS manipulation, this session will break down how software-defined radio (SDR) allows for passive eavesdropping, real-time aircraft spoofing, and unexpected attack surfaces."
+    bio: "Ryan 'D8RH8R' Williams is a hacker, researcher, and builder of systems that weren't meant to exist. He spends his time reverse-engineering technology, exploring communication networks, and crafting bespoke offensive hardware. His work spans offensive security, adversarial R&D, and privacy consulting."
+    link: ""
     duration: "30 mins"
     rowspan: 2
 - time: "15:00"
@@ -125,21 +145,27 @@
   track1:
     title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
     presenter: "Adriana"
-    summary: "Placeholder"
+    summary: "This talk covers essential security practices for WordPress, including strong authentication, regular updates, and proactive defenses. We will discuss key security threats like brute force attacks, SQL injection, and malware, and explore advanced protection techniques to keep your site safe."
+    bio: "With over a decade of experience in IT development, systems administration, and cybersecurity, Adriana specializes in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
+    link: "https://www.linkedin.com/in/adriana-moreno-dev"
     duration: "30 mins"
     rowspan: 2
 - time: "15:30"
   track2:
     title: "The importance of threat modelling, and how to get started"
     presenter: "Heath Moodie"
-    summary: "Placeholder"
+    summary: "This talk will help you understand the core questions to ask when starting a CTI capability, why you should use simple threat models, how to build out your first threat model, and provide actionable templates for getting started in 'Helping to understand and solve problems'."
+    bio: "Heath Moodie is a Senior ICS Threat Intelligence Analyst for Dragos APAC. A 5-year RAR veteran and strategy nerd, he is passionate about Cyber Threat Intelligence and its practical application."
+    link: "https://www.linkedin.com/in/heath-moodie/"
     duration: "30 mins"
     rowspan: 2
 - time: "15:45"
   track1:
     title: "From Head Tattoos to Malware: A History of Steganography"
     presenter: "James Bannan"
-    summary: "Placeholder"
+    summary: "This presentation traces the fascinating history of steganography, from ancient methods like hidden tattoos to modern digital techniques. It explores its applications in both cybersecurity and cybercrime, examining the ongoing battle between secrecy and detection in the digital age."
+    bio: "James is a Principal Consultant with CyberCX specializing in Microsoft Azure architecture, security, and automation with over 25 years of industry experience. He is a published author, a former Microsoft MVP, and a current Microsoft Certified Trainer."
+    link: "https://www.linkedin.com/in/jamesbannan/"
     duration: "30 mins"
     rowspan: 2
 - time: "16:00"
@@ -147,20 +173,26 @@
     title: "Planning a pentest: How to give the finger on the business pulse, some Data-Driven Spice"
     presenter: "Johannes Van Der Merwe"
     summary: "Placeholder"
+    bio: "Placeholder"
+    link: ""
     duration: "30 mins"
     rowspan: 2
 - time: "16:15"
   track1:
     title: "Novel Threats & Nation States: Mastering the ABC'S of Incident Response"
     presenter: "DJ"
-    summary: "Placeholder"
+    summary: "This session will take you through the 'ABCs' of incident response: identifying compromised Accounts, uncovering hidden Backdoors, and detecting suspicious Command & Control (C2) infrastructure. Using a real-world scenario, I will highlight how a nation-state adversary was detected operating in the shadows of a compromised environment."
+    bio: "Dylan is a cyber security leader specializing in digital forensics, incident response, and security advisory. He has spent the last 8 years helping some of the world's leading brands investigate, respond to, and recover from cyber incidents. He actively contributes to open-source projects and has contributed to the MITRE ATT&CK framework."
+    link: ""
     duration: "45 mins"
     rowspan: 3
 - time: "16:30"
   track2:
     title: "Do not obey in advance Cybersecurity in the Fight Against Techno-Authoritarianism"
     presenter: "Dr Joel Panther"
-    summary: "Placeholder"
+    summary: "This talk covers real-world examples where encryption, anonymity tools, and similar technologies have helped activists, journalists, and citizens evade state surveillance and censorship. Discussion and case studies highlight how digital resistance strategies have been used to counter oppression."
+    bio: "Joel is a cybersecurity researcher, penetration tester, and educator with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories, and his current research focuses on offensive security skills development."
+    link: "https://www.linkedin.com/in/joelpanther/"
     duration: "30 mins"
     rowspan: 2
 - time: "16:45"
