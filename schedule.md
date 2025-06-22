@@ -81,7 +81,7 @@ permalink: /schedule/
     }
 
     .popup-summary {
-        background: #2c2c2c;
+        background: rgba(44, 44, 44, 0.95); /* A dark, slightly transparent background */
         color: #f1f1f1;
         padding: 25px;
         width: auto;
@@ -90,11 +90,29 @@ permalink: /schedule/
         position: relative;
         border-radius: 8px;
     }
+
+    .popup-summary.popup-track1 {
+        border: 1px solid #f24784;
+        box-shadow: 0 0 20px rgba(242, 71, 132, 0.5);
+    }
+
+    .popup-summary.popup-track2 {
+        border: 1px solid rgba(2, 245, 255, 1);
+        box-shadow: 0 0 20px rgba(2, 245, 255, 0.5);
+    }
+
     .popup-summary h3 {
         color: #fff;
         margin-top: 0;
-        border-bottom: 1px solid #555;
         padding-bottom: 10px;
+    }
+
+    .popup-summary.popup-track1 h3 {
+        border-bottom: 1px solid #f24784;
+    }
+
+    .popup-summary.popup-track2 h3 {
+        border-bottom: 1px solid rgba(2, 245, 255, 1);
     }
 </style>
 
@@ -127,7 +145,7 @@ permalink: /schedule/
                             </div>
                         {% if talk.summary %}
                         </a>
-                        <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary">
+                        <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary popup-track1">
                             <h3>{{ talk.title }}</h3>
                             <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
                             <p>{{ talk.summary }}</p>
@@ -151,7 +169,7 @@ permalink: /schedule/
                                 </div>
                             {% if talk.summary %}
                             </a>
-                            <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary">
+                            <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary popup-track2">
                                 <h3>{{ talk.title }}</h3>
                                 <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
                                 <p>{{ talk.summary }}</p>
