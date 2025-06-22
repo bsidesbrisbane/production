@@ -159,8 +159,9 @@ permalink: /schedule/
             {% endfor %}
         </tbody>
     </table>
+    <br /><br /><br />
 </div>
-<br /><br /><br />
+
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
 $(document).ready(function() {
