@@ -61,6 +61,12 @@ permalink: /schedule/
     .talk-presenter {
         font-style: italic;
     }
+    .talk.track1 .talk-presenter {
+        color: #b33e6f;
+    }
+    .talk.track2 .talk-presenter {
+        color: #02a8b3;
+    }
 
     .popup-summary {
         background: #2c2c2c;
@@ -149,7 +155,6 @@ permalink: /schedule/
         </tbody>
     </table>
 </div>
-<br /><br /><br />
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
 $(document).ready(function() {
