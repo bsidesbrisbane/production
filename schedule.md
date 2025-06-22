@@ -139,19 +139,11 @@ permalink: /schedule/
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
 $(document).ready(function() {
-    function simpleHash(str) {
-        var hash = 0, i, chr;
-        if (str === null || str.length === 0) return hash;
-        for (i = 0; i < str.length; i++) {
-            chr   = str.charCodeAt(i);
-            hash  = ((hash << 5) - hash) + chr;
-            hash |= 0; // Convert to 32bit integer
-        }
-        return hash;
-    }
+    var pw = "V2hhdEFHcmVhdENsaWVudFNpZGVQYXNzd29yZA==";
 
     var password = prompt("This schedule is in a draft state and requires a password to view.", "");
-    if (simpleHash(password) === -1929281387) {
+
+    if (password !== null && btoa(password) === pw) {
         $('#schedule-content').show();
         $('.popup-trigger').magnificPopup({
             type:'inline',
@@ -159,9 +151,8 @@ $(document).ready(function() {
         });
     } else {
         if (password !== null) { 
-          alert("Incorrect password.");
+            alert("Incorrect password.");
         }
-        // Replace the content of the page with an error message.
         $('.page-content .wrapper').html('<h1>Draft Schedule</h1><p>This content is not yet available.</p>');
     }
 });
