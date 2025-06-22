@@ -11,7 +11,17 @@ permalink: /schedule/
         border-collapse: collapse;
         table-layout: fixed;
     }
-    .schedule-table th, .schedule-table td {
+    .schedule-table th {
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 1px solid #ddd;
+    }
+    .schedule-table td {
         padding: 10px;
         text-align: left;
         border: 1px solid #ddd;
@@ -19,14 +29,17 @@ permalink: /schedule/
     }
     .schedule-table thead .time-col {
         color: #333;
+        background-color: #e9ecef;
     }
     #track1-header {
-        background-image: linear-gradient(#f24784, #c93a6a);
+        background-image: linear-gradient(45deg, #f24784, #fc985e);
         color: white;
+        border-color: #f24784;
     }
     #track2-header {
-        background-image: linear-gradient(rgba(2,245,255,1), rgba(2,197,204,1));
+        background-image: linear-gradient(45deg, rgba(2,245,255,1), rgba(255,94,247,1));
         color: white;
+        border-color: rgba(2,245,255,1);
     }
     .time-col {
         width: 10%;
@@ -36,25 +49,11 @@ permalink: /schedule/
         width: 45%;
     }
 
-    .track-cell {
-        padding: 0;
-    }
-
-    .popup-trigger {
-        display: block;
-        height: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        text-decoration: none;
-        color: inherit;
-    }
-
     .talk {
         padding: 8px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
         border-radius: 5px;
         cursor: pointer;
-        height: 100%;
     }
 
     .talk.track1 {
@@ -159,9 +158,8 @@ permalink: /schedule/
             {% endfor %}
         </tbody>
     </table>
-    <br /><br /><br />
 </div>
-
+<br /><br /><br />
 <script>
 // Lol, don't do this- only meant for obfuscation while drafting schedule.
 $(document).ready(function() {
