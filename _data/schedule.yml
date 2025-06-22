@@ -49,8 +49,8 @@
   track2:
     title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
     presenter: "The Prompt Detectives"
-    summary: "Placeholder"
-    bio: "Placeholder"
+    summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
+    bio: "The Prompt Detectives are a research team comprised of <a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a>. They are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
     link: ""
     duration: "30 mins"
     rowspan: 2
@@ -67,9 +67,9 @@
   track2:
     title: "Beyond Identity: The Future of Trust, Attestation, and Assurance"
     presenter: "Adam Aurisch"
-    summary: "Placeholder"
-    bio: "Placeholder"
-    link: ""
+    summary: "Join Adam Aurisch as he explores the intersection of Self-Sovereign Identity (SSI) and enterprise IAM practices. Drawing from extensive experience across public and private sectors—including projects with Mastercard ID Services and RealMe in New Zealand—Adam will share practical insights into integrating modern identity solutions within complex environments."
+    bio: "Adam Aurisch is the Manager for Information Security and IAM at QUT, with a wealth of experience implementing cutting-edge IAM solutions across public and private sectors. He has played a pivotal role in major global identity projects with organizations like Mastercard ID Services and RealMe in New Zealand, and is committed to balancing robust security with user-centric design."
+    link: "https://www.linkedin.com/in/adamaurisch/"
     duration: "45 mins"
     rowspan: 3
 - time: "11:30"
@@ -100,9 +100,9 @@
   track1:
     title: "Threat Hunting with Better Data Visualization"
     presenter: "Tatsuya Hasegawa"
-    summary: "Placeholder"
-    bio: "Placeholder"
-    link: ""
+    summary: "This session offers best practices for threat hunting with data visualization. Tatsuya will discuss the challenges of typical SIEM dashboards and introduce more effective approaches, including advanced charts and custom visualizations. Using a practical example with a public dataset, he will demonstrate how to build a unique hunting dashboard and provide attendees with the next steps to level up their threat hunting skills."
+    bio: "Tatsuya Hasegawa is a threat hunter and data visualization developer with an extensive list of security certifications. He is a board member of the ISACA Nagoya Chapter, a committee member of the SECCON Open Conference, and a contributor to the open-source project msticpy."
+    link: "https://www.linkedin.com/in/tatsuya-hasegawa-aa3279142"
     duration: "30 mins"
     rowspan: 2
   track2:
@@ -126,9 +126,9 @@
   track2:
     title: "Beyond Passwords: The Present and Future War on Your Online Identity"
     presenter: "Sam Gillespie"
-    summary: "Placeholder"
-    bio: "Placeholder"
-    link: ""
+    summary: "Ever wonder why password breaches are still so common? This talk exposes the shocking economics behind credential stuffing attacks and how easy it is for bad actors to profit. We'll explore the industry's fight back, from bot detection to Passkeys, and dive into the looming shift towards an 'identified web' to see how emerging tech like generative AI could either secure or undermine our digital future."
+    bio: "Currently a leader in Identity Defense at Okta, Sam Gillespie brings a unique perspective from his background in game development, where he contributed to Fruit Ninja. He later blended game design with data science at Arkose Labs to create state-of-the-art bot detection solutions. With a decade on the front lines of cybersecurity, Sam is known for his fast-paced and approachable delivery."
+    link: "https://au.linkedin.com/in/sam-gillespie-47103644"
     duration: "60 mins"
     rowspan: 4
 - time: "14:45"
