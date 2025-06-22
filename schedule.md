@@ -46,11 +46,7 @@ permalink: /schedule/
         padding: 8px;
         border-radius: 5px;
         cursor: pointer;
-        height: 100%;
         box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .talk.track1 {
@@ -76,7 +72,9 @@ permalink: /schedule/
     }
 
     .popup-trigger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: 100%;
     }
 
