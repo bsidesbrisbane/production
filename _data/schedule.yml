@@ -143,7 +143,7 @@
     presenter: "Ryan Williams"
     summary: "This talk explores how modern aviation's reliance on insecure systems turns the skies into a playground for those who know where to listen. From ADS-B tracking to ACARS manipulation, this session will break down how software-defined radio (SDR) allows for passive eavesdropping, real-time aircraft spoofing, and unexpected attack surfaces."
     bio: "Ryan 'D8RH8R' Williams is a hacker, researcher, and builder of systems that weren't meant to exist. He spends his time reverse-engineering technology, exploring communication networks, and crafting bespoke offensive hardware. His work spans offensive security, adversarial R&D, and privacy consulting."
-    link: ""
+    link: "https://www.linkedin.com/in/ryan-williams-4068351b8/"
     duration: "30 mins"
     rowspan: 2
 - time: "15:00"
@@ -176,7 +176,7 @@
     rowspan: 2
 - time: "16:00"
   track2:
-    title: "Planning a pentest: How to give the finger on the business pulse, some Data-Driven Spice"
+    title: "Planning a pentest: How to give the finger on the business pulse, some data-driven spice"
     presenter: "Johannes Van Der Merwe"
     summary: "Placeholder"
     bio: "Placeholder"
@@ -188,8 +188,8 @@
     title: "Novel Threats & Nation States: Mastering the ABC'S of Incident Response"
     presenter: "DJ"
     summary: "This session will take you through the 'ABCs' of incident response: identifying compromised Accounts, uncovering hidden Backdoors, and detecting suspicious Command & Control (C2) infrastructure. Using a real-world scenario, I will highlight how a nation-state adversary was detected operating in the shadows of a compromised environment."
-    bio: "Dylan is a cyber security leader specializing in digital forensics, incident response, and security advisory. He has spent the last 8 years helping some of the world's leading brands investigate, respond to, and recover from cyber incidents. He actively contributes to open-source projects and has contributed to the MITRE ATT&CK framework."
-    link: ""
+    bio: "Dylan is a cyber security leader specialising in digital forensics, incident response, and security advisory. He has spent the last 8 years helping some of the world's leading brands investigate, respond to, and recover from cyber incidents. He actively contributes to open-source projects and has contributed to the MITRE ATT&CK framework."
+    link: "https://www.linkedin.com/in/djonesau/"
     duration: "45 mins"
     rowspan: 3
 - time: "16:30"
@@ -207,7 +207,7 @@
     title: "CTF Announcements"
     presenter: "Nomad"
     summary: "Join us for the CTF results and winner announcements. Prizes will be awarded to the top teams."
-    type: "break"
+    link: "https://www.linkedin.com/in/nomad17/"
     duration: "15 mins"
     rowspan: 1
     colspan: 2
