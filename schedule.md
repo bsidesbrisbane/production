@@ -4,214 +4,165 @@ title: Schedule
 permalink: /schedule/
 ---
 
-<head>
 <style>
     /* Add your custom CSS styles here */
-    table {
+    .schedule-table {
         width: 100%;
         border-collapse: collapse;
+        table-layout: fixed;
     }
-    th, td {
+    .schedule-table th, .schedule-table td {
         padding: 10px;
         text-align: left;
+        border: 1px solid #ddd;
+        vertical-align: top;
     }
-    #track1 th {
+    .schedule-table th {
+        background-color: #f2f2f2;
+    }
+    #track1-header {
         background-image: linear-gradient(#f24784, #fc985e);
+        color: white;
     }
-    #track2 th {
+    #track2-header {
         background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
+        color: white;
     }
-    #track3 th {
-        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
+    .time-col {
+        width: 10%;
+        font-weight: bold;
     }
-    #track1 tr:nth-child(even):hover {
-        background-image: linear-gradient(#f24784, #fc985e);
+    .track-col {
+        width: 45%;
     }
-    #track1 tr:nth-child(odd):hover {
-        background-image: linear-gradient(#f24784, #fc985e);
+
+    .talk {
+        padding: 8px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        cursor: pointer;
     }
-    #track2 tr:nth-child(even):hover {
-        background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
+
+    .talk.track1 {
+        background-color: rgba(242, 71, 132, 0.1);
+        border-left: 5px solid #f24784;
     }
-    #track2 tr:nth-child(odd):hover {
-        background-image: linear-gradient(rgba(2,245,255,1), rgba(255,94,247,1));
+
+    .talk.track2 {
+        background-color: rgba(2, 245, 255, 0.1);
+        border-left: 5px solid rgba(2,245,255,1);
     }
-    #track3 tr:nth-child(even):hover {
-        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
+    .talk-title {
+        font-weight: bold;
     }
-    #track3 tr:nth-child(odd):hover {
-        background-image: linear-gradient(rgba(149,159,10,1), rgba(106,96,245,1));
+    .talk-presenter {
+        font-style: italic;
     }
-    .tooltip {
+
+    .popup-summary {
+        background: #fff;
+        padding: 20px;
+        width: auto;
+        max-width: 500px;
+        margin: 20px auto;
         position: relative;
-        display: inline-block;
-    }
-    #track1 .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 350px;
-        background-color: #fc985e;
-        color: #fff;
-        text-align: center;
-        border-radius: 5px;
-        padding: 5px;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
-    #track2 .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 350px;
-        background-color: rgba(255,94,247,1);
-        color: #fff;
-        text-align: center;
-        border-radius: 5px;
-        padding: 5px;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
-    #track3 .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 350px;
-        background-color: rgba(106,96,245,1);
-        color: #fff;
-        text-align: center;
-        border-radius: 5px;
-        padding: 5px;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        transform: translateX(-50%);
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
-    #track1 .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-    }
-    #track2 .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-    }
-    #track3 .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
     }
 </style>
-</head>
-<body onload="openTrack('track1')">
-<h2>Schedule</h2>
-<p>TBC</p>
 
-<!--
-<p>Please note this schedule is still in a draft state and is subject to change.</p>
--->
+<div id="schedule-content" style="display: none;">
+    <h2>Schedule</h2>
+    <p>Please note this schedule is still in a draft state and is subject to change.</p>
 
-<br />
-
-<!-- Tabs for the two tracks -->
-<!--
-<div class="tabs">
-    <button class="trackbtn1" style="vertical-align:middle" onclick="openTrack('track1')"><span>Track 1</span></button>
-    <button class="trackbtn2" style="vertical-align:middle" onclick="openTrack('track2')"><span>Track 2</span></button>
-    <button class="trackbtn3" style="vertical-align:middle" onclick="openTrack('track3')"><span>Workshops</span></button>
-</div>
-
-<!-- Content for Track 1 -->
-<!--
-<div id="track1" class="tabcontent">
-    <h2>Track 1 Sessions</h2>
-    <table>
+    <table class="schedule-table">
         <thead>
             <tr>
-                <th>Time</th>
-                <th>Speaker</th>
-                <th>Talk Title</th>
-                <th>Duration</th>
+                <th class="time-col">Time</th>
+                <th id="track1-header" class="track-col">Track 1</th>
+                <th id="track2-header" class="track-col">Track 2</th>
             </tr>
         </thead>
         <tbody>
+            {% for slot in site.data.schedule %}
             <tr>
-                <td>08:00</td>
-                <td></td>
-                <td class="tooltip">Doors and Check In Open
-                </td>
-                <td>All day</td>
+                <td>{{ slot.time }}</td>
+                {% if slot.track1.title %}
+                    {% assign talk = slot.track1 %}
+                    <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
+                        {% if talk.summary %}
+                        <a href="#summary-{{ forloop.index }}-1" class="popup-trigger">
+                        {% endif %}
+                            <div class="talk track1">
+                                <div class="talk-title">{{ talk.title }}</div>
+                                <div class="talk-presenter">{{ talk.presenter }}</div>
+                                <div class="talk-duration">{{ talk.duration }}</div>
+                            </div>
+                        {% if talk.summary %}
+                        </a>
+                        <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary">
+                            <h3>{{ talk.title }}</h3>
+                            <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
+                            <p>{{ talk.summary }}</p>
+                        </div>
+                        {% endif %}
+                    </td>
+                {% endif %}
+
+                {% if slot.track2.title %}
+                    {% assign talk = slot.track2 %}
+                    <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
+                        {% if talk.summary %}
+                        <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
+                        {% endif %}
+                            <div class="talk track2">
+                                <div class="talk-title">{{ talk.title }}</div>
+                                <div class="talk-presenter">{{ talk.presenter }}</div>
+                                <div class="talk-duration">{{ talk.duration }}</div>
+                            </div>
+                        {% if talk.summary %}
+                        </a>
+                        <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary">
+                            <h3>{{ talk.title }}</h3>
+                            <p><strong>Presenter:</strong> {{ talk.presenter }}</p>
+                            <p>{{ talk.summary }}</p>
+                        </div>
+                        {% endif %}
+                    </td>
+                {% elsif slot.track1.colspan == nil %}
+                     <td></td>
+                {% endif %}
             </tr>
+            {% endfor %}
         </tbody>
     </table>
 </div>
 
-<!-- Content for Track 2 -->
-<!--
-<div id="track2" class="tabcontent">
-    <h2>Track 2 Sessions</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Speaker</th>
-                <th>Talk Title</th>
-                <th>Duration</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>08:00</td>
-                <td></td>
-                <td class="tooltip">
-                </td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<!-- Content for Track 3 -->
-<!--
-<div id="track3" class="tabcontent">
-    <h2>Workshop Sessions</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Time</th>
-                <th>Tutor</th>
-                <th>Workshop Title</th>
-                <th>Duration</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>08:00</td>
-                <td></td>
-                <td class="tooltip"></td>
-                <td>All day</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-
--->
-<!-- JavaScript to handle tab switching -->
 <script>
-    function openTrack(trackName) {
-        const tabContents = document.getElementsByClassName("tabcontent");
-        for (const content of tabContents) {
-            content.style.display = "none";
+// Lol, don't do this- only meant for obfuscation while drafting schedule.
+$(document).ready(function() {
+    function simpleHash(str) {
+        var hash = 0, i, chr;
+        if (str === null || str.length === 0) return hash;
+        for (i = 0; i < str.length; i++) {
+            chr   = str.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
         }
-        document.getElementById(trackName).style.display = "block";
+        return hash;
     }
-</script>
 
-<br />
-<br />
+    var password = prompt("This schedule is in a draft state and requires a password to view.", "");
+    if (simpleHash(password) === -1929281387) {
+        $('#schedule-content').show();
+        $('.popup-trigger').magnificPopup({
+            type:'inline',
+            midClick: true
+        });
+    } else {
+        if (password !== null) { 
+          alert("Incorrect password.");
+        }
+        // Replace the content of the page with an error message.
+        $('.page-content .wrapper').html('<h1>Draft Schedule</h1><p>This content is not yet available.</p>');
+    }
+});
+</script>

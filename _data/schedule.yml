@@ -1,0 +1,185 @@
+- time: "08:00"
+  track1:
+    title: "Doors and Check In Open"
+    presenter: "BSides Brisbane Crew"
+    summary: "Doors open, grab your badge and coffee!"
+    duration: "All Day"
+    colspan: 2
+  track2:
+- time: "09:00"
+  track1:
+    title: "Welcome to BSides Brisbane & Opening"
+    presenter: "Josh & Brodie"
+    summary: "Placeholder"
+    duration: "15 mins"
+    rowspan: 1
+    colspan: 2
+  track2:
+- time: "09:15"
+  track1:
+    title: "Keynote"
+    presenter: "TBC"
+    summary: "Placeholder"
+    duration: "45 mins"
+    rowspan: 3
+    colspan: 2
+  track2:
+- time: "09:30"
+- time: "09:45"
+- time: "10:00"
+  track1:
+    title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
+    presenter: "Cameron Fairbairn"
+    summary: "Placeholder"
+    duration: "60 mins"
+    rowspan: 4
+  track2:
+    title: "Developer centric security: AppSec for 2025 and beyond"
+    presenter: "Ben Gittens"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "10:15"
+- time: "10:30"
+  track2:
+- time: "10:45"
+  track2:
+    title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
+    presenter: "The Prompt Detectives"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "11:00"
+  track1:
+    title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
+    presenter: "Rhiana Cooke"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "11:15"
+  track2:
+    title: "Beyond Identity: The Future of Trust, Attestation, and Assurance"
+    presenter: "Adam Aurisch"
+    summary: "Placeholder"
+    duration: "45 mins"
+    rowspan: 3
+- time: "11:30"
+  track1:
+    title: "Deception in Depth Mindset; How to capture an APT"
+    presenter: "Brent Muir"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "11:45"
+- time: "12:00"
+  track1:
+    title: "Lunch"
+    presenter: "Food"
+    summary: "Lunch Time!"
+    duration: "90 mins"
+    rowspan: 6
+    colspan: 2
+  track2:
+- time: "12:15"
+- time: "12:30"
+- time: "12:45"
+- time: "13:00"
+- time: "13:15"
+- time: "13:30"
+  track1:
+    title: "Threat Hunting with Better Data Visualization"
+    presenter: "Tatsuya Hasegawa"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+  track2:
+    title: "Pretty Privilege – How Pleasing Words and Visuals Will Help You Get Ahead."
+    presenter: "Abby and Alex"
+    summary: "Placeholder"
+    duration: "60 mins"
+    rowspan: 4
+- time: "13:45"
+- time: "14:00"
+  track1:
+    title: "Better AppSec through better DevEx"
+    presenter: "Daniel Ting"
+    summary: "Placeholder"
+    duration: "45 mins"
+    rowspan: 3
+- time: "14:15"
+- time: "14:30"
+  track2:
+    title: "Beyond Passwords: The Present and Future War on Your Online Identity"
+    presenter: "Sam Gillespie"
+    summary: "Placeholder"
+    duration: "60 mins"
+    rowspan: 4
+- time: "14:45"
+  track1:
+    title: "SkyJACKER: Why SDR is more Dangerous than Nail Clippers"
+    presenter: "Ryan Williams"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "15:00"
+- time: "15:15"
+  track1:
+    title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
+    presenter: "Adriana"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "15:30"
+  track2:
+    title: "The importance of threat modelling, and how to get started"
+    presenter: "Heath Moodie"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "15:45"
+  track1:
+    title: "From Head Tattoos to Malware: A History of Steganography"
+    presenter: "James Bannan"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "16:00"
+  track2:
+    title: "Planning a pentest: How to give the finger on the business pulse, some Data-Driven Spice"
+    presenter: "Johannes Van Der Merwe"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "16:15"
+  track1:
+    title: "Novel Threats & Nation States: Mastering the ABC'S of Incident Response"
+    presenter: "DJ"
+    summary: "Placeholder"
+    duration: "45 mins"
+    rowspan: 3
+- time: "16:30"
+  track2:
+    title: "Do not obey in advance Cybersecurity in the Fight Against Techno-Authoritarianism"
+    presenter: "Dr Joel Panther"
+    summary: "Placeholder"
+    duration: "30 mins"
+    rowspan: 2
+- time: "16:45"
+- time: "17:00"
+  track1:
+    title: "CTF Announcements"
+    presenter: "Nomad"
+    summary: "Placeholder"
+    duration: "15 mins"
+    rowspan: 1
+    colspan: 2
+  track2:
+- time: "17:15"
+  track1:
+    title: "Thanks from BSides Brisbane & Conference End"
+    presenter: "Brodie & Josh"
+    summary: "Placeholder"
+    duration: "15 mins"
+    rowspan: 1
+    colspan: 2
+  track2: 
