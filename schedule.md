@@ -11,35 +11,25 @@ permalink: /schedule/
         border-collapse: collapse;
         table-layout: fixed;
     }
-    .schedule-table th {
-        padding: 15px;
-        text-align: center;
-        vertical-align: middle;
-        font-size: 1.1em;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        border: 1px solid #ddd;
-    }
-    .schedule-table td {
+    .schedule-table th, .schedule-table td {
         padding: 10px;
         text-align: left;
         border: 1px solid #ddd;
         vertical-align: top;
     }
+    .schedule-table th {
+        background-color: #f2f2f2;
+    }
     .schedule-table thead .time-col {
         color: #333;
-        background-color: #e9ecef;
     }
     #track1-header {
-        background-image: linear-gradient(45deg, #f24784, #fc985e);
+        background-image: linear-gradient(#f24784, #c93a6a);
         color: white;
-        border-color: #f24784;
     }
     #track2-header {
-        background-image: linear-gradient(45deg, rgba(2,245,255,1), rgba(255,94,247,1));
+        background-image: linear-gradient(rgba(2,245,255,1), rgba(2,197,204,1));
         color: white;
-        border-color: rgba(2,245,255,1);
     }
     .time-col {
         width: 10%;
@@ -128,10 +118,11 @@ permalink: /schedule/
                     </td>
                 {% endif %}
 
-                {% if slot.track1.colspan == nil and slot.track2 %}
+                {% comment %} Logic for Track 2 {% endcomment %}
+                {% if slot.track1.colspan == nil %}
                     {% if slot.track2.title %}
                         {% assign talk = slot.track2 %}
-                        <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %}>
+                        <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
                             {% if talk.summary %}
                             <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
                             {% endif %}
@@ -149,7 +140,7 @@ permalink: /schedule/
                             </div>
                             {% endif %}
                         </td>
-                    {% else %}
+                    {% elsif slot.track2 %}
                         <td></td>
                     {% endif %}
                 {% endif %}
