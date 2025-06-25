@@ -53,9 +53,9 @@
 - time: "10:45"
   track2:
     title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
-    presenter: "The Prompt Detectives"
+    presenter: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a>"
     summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
-    bio: "The Prompt Detectives are a research team comprised of <a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a>. They are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
+    bio: "Gowri and Atticus form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
     link: ""
     duration: "30 mins"
     rowspan: 2
@@ -124,8 +124,14 @@
   track1:
     title: "Better AppSec through better DevEx"
     presenter: "Daniel Ting"
-    summary: "Placeholder"
-    duration: "45 mins"
+    summary: "Good developer experience and cyber security, almost sounds like oxymorons together. But, is it really? How can we make both better, together?
+    
+    We will explore how we can both improve our developer experience and application security together. How application security and the developer experience overlap, and practical steps that we’ve observed to have outsized impact on improving both AppSec and DevEx together, that you can take back to your teams and start doing today."
+    bio: "Dan has over a decade of experience in IT and cybersecurity, covering a broad range of specialist technical and leadership roles. Prior to CyberCX, these include roles such as Head of Product, Human-centred Designer, Solutions Architect, Project Manager, Systems Administrator, an AppSec and Product Security educator, a senior security architect, a penetration tester and a data science researcher. 
+    
+    Today at CyberCX, as a technologist, they leverage their diverse experiences to sherpa and help all roles in engineering teams build safer, more trustworthy, and secure products balancing business, experience, and technical needs. They also have presented at various security conferences including DefCon, BSides Melbourne, and Christchurch Hacker Conference, on various security topics. But at the end of the day, they are just a nerd learning and sharing knowledge to make our community a safer place."
+    duration: "60 mins"
+    link: "#"
     rowspan: 3
 - time: "14:15"
 - time: "14:30"
