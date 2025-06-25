@@ -36,7 +36,7 @@
     title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
     presenter: "Cameron Fairbairn"
     summary: "This presentation explores the attack surface of Microsoft Entra ID, demonstrating how adversaries can enumerate, exploit, and escalate privileges in cloud and hybrid environments. We will walk through real-world attack chains and outline effective mitigation strategies to strengthen Entra ID security."
-    bio: "Cameron Fairbairn is a cybersecurity architect and the CTO of Proaxiom Cyber. With 28 years in IT and 15 years specializing in cybersecurity, he has extensive experience in offensive and defensive security, cloud security, and security operations. Cameron is passionate about practical security implementations and adversary-centric defense strategies."
+    bio: "Cameron Fairbairn is a cyber security architect and the CTO of Proaxiom Cyber. With 28 years in IT and 15 years specialising in cyber security, he has extensive experience in offensive and defensive security, cloud security, and security operations. Cameron is passionate about practical security implementations and adversary-centric defense strategies."
     link: "https://www.linkedin.com/in/cameronfairbairn/"
     duration: "60 mins"
     rowspan: 4
@@ -64,7 +64,7 @@
     title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
     presenter: "Rhiana Cooke"
     summary: "This talk will highlight why shadow OT is one of the most prevalent cyber issues in the field. I'll walk through why shadow OT is being deployed, the methods used for its detection, and share real-world examples of incidents I've worked on."
-    bio: "Rhiana is a Cybersecurity Specialist and Mechatronics Engineer with a passion for OT security. As an OT Cyber Security Architect at Secolve, she has worked in both mining and manufacturing, gaining experience with control systems, mobile equipment, and cybersecurity operations."
+    bio: "Rhiana is a Cyber Security Specialist and Mechatronics Engineer with a passion for OT security. As an OT Cyber Security Architect at Secolve, she has worked in both mining and manufacturing, gaining experience with control systems, mobile equipment, and cyber security operations."
     link: "https://www.linkedin.com/in/rhiana-cooke/"
     duration: "30 mins"
     rowspan: 2
@@ -81,8 +81,8 @@
   track1:
     title: "Deception in Depth Mindset; How to capture an APT"
     presenter: "Brent Muir"
-    summary: "This session will introduce the strategy of designing and deploying deception strategies across your environments by leveraging the Mitre Engage adversarial framework. A real-world case study will demonstrate how to implement a deception strategy geared towards the adversaries targeting your organization."
-    bio: "Brent has over 18 years of experience in the cybersecurity industry. After 12 years in Australian government and law enforcement leading national cyber teams, he led the global digital forensics and incident response team for a Fortune 500 bank."
+    summary: "This session will introduce the strategy of designing and deploying deception strategies across your environments by leveraging the Mitre Engage adversarial framework. A real-world case study will demonstrate how to implement a deception strategy geared towards the adversaries targeting your organisation."
+    bio: "Brent has over 18 years of experience in the cyber security industry. After 12 years in Australian government and law enforcement leading national cyber teams, he led the global digital forensics and incident response team for a Fortune 500 bank."
     link: "https://www.linkedin.com/in/brentmuir/"
     duration: "30 mins"
     rowspan: 2
@@ -104,19 +104,19 @@
 - time: "13:15"
 - time: "13:30"
   track1:
-    title: "Threat Hunting with Better Data Visualization"
+    title: "Threat Hunting with Better Data Visualisation"
     presenter: "Tatsuya Hasegawa"
-    summary: "This session offers best practices for threat hunting with data visualization. Tatsuya will discuss the challenges of typical SIEM dashboards and introduce more effective approaches, including advanced charts and custom visualizations. Using a practical example with a public dataset, he will demonstrate how to build a unique hunting dashboard and provide attendees with the next steps to level up their threat hunting skills."
-    bio: "Tatsuya Hasegawa is a threat hunter and data visualization developer with an extensive list of security certifications. He is a board member of the ISACA Nagoya Chapter, a committee member of the SECCON Open Conference, and a contributor to the open-source project msticpy."
+    summary: "This session offers best practices for threat hunting with data visualisation. Tatsuya will discuss the challenges of typical SIEM dashboards and introduce more effective approaches, including advanced charts and custom visualisations. Using a practical example with a public dataset, he will demonstrate how to build a unique hunting dashboard and provide attendees with the next steps to level up their threat hunting skills."
+    bio: "Tatsuya Hasegawa is a threat hunter and data visualisation developer with an extensive list of security certifications. He is a board member of the ISACA Nagoya Chapter, a committee member of the SECCON Open Conference, and a contributor to the open-source project msticpy."
     link: "https://www.linkedin.com/in/tatsuya-hasegawa-aa3279142"
     duration: "30 mins"
     rowspan: 2
   track2:
     title: "Pretty Privilege – How Pleasing Words and Visuals Will Help You Get Ahead."
-    presenter: "Abby and Alex"
-    summary: "In an industry of technical excellence, reports and presentations can seem like an afterthought. This talk will outline why presentation is important, who should care, and how to take your work to the next level by paying attention to the words and visuals you use."
-    bio: "Abby is a Senior GRC specialist at Division 5 with 5 years in cybersecurity. Alex is a freelance writer and editor across various industries, including cybersecurity. Together, they are passionate about enhancing the impact of communication through powerful narratives and visuals."
-    link: "https://www.linkedin.com/in/abby-b-ba3582121/"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "#"
     duration: "60 mins"
     rowspan: 4
 - time: "13:45"
@@ -127,7 +127,7 @@
     summary: "Good developer experience and cyber security, almost sounds like oxymorons together. But, is it really? How can we make both better, together?
     
     We will explore how we can both improve our developer experience and application security together. How application security and the developer experience overlap, and practical steps that we’ve observed to have outsized impact on improving both AppSec and DevEx together, that you can take back to your teams and start doing today."
-    bio: "Dan has over a decade of experience in IT and cybersecurity, covering a broad range of specialist technical and leadership roles. Prior to CyberCX, these include roles such as Head of Product, Human-centred Designer, Solutions Architect, Project Manager, Systems Administrator, an AppSec and Product Security educator, a senior security architect, a penetration tester and a data science researcher. 
+    bio: "Dan has over a decade of experience in IT and cyber security, covering a broad range of specialist technical and leadership roles. Prior to CyberCX, these include roles such as Head of Product, Human-centred Designer, Solutions Architect, Project Manager, Systems Administrator, an AppSec and Product Security educator, a senior security architect, a penetration tester and a data science researcher. 
     
     Today at CyberCX, as a technologist, they leverage their diverse experiences to sherpa and help all roles in engineering teams build safer, more trustworthy, and secure products balancing business, experience, and technical needs. They also have presented at various security conferences including DefCon, BSides Melbourne, and Christchurch Hacker Conference, on various security topics. But at the end of the day, they are just a nerd learning and sharing knowledge to make our community a safer place."
     duration: "60 mins"
@@ -139,7 +139,7 @@
     title: "Beyond Passwords: The Present and Future War on Your Online Identity"
     presenter: "Sam Gillespie"
     summary: "Ever wonder why password breaches are still so common? This talk exposes the shocking economics behind credential stuffing attacks and how easy it is for bad actors to profit. We'll explore the industry's fight back, from bot detection to Passkeys, and dive into the looming shift towards an 'identified web' to see how emerging tech like generative AI could either secure or undermine our digital future."
-    bio: "Currently a leader in Identity Defense at Okta, Sam Gillespie brings a unique perspective from his background in game development, where he contributed to Fruit Ninja. He later blended game design with data science at Arkose Labs to create state-of-the-art bot detection solutions. With a decade on the front lines of cybersecurity, Sam is known for his fast-paced and approachable delivery."
+    bio: "Currently a leader in Identity Defense at Okta, Sam Gillespie brings a unique perspective from his background in game development, where he contributed to Fruit Ninja. He later blended game design with data science at Arkose Labs to create state-of-the-art bot detection solutions. With a decade on the front lines of cyber security, Sam is known for his fast-paced and approachable delivery."
     link: "https://au.linkedin.com/in/sam-gillespie-47103644"
     duration: "60 mins"
     rowspan: 4
@@ -158,7 +158,7 @@
     title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
     presenter: "Adriana"
     summary: "This talk covers essential security practices for WordPress, including strong authentication, regular updates, and proactive defenses. We will discuss key security threats like brute force attacks, SQL injection, and malware, and explore advanced protection techniques to keep your site safe."
-    bio: "With over a decade of experience in IT development, systems administration, and cybersecurity, Adriana specializes in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
+    bio: "With over a decade of experience in IT development, systems administration, and cyber security, Adriana specialises in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
     link: "https://www.linkedin.com/in/adriana-moreno-dev"
     duration: "30 mins"
     rowspan: 2
@@ -175,8 +175,8 @@
   track1:
     title: "From Head Tattoos to Malware: A History of Steganography"
     presenter: "James Bannan"
-    summary: "This presentation traces the fascinating history of steganography, from ancient methods like hidden tattoos to modern digital techniques. It explores its applications in both cybersecurity and cybercrime, examining the ongoing battle between secrecy and detection in the digital age."
-    bio: "James is a Principal Consultant with CyberCX specializing in Microsoft Azure architecture, security, and automation with over 25 years of industry experience. He is a published author, a former Microsoft MVP, and a current Microsoft Certified Trainer."
+    summary: "This presentation traces the fascinating history of steganography, from ancient methods like hidden tattoos to modern digital techniques. It explores its applications in both cyber security and cybercrime, examining the ongoing battle between secrecy and detection in the digital age."
+    bio: "James is a Principal Consultant with CyberCX specialising in Microsoft Azure architecture, security, and automation with over 25 years of industry experience. He is a published author, a former Microsoft MVP, and a current Microsoft Certified Trainer."
     link: "https://www.linkedin.com/in/jamesbannan/"
     duration: "30 mins"
     rowspan: 2
@@ -200,10 +200,10 @@
     rowspan: 3
 - time: "16:30"
   track2:
-    title: "Do not obey in advance Cybersecurity in the Fight Against Techno-Authoritarianism"
+    title: "Do not obey in advance Cyber Security in the Fight Against Techno-Authoritarianism"
     presenter: "Dr Joel Panther"
     summary: "This talk covers real-world examples where encryption, anonymity tools, and similar technologies have helped activists, journalists, and citizens evade state surveillance and censorship. Discussion and case studies highlight how digital resistance strategies have been used to counter oppression."
-    bio: "Joel is a cybersecurity researcher, penetration tester, and educator with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories, and his current research focuses on offensive security skills development."
+    bio: "Joel is a cyber security researcher, penetration tester, and educator with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories, and his current research focuses on offensive security skills development."
     link: "https://www.linkedin.com/in/joelpanther/"
     duration: "30 mins"
     rowspan: 2
