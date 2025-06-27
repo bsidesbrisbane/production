@@ -252,3 +252,13 @@ permalink: /schedule/
     </table>
     <br /><br /><br />
 </div>
+<script>
+// Lol, don't do this- only meant for obfuscation while drafting schedule.
+$(document).ready(function() {
+    $('#schedule-content').show();
+    $('.popup-trigger').magnificPopup({
+        type:'inline',
+        midClick: true
+    });
+});
+</script>
