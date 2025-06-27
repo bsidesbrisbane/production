@@ -1,27 +1,27 @@
-- name: Home
+- name: 🍋 Home
   link: /
   target: _parent
-- name: About
+- name: 🍇 About
   link: /about/
   target: _parent
-- name: Tickets
+- name: 🍈 Tickets
   link: /tickets/
   target: _parent
-- name: Sponsors
+- name: 🍌 Sponsors
   link: /sponsors/
   target: _parent
-- name: CFC
+- name: 🍍 CFC
   link: /cfc/
   target: _parent
-- name: Recent Posts
+- name: 🍑 Recent Posts
   link: /recent/
   target: _parent
-- name: Conduct
+- name: 🍒 Conduct
   link: /conduct/
   target: _parent
-- name: Volunteers
+- name: 🍓 Volunteers
   link: /volunteers/
   target: _parent
-- name: Sponsorship
+- name: 🥥 Sponsorship
   link: /sponsorship/
   target: _parent
