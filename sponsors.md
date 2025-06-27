@@ -77,7 +77,7 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 
 #### Much Needed Coffee
 <br />
-<span class="coffee-sponsor-highlight">Your logo here? <span class="coffee-animated">Coffee Sponsor needed!</span> <span class="coffee-price">$3,000</span></span>
+<span class="coffee-sponsor-highlight">Your logo here? <span class="coffee-animated">Coffee Sponsor needed!</span> <span class="coffee-old-price">$3,000</span> <span class="coffee-sale-price">$2,000</span></span>
 <br /><br />
 
 #### Prize Sponsors
