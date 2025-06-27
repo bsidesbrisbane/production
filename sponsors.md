@@ -81,14 +81,14 @@ TBC
 <br /><br />
 <br />
 
-#### Popcorn Stall!
-<br />
-TBC
-<br /><br />
-<br />
-
 #### Prize Sponsors
 <br />
-TBC
+[![CyberCX](/assets/2025/sponsors/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
 <br /><br />
+*CyberCX is the leading provider of professional cyber security and cloud services across Australia and New Zealand. With a workforce of over 1,400 professionals, they are a trusted partner to private and public sector organisations helping their customers confidently manage cyber risk, respond to incidents and build resilience in an increasingly complex and challenging threat environment.*
+<br />
+<br />
+[![CREST](/assets/2025/sponsors/crest-dark.png#sponsor){:#imgCREST}](https://www.crest-approved.org/){:target="_blank"}
+<br /><br />
+*CREST is an international not-for-profit, membership body representing the global cyber security industry. Since 2006 they have been leading the cyber security community to collectively raise the standards of cyber service providers and professionals, quality assuring the sector and in turn providing confidence to the buying community, government and regulators.*
 <br />
