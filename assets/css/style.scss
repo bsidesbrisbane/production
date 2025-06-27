@@ -82,17 +82,16 @@
 
 .coffee-animated {
   display: inline-block;
-  color: #FCBC28;
+  color: #fff;
   font-weight: 900;
   font-size: 1.1em;
   margin-right: 0.7em;
   animation: coffee-pulse 1.2s infinite alternate;
-  text-shadow: 0 2px 8px #1E2227, 0 0 2px #000, 0 0 1px #000;
 }
 
 @keyframes coffee-pulse {
-  0% { color: #FCBC28; text-shadow: 0 0 8px #EA9D53, 0 2px 8px #1E2227, 0 0 2px #000, 0 0 1px #000; }
-  100% { color: #EA9D53; text-shadow: 0 0 16px #FCBC28, 0 2px 8px #1E2227, 0 0 2px #000, 0 0 1px #000; }
+  0% { color: #fff; }
+  100% { color: #FCBC28; }
 }
 
 .coffee-prices {
