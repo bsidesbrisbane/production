@@ -186,6 +186,7 @@
     presenter: "Johannes Van Der Merwe"
     summary: | 
     Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
+    
     * Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
     * Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
     * (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button
