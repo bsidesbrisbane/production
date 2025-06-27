@@ -252,24 +252,3 @@ permalink: /schedule/
     </table>
     <br /><br /><br />
 </div>
-<script>
-// Lol, don't do this- only meant for obfuscation while drafting schedule.
-$(document).ready(function() {
-    var pw = "V2hhdEFHcmVhdENsaWVudFNpZGVQYXNzd29yZA==";
-
-    var password = prompt("This schedule is in a draft state and requires a password to view.", "");
-
-    if (password !== null && btoa(password) === pw) {
-        $('#schedule-content').show();
-        $('.popup-trigger').magnificPopup({
-            type:'inline',
-            midClick: true
-        });
-    } else {
-        if (password !== null) { 
-            alert("Incorrect password.");
-        }
-        $('.page-content .wrapper').html('<h1>Draft Schedule</h1><p>This content is not yet available.</p>');
-    }
-});
-</script>

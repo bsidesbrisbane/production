@@ -12,7 +12,7 @@
     title: "Welcome to BSides Brisbane & Opening"
     presenter: "Josh & Brodie"
     summary: "Join us for the official opening of BSides Brisbane 2024. We'll kick off the day with a brief welcome, run through the schedule, and cover everything you need to know to make the most of your conference experience."
-    bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience across all aspects of cyber security including both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
+    bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience working in cyber security across both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
     link: "#"
     duration: "15 mins"
     rowspan: 1
@@ -112,10 +112,10 @@
     duration: "30 mins"
     rowspan: 2
   track2:
-    title: "Pretty Privilege – How Pleasing Words and Visuals Will Help You Get Ahead."
+    title: "TBC"
     presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
+    summary: "Placeholder"
+    bio: "Placeholder"
     link: "#"
     duration: "60 mins"
     rowspan: 4
@@ -126,7 +126,7 @@
     presenter: "Daniel Ting"
     summary: "Good developer experience and cyber security, almost sounds like oxymorons together. But, is it really? How can we make both better, together?
     
-    We will explore how we can both improve our developer experience and application security together. How application security and the developer experience overlap, and practical steps that we’ve observed to have outsized impact on improving both AppSec and DevEx together, that you can take back to your teams and start doing today."
+    We will explore how we can both improve our developer experience and application security together. How application security and the developer experience overlap, and practical steps that we've observed to have outsized impact on improving both AppSec and DevEx together, that you can take back to your teams and start doing today."
     bio: "Dan has over a decade of experience in IT and cyber security, covering a broad range of specialist technical and leadership roles. Prior to CyberCX, these include roles such as Head of Product, Human-centred Designer, Solutions Architect, Project Manager, Systems Administrator, an AppSec and Product Security educator, a senior security architect, a penetration tester and a data science researcher. 
     
     Today at CyberCX, as a technologist, they leverage their diverse experiences to sherpa and help all roles in engineering teams build safer, more trustworthy, and secure products balancing business, experience, and technical needs. They also have presented at various security conferences including DefCon, BSides Melbourne, and Christchurch Hacker Conference, on various security topics. But at the end of the day, they are just a nerd learning and sharing knowledge to make our community a safer place."
@@ -184,7 +184,7 @@
   track2:
     title: "Planning a pentest: A Data-Driven Approach"
     presenter: "Johannes Van Der Merwe"
-    summary: "Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO’s, CSO’s, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
+    summary: "Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
     * Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
     * Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
     * (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button"
