@@ -11,7 +11,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 <br />
 [![Queensland Government](/assets/2025/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.qld.gov.au/){:target="_blank"}
 <br /><br />
-*The newly formed Department of Customer Services, Open Data and Small and Family Business (CDSB) is responsible for driving the Queensland Government's priorities in digital technology, intellectual property and service delivery. They’re also responsible for small and family business advocacy, resilience and economic capacity and potential.*
+*The newly formed Department of Customer Services, Open Data and Small and Family Business (CDSB) is responsible for driving the Queensland Government's priorities in digital technology, intellectual property and service delivery. They're also responsible for small and family business advocacy, resilience and economic capacity and potential.*
 <br />
 
 ### Gold Tier
@@ -42,7 +42,7 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 <br />
 [![Rapid7](/assets/2025/sponsors/rapid7-dark.png#sponsor){:#imgRapid7}](https://www.rapid7.com/){:target="_blank"}
 <br /><br />
-*Rapid7 is creating a more secure digital future for all by helping organisations strengthen their security programs in the face of accelerating digital transformation. Our portfolio of best-in-class solutions empowers security professionals to manage risk and eliminate threats across the entire threat landscape from apps to the cloud to traditional infrastructure to the dark web. We foster open source communities and cutting-edge research–using these insights to optimise our products and arm the global security community with the latest in attacker methodology. Trusted by more than 11,000 customers worldwide, our industry-leading solutions and services help businesses stay ahead of attackers, ahead of the competition, and future-ready for what’s next.*
+*Rapid7 is creating a more secure digital future for all by helping organisations strengthen their security programs in the face of accelerating digital transformation. Our portfolio of best-in-class solutions empowers security professionals to manage risk and eliminate threats across the entire threat landscape from apps to the cloud to traditional infrastructure to the dark web. We foster open source communities and cutting-edge research–using these insights to optimise our products and arm the global security community with the latest in attacker methodology. Trusted by more than 11,000 customers worldwide, our industry-leading solutions and services help businesses stay ahead of attackers, ahead of the competition, and future-ready for what's next.*
 <br />
 
 
@@ -51,7 +51,7 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 <br />
 [![Decipher Bureau](/assets/2025/sponsors/decipher-dark.gif#sponsor){:#imgDecipher}](https://www.decipherbureau.com/){:target="_blank"}
 <br /><br />
-*Decipher Bureau offer recruitment and professional services which can be contingent or retained depending on the needs and requirements of our client’s business. Working collaboratively with some of the world’s leading cyber security teams they will decipher the noise and deliver to exacting standards.*
+*Decipher Bureau offer recruitment and professional services which can be contingent or retained depending on the needs and requirements of our client's business. Working collaboratively with some of the world's leading cyber security teams they will decipher the noise and deliver to exacting standards.*
 <br />
 <br />
 [![Tarian Cyber](/assets/2025/sponsors/tarian-dark.svg#sponsor){:#imgTarian}](https://tarian.com.au/){:target="_blank"}
@@ -77,9 +77,8 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 
 #### Much Needed Coffee
 <br />
-TBC
+<span class="coffee-sponsor-highlight">Your logo here? <span class="coffee-animated">Coffee Sponsor needed!</span> <span class="coffee-price">$3,000</span></span>
 <br /><br />
-<br />
 
 #### Prize Sponsors
 <br />
@@ -92,3 +91,5 @@ TBC
 <br /><br />
 *CREST is an international not-for-profit, membership body representing the global cyber security industry. Since 2006 they have been leading the cyber security community to collectively raise the standards of cyber service providers and professionals, quality assuring the sector and in turn providing confidence to the buying community, government and regulators.*
 <br />
+
+<br /><br />

@@ -9,3 +9,34 @@
         color: t('foreground-color');
     }
 }
+
+// --- Coffee Sponsor Highlight Styles ---
+.coffee-sponsor-highlight {
+  display: inline-block;
+  background: linear-gradient(90deg, #fc985e 0%, #fc4957 100%);
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  box-shadow: 0 2px 8px rgba(252, 152, 94, 0.2);
+}
+
+.coffee-animated {
+  display: inline-block;
+  animation: coffee-pulse 1.2s infinite alternate;
+  font-weight: bold;
+  color: #FFFF00;
+}
+
+@keyframes coffee-pulse {
+  0% { color: #FFFF00; text-shadow: 0 0 8px #fc4957; }
+  100% { color: #fc4957; text-shadow: 0 0 16px #FFFF00; }
+}
+
+.coffee-price {
+  color: #fcbc28;
+  font-weight: bold;
+  margin-left: 0.5em;
+  font-size: 1.1em;
+}
