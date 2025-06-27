@@ -36,11 +36,48 @@
   text-align: center;
 }
 
-.coffee-sponsor-title {
+.coffee-sponsor-notification {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  background: linear-gradient(90deg, #fc985e 0%, #F24784 100%);
+  border-radius: 1.5em;
+  box-shadow: 0 4px 24px rgba(252, 152, 94, 0.18);
+  padding: 1.2em 2em;
+  margin: 1em 0;
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 500;
+  position: relative;
+  border: 3px solid #FCBC28;
+}
+
+.coffee-discount-badge {
+  background: #FCBC28;
   color: #F24784;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 1em 1em 1em 1em;
+  padding: 0.4em 1.1em;
+  margin-right: 1em;
+  box-shadow: 0 2px 8px #fc4957aa;
+  animation: badge-flash 0.8s infinite alternate;
+  letter-spacing: 0.1em;
+  border: 2px solid #fff;
+}
+
+@keyframes badge-flash {
+  0% { background: #FCBC28; color: #F24784; box-shadow: 0 2px 8px #fc4957aa; }
+  100% { background: #F24784; color: #FCBC28; box-shadow: 0 2px 16px #FCBC28; }
+}
+
+.coffee-sponsor-title {
+  color: #fff;
   font-weight: bold;
   font-size: 1.2em;
   margin-right: 0.7em;
+  text-shadow: 0 2px 8px #fc4957aa;
 }
 
 .coffee-animated {
@@ -59,7 +96,7 @@
 
 .coffee-old-price {
   text-decoration: line-through;
-  color: #DAE4ED;
+  color: #fff;
   opacity: 0.5;
   margin-left: 0.7em;
   font-size: 1em;
