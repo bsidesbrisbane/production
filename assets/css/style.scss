@@ -94,21 +94,30 @@
   100% { color: #EA9D53; text-shadow: 0 0 16px #FCBC28; }
 }
 
+.coffee-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.7em;
+  min-width: 4.5em;
+}
+
 .coffee-old-price {
   text-decoration: line-through;
   color: #fff;
   opacity: 0.5;
-  margin-left: 0.7em;
   font-size: 1em;
+  margin: 0 0 0.1em 0;
 }
 
 .coffee-sale-price {
   color: #F24784;
   font-weight: bold;
-  margin-left: 0.7em;
   font-size: 1.2em;
   background: #fffbe6;
   border-radius: 0.5em;
   padding: 0.1em 0.5em;
   box-shadow: 0 0 8px #fc495733;
+  margin: 0;
 }
