@@ -187,7 +187,7 @@ permalink: /schedule/
                                 {% if talk.summary and talk.summary != "Placeholder" %}
                                 <div class="popup-section">
                                     <h4>Talk Summary</h4>
-                                    <p>{{ talk.summary }}</p>
+                                    <div>{{ talk.summary | markdownify }}</div>
                                 </div>
                                 {% endif %}
                             {% endif %}
@@ -235,7 +235,7 @@ permalink: /schedule/
                                     {% if talk.summary and talk.summary != "Placeholder" %}
                                     <div class="popup-section">
                                         <h4>Talk Summary</h4>
-                                        <p>{{ talk.summary }}</p>
+                                        <div>{{ talk.summary | markdownify }}</div>
                                     </div>
                                     {% endif %}
                                 {% endif %}

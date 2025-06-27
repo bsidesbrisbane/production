@@ -184,12 +184,14 @@
   track2:
     title: "Planning a pentest: A Data-Driven Approach"
     presenter: "Johannes Van Der Merwe"
-    summary: "Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):\n\n
-    * Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
-    * Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
-    * (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button"
+    summary: |
+      Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
+
+      - Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
+      - Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
+      - (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button
     bio: "Johan is a cybersecurity leader with over 19 years of experience, a Masters degree in Control Engineering, a certificate in applying disruptive technologies for business applications from MIT Sloan school of Management and a graduate from an executive management program from the Gordon Institute of Business Science. He has spent about 9 years in senior leadership roles, incl the roles of CISO and Head of Security Advisory for Orange Cyberdefense ZA and leader of the next-generation Threat and Risk Assessments for BDO Australia. He describes himself as the glue, to bridge the gap between technical expertise and business outcomes, and has led global teams to that affect in tackling some complex cyber challenges with practical, results-driven solutions. From advising executives on risk and resilience to building high-performing security practices that span continents, his focus is providing the right people with effective, actionable intelligence."
-    link: "#"
+    link: "https://www.linkedin.com/in/johanjvdmerwe/"
     duration: "30 mins"
     rowspan: 2
 - time: "16:15"
