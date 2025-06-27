@@ -80,7 +80,11 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
   <span class="coffee-discount-badge">SALE</span>
   <span class="coffee-sponsor-title">Your logo here?</span>
   <span class="coffee-animated">Coffee Sponsor needed!</span>
-  <span class="coffee-prices"><span class="coffee-old-price">$3,000</span><br><span class="coffee-sale-price">$2,000</span></span>
+  <span class="coffee-prices"><span class="coffee-old-price">$3,000</span>
+  <br>
+  <span class="coffee-sale-price">$2,000</span>
+  </span>
+</div>
 <br /><br />
 
 #### Prize Sponsors
