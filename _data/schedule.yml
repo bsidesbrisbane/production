@@ -50,15 +50,15 @@
     rowspan: 2
 - time: "10:15"
 - time: "10:30"
-- time: "10:45"
   track2:
     title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
     presenter: "Dr. Gowri Ramachandran and Mr. Atticus D'Mello"
     summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
     bio: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a> form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
     link: "#"
-    duration: "30 mins"
-    rowspan: 2
+    duration: "45 mins"
+    rowspan: 3
+- time: "10:45"
 - time: "11:00"
   track1:
     title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
