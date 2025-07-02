@@ -82,6 +82,9 @@ permalink: /schedule/
     .talk.track1 .talk-presenter {
         color: #b33e6f;
     }
+    .talk.break .talk-presenter {
+        color: rgb(106, 102, 160);
+    }
     .talk.track2 .talk-presenter {
         color: #02a8b3;
     }
