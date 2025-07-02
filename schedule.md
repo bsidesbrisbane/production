@@ -69,11 +69,17 @@ permalink: /schedule/
     }
 
     .talk.break {
-        background: rgba(242, 71, 132, 0.15); /* More opaque orange */
-        border-left: 5px solid #f24784; /* Theme orange */
-        color: #fff; /* White text for readability */
+        background: #f24784;
+        border-left: 5px solid #f24784;
+        color: #fff;
         font-weight: bold;
-        box-shadow: 0 2px 12px rgba(242, 71, 132, 0.08);
+        box-shadow: 0 2px 12px rgba(242, 71, 132, 0.18);
+    }
+
+    .talk.break .talk-title,
+    .talk.break .talk-presenter,
+    .talk.break .talk-duration {
+        color: #fff;
     }
 
     .talk-title {
@@ -106,7 +112,7 @@ permalink: /schedule/
     }
 
     .popup-summary.popup-track1 {
-        border: 1px solid #f24784;
+        border: 1.5px solid #f24784;
         box-shadow: 0 0 20px rgba(242, 71, 132, 0.5);
     }
 
