@@ -1,18 +1,18 @@
 - time: "08:00"
   track1:
     title: "Doors and Check In Open"
-    presenter: "BSides Brisbane Crew"
     summary: "Welcome to BSides Brisbane! Head to the registration desk to check in, grab your badge, and collect your conference t-shirt. Coffee and tea will be available at the Cafe, so feel free to network with fellow attendees before the opening session."
+    type: "break"
     duration: "All Day"
     colspan: 2
   track2:
 - time: "08:45"
   track1:
     title: "Welcome to BSides Brisbane & Opening"
-    presenter: "Josh & Brodie"
     summary: "Join us for the official opening of BSides Brisbane 2024. We'll kick off the day with a brief welcome, run through the schedule, and cover everything you need to know to make the most of your conference experience."
     bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience working in cyber security across both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
     link: "#"
+    type: "break"
     duration: "15 mins"
     rowspan: 1
     colspan: 2
@@ -219,19 +219,18 @@
 - time: "17:00"
   track1:
     title: "CTF Announcements"
-    presenter: "Nomad"
     summary: "Join us for the CTF results and winner announcements. Prizes will be awarded to the top teams."
     link: "https://www.linkedin.com/in/nomad17/"
     duration: "15 mins"
+    type: "break"
     rowspan: 1
     colspan: 2
   track2:
 - time: "17:15"
   track1:
     title: "Thanks from BSides Brisbane & Conference End"
-    presenter: "Brodie & Josh"
     summary: "A final thank you to all our attendees, speakers, sponsors, and volunteers for making BSides Brisbane 2024 possible. We'll wrap up the day with some closing remarks and announce the after-party details."
     duration: "15 mins"
+    type: "break"
     rowspan: 1
     colspan: 2
-  track2: 
