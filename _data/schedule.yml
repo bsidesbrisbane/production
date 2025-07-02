@@ -28,13 +28,13 @@
     duration: "60 mins"
     rowspan: 4
   track2:
-    title: "Developer centric security: AppSec for 2025 and beyond"
-    presenter: "Ben Gittens"
-    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
-    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
-    link: "https://www.linkedin.com/in/ben-gittens/"
-    duration: "30 mins"
-    rowspan: 2
+    title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
+    presenter: "Dr. Gowri Ramachandran and Mr. Atticus D'Mello"
+    summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
+    bio: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a> form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
+    link: "#"
+    duration: "45 mins"
+    rowspan: 3
 - time: "09:15"
 - time: "09:30"
 - time: "09:45"
@@ -55,7 +55,6 @@
     link: "https://www.linkedin.com/in/rhiana-cooke/"
     duration: "30 mins"
     rowspan: 2
-- time: "10:15"
 - time: "10:15"
 - time: "10:30"
   track1:
@@ -95,13 +94,13 @@
     duration: "30 mins"
     rowspan: 2
   track2:
-    title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
-    presenter: "Dr. Gowri Ramachandran and Mr. Atticus D'Mello"
-    summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
-    bio: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a> form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
-    link: "#"
-    duration: "45 mins"
-    rowspan: 3
+    title: "Developer centric security: AppSec for 2025 and beyond"
+    presenter: "Ben Gittens"
+    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
+    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
+    link: "https://www.linkedin.com/in/ben-gittens/"
+    duration: "30 mins"
+    rowspan: 2
 - time: "11:45"
 - time: "12:00"
   track1:
