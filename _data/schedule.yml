@@ -58,7 +58,6 @@
 - time: "10:30"
   track1:
     title: "Morning Tea"
-    presenter: "Food"
     summary: "It's time for a morning tea break! While food is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
     type: "break"
     duration: "30 mins"
@@ -147,7 +146,6 @@
 - time: "14:30"
   track1:
     title: "Afternoon Tea"
-    presenter: "Food"
     summary: "It's time for an afternoon tea break! While food is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
     type: "break"
     duration: "30 mins"
