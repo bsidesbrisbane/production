@@ -69,11 +69,11 @@ permalink: /schedule/
     }
 
     .talk.break {
-        background: linear-gradient(90deg, #23272e 0%, #444950 100%);
-        border-left: 5px solid #bcbcbc;
-        color: #fff;
+        background: rgba(242, 71, 132, 0.15); /* More opaque orange */
+        border-left: 5px solid #f24784; /* Theme orange */
+        color: #fff; /* White text for readability */
         font-weight: bold;
-        box-shadow: 0 2px 12px rgba(44, 44, 44, 0.18);
+        box-shadow: 0 2px 12px rgba(242, 71, 132, 0.08);
     }
 
     .talk-title {
