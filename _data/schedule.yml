@@ -8,34 +8,33 @@
     colspan: 2
   track2:
 - time: "08:45"
-    track1:
-      title: "Welcome to BSides Brisbane & Opening"
-      presenter: "Josh & Brodie"
-      summary: "Join us for the official opening of BSides Brisbane 2024. We'll kick off the day with a brief welcome, run through the schedule, and cover everything you need to know to make the most of your conference experience."
-      bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience working in cyber security across both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
-      link: "#"
-      duration: "15 mins"
-      rowspan: 1
-      colspan: 2
-    track2:
+  track1:
+    title: "Welcome to BSides Brisbane & Opening"
+    presenter: "Josh & Brodie"
+    summary: "Join us for the official opening of BSides Brisbane 2024. We'll kick off the day with a brief welcome, run through the schedule, and cover everything you need to know to make the most of your conference experience."
+    bio: "Your hosts are <a href='https://www.linkedin.com/in/joshuariesenweber/' target='_blank' rel='noopener noreferrer'>Joshua Riesenweber</a> and <a href='https://www.linkedin.com/in/brodiecarter/' target='_blank' rel='noopener noreferrer'>Brodie Carter</a>, both veterans of the cyber security industry, and Directors at Division 5. Joshua has extensive experience in OT, critical infrastructure, and penetration testing, and is the founder of the IoT and SCADA Hackers Australia group. Brodie has over 15 years of experience working in cyber security across both public and private sectors, he is also an active board member, deputy Chair for the Australian Information Security Association (AISA) QLD Branch, and co-hosts SecTalks Brisbane. Together, they are passionate about fostering the security community and are the driving force behind the BSides Brisbane conference."
+    link: "#"
+    duration: "15 mins"
+    rowspan: 1
+    colspan: 2
+  track2:
 - time: "09:00"
   track1:
-    track1:
-      title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
-      presenter: "Cameron Fairbairn"
-      summary: "This presentation explores the attack surface of Microsoft Entra ID, demonstrating how adversaries can enumerate, exploit, and escalate privileges in cloud and hybrid environments. We will walk through real-world attack chains and outline effective mitigation strategies to strengthen Entra ID security."
-      bio: "Cameron Fairbairn is a cyber security architect and the CTO of Proaxiom Cyber. With 28 years in IT and 15 years specialising in cyber security, he has extensive experience in offensive and defensive security, cloud security, and security operations. Cameron is passionate about practical security implementations and adversary-centric defense strategies."
-      link: "https://www.linkedin.com/in/cameronfairbairn/"
-      duration: "60 mins"
-      rowspan: 4
+    title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
+    presenter: "Cameron Fairbairn"
+    summary: "This presentation explores the attack surface of Microsoft Entra ID, demonstrating how adversaries can enumerate, exploit, and escalate privileges in cloud and hybrid environments. We will walk through real-world attack chains and outline effective mitigation strategies to strengthen Entra ID security."
+    bio: "Cameron Fairbairn is a cyber security architect and the CTO of Proaxiom Cyber. With 28 years in IT and 15 years specialising in cyber security, he has extensive experience in offensive and defensive security, cloud security, and security operations. Cameron is passionate about practical security implementations and adversary-centric defense strategies."
+    link: "https://www.linkedin.com/in/cameronfairbairn/"
+    duration: "60 mins"
+    rowspan: 4
   track2:
     title: "Developer centric security: AppSec for 2025 and beyond"
-      presenter: "Ben Gittens"
-      summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
-      bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
-      link: "https://www.linkedin.com/in/ben-gittens/"
-      duration: "30 mins"
-      rowspan: 2
+    presenter: "Ben Gittens"
+    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
+    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
+    link: "https://www.linkedin.com/in/ben-gittens/"
+    duration: "30 mins"
+    rowspan: 2
 - time: "09:15"
 - time: "09:30"
 - time: "09:45"
