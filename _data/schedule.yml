@@ -103,7 +103,6 @@
 - time: "12:00"
   track1:
     title: "Lunch"
-    presenter: "Food"
     summary: "It's time for a lunch break! While lunch is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
     type: "break"
     duration: "90 mins"
