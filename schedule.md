@@ -112,6 +112,11 @@ permalink: /schedule/
         box-shadow: 0 0 20px rgba(2, 245, 255, 0.5);
     }
 
+    .popup-summary.popup-break {
+        border: 1px solid rgba(217, 157, 85, 1);
+        box-shadow: 0 0 20px rgba(217, 157, 85, 0.5);
+    }
+
     .popup-summary h3 {
         color: #fff;
         margin-top: 0;
@@ -169,7 +174,7 @@ permalink: /schedule/
                             </div>
                         {% if talk.summary %}
                         </a>
-                        <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary popup-track1">
+                        <div id="summary-{{ forloop.index }}-1" class="mfp-hide popup-summary{% if talk.type == 'break' %} popup-break{% else %} popup-track1{% endif %}">
                             <h3>{{ talk.title }}</h3>
                             {% if talk.type == 'break' %}
                                 <p>{{ talk.summary }}</p>
@@ -217,7 +222,7 @@ permalink: /schedule/
                                 </div>
                             {% if talk.summary %}
                             </a>
-                            <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary popup-track2">
+                            <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary{% if talk.type == 'break' %} popup-break{% else %} popup-track2{% endif %}">
                                 <h3>{{ talk.title }}</h3>
                                 {% if talk.type == 'break' %}
                                     <p>{{ talk.summary }}</p>
