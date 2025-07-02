@@ -69,17 +69,8 @@ permalink: /schedule/
     }
 
     .talk.break {
-        background: #f24784;
-        border-left: 5px solid #f24784;
-        color: #fff;
-        font-weight: bold;
-        box-shadow: 0 2px 12px rgba(242, 71, 132, 0.18);
-    }
-
-    .talk.break .talk-title,
-    .talk.break .talk-presenter,
-    .talk.break .talk-duration {
-        color: #fff;
+        background:rgba(217, 157, 85, 0.1);
+        border-left: 5px solid rgba(217, 157, 85, 1);
     }
 
     .talk-title {
