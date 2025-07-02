@@ -146,6 +146,14 @@
     rowspan: 2
 - time: "14:15"
 - time: "14:30"
+  track1:
+    title: "Afternoon Tea"
+    presenter: "Food"
+    summary: "It's time for an afternoon tea break! While food is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
+    type: "break"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 2 
 - time: "14:45"
 - time: "15:00"
   track1:

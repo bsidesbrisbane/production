@@ -67,6 +67,15 @@ permalink: /schedule/
         background-color: rgba(2, 245, 255, 0.1);
         border-left: 5px solid rgba(2,245,255,1);
     }
+
+    .talk.break {
+        background: linear-gradient(90deg, #fc985e 0%, #fc4957 100%);
+        border-left: 5px solid #FCBC28;
+        color: #fff;
+        font-weight: bold;
+        box-shadow: 0 2px 12px rgba(252, 152, 94, 0.18);
+    }
+
     .talk-title {
         font-weight: bold;
     }
@@ -156,7 +165,7 @@ permalink: /schedule/
                         {% if talk.summary %}
                         <a href="#summary-{{ forloop.index }}-1" class="popup-trigger">
                         {% endif %}
-                            <div class="talk track1">
+                            <div class="talk track1{% if talk.type == 'break' %} break{% endif %}">
                                 <div class="talk-title">{{ talk.title }}</div>
                                 <div class="talk-presenter">{{ talk.presenter }}</div>
                                 <div class="talk-duration">{{ talk.duration }}</div>
@@ -204,7 +213,7 @@ permalink: /schedule/
                             {% if talk.summary %}
                             <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
                             {% endif %}
-                                <div class="talk track2">
+                                <div class="talk track2{% if talk.type == 'break' %} break{% endif %}">
                                     <div class="talk-title">{{ talk.title }}</div>
                                     <div class="talk-presenter">{{ talk.presenter }}</div>
                                     <div class="talk-duration">{{ talk.duration }}</div>
