@@ -21,7 +21,7 @@
   track1:
     title: "Bypassing Intel CET with Counterfeit Objects"
     presenter: "Thomas Pitt"
-    summary: "Intel's Control-Flow Enforcement Technology (CET) provides hardware-assisted control-flow integrity for x86 processors. Despite its effectiveness, some techniques can bypass CET's protections. This presentation will explore Counterfeit Object-Oriented Programming (COOP) to bypass the Intel CET Shadow Stack, using a Chrome sandbox escapetargetting the SwiftShader software renderer within the GPU process as a case study."
+    summary: "Intel's Control-Flow Enforcement Technology (CET) provides hardware-assisted control-flow integrity for x86 processors. Despite its effectiveness, some techniques can bypass CET's protections. This presentation will explore Counterfeit Object-Oriented Programming (COOP) to bypass the Intel CET Shadow Stack, using a Chrome sandbox escape targeting the SwiftShader software renderer within the GPU process as a case study."
     bio: "Thomas Pitt is a senior security researcher at Microsoft on the GHOST team. His background is in both offensive and defensive security, with experience spanning from serving as a cyber specialist in the Australian Army, to roles at ParaFlare and Thales."
     link: "https://www.linkedin.com/in/thomas-pitt-9ab543124/"
     duration: "30 mins"
