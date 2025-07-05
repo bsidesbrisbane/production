@@ -162,13 +162,71 @@ permalink: /schedule/
         border: 2px solid #f24784;
         box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
+    .mc-avatar.track1 {
+        border: 2px solid #f24784;
+    }
+    .mc-avatar.track2 {
+        border: 2px solid rgba(2,245,255,1);
+    }
     .mc-name {
         font-weight: 600;
         color: #f24784;
         text-decoration: none;
         font-size: 1em;
+        cursor: pointer;
+    }
+    .mc-profile.track2 .mc-name {
+        color: #02a8b3;
     }
     .mc-name:hover {
+        text-decoration: underline;
+    }
+    .mc-popup {
+        display: none;
+        background: rgba(44, 44, 44, 0.95);
+        color: #f1f1f1;
+        padding: 25px;
+        width: auto;
+        max-width: 400px;
+        margin: 20px auto;
+        position: fixed;
+        left: 0; right: 0; top: 20vh;
+        z-index: 9999;
+        border-radius: 8px;
+        border: 2px solid #f24784;
+        box-shadow: 0 0 20px rgba(242, 71, 132, 0.5);
+        text-align: center;
+    }
+    .mc-popup.track2 {
+        border: 2px solid rgba(2,245,255,1);
+        box-shadow: 0 0 20px rgba(2, 245, 255, 0.5);
+    }
+    .mc-popup .mc-popup-close {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        color: #fff;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    .mc-popup .mc-popup-bio {
+        margin-top: 1em;
+        font-size: 1em;
+    }
+    .mc-popup .mc-popup-link {
+        display: inline-block;
+        margin-top: 1em;
+        color: #fff;
+        background: #f24784;
+        padding: 0.4em 1em;
+        border-radius: 0.5em;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .mc-popup.track2 .mc-popup-link {
+        background: #02a8b3;
+    }
+    .mc-popup .mc-popup-link:hover {
         text-decoration: underline;
     }
 </style>
@@ -182,15 +240,15 @@ permalink: /schedule/
             <tr>
                 <th class="time-col">Time</th>
                 <th id="track1-header" class="track-col">Track 1
-                    <div class="mc-profile">
-                        <img src="/assets/2025/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar" />
-                        <a href="https://www.linkedin.com/in/kelsy-luengen-a26209110//" target="_blank" rel="noopener noreferrer" class="mc-name">Kelsy Luengen</a>
+                    <div class="mc-profile track1">
+                        <img src="/assets/2025/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar track1" />
+                        <span class="mc-name mc-popup-trigger" data-mc="kelsy">Kelsy Luengen</span>
                     </div>
                 </th>
                 <th id="track2-header" class="track-col">Track 2
-                    <div class="mc-profile">
-                        <img src="/assets/2025/avatar/nick.jfif" alt="Nick Young" class="mc-avatar" />
-                        <a href="https://www.linkedin.com/in/youngnick/" target="_blank" rel="noopener noreferrer" class="mc-name">Nick Young</a>
+                    <div class="mc-profile track2">
+                        <img src="/assets/2025/avatar/nick.jfif" alt="Nick Young" class="mc-avatar track2" />
+                        <span class="mc-name mc-popup-trigger" data-mc="nick">Nick Young</span>
                     </div>
                 </th>
             </tr>
@@ -301,13 +359,36 @@ permalink: /schedule/
     </table>
     <br /><br /><br />
 </div>
+<div id="mc-popup-kelsy" class="mc-popup track1">
+    <span class="mc-popup-close" onclick="document.getElementById('mc-popup-kelsy').style.display='none'">&times;</span>
+    <h3>Kelsy Luengen</h3>
+    <div class="mc-popup-bio">
+        Kelsy Luengen is a security behaviour specialist and researcher, recently submitting her PhD in security-focused behavioural sciences. As a Security Influencer, she drives positive behaviour change and strengthens security culture through engaging campaigns, training, and evidence-based methods. Kelsy excels at translating complex cyber threats into plain English, designing impactful awareness programs, and leading high-risk training initiatives across the Asia-Pacific region. Her doctoral research explores how people respond to cyber security nudges, using eye-tracking to understand threat recognition and protective behaviours. With over 14 years of teaching, training, and coaching experience, Kelsy is passionate about stakeholder engagement, data-driven campaigns, and making security accessible for all.
+    </div>
+    <a class="mc-popup-link" href="https://www.linkedin.com/in/kelsy-luengen-a26209110//" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
+</div>
+<div id="mc-popup-nick" class="mc-popup track2">
+    <span class="mc-popup-close" onclick="document.getElementById('mc-popup-nick').style.display='none'">&times;</span>
+    <h3>Nick Young</h3>
+    <div class="mc-popup-bio">
+        Nick Young is a senior leader passionate about empowering people and making a difference. With broad experience spanning cyber security, community development, healthcare, government, and IT, Nick excels at creative problem-solving and inspiring teams. At Division 5, he leads the delivery of cyber and information security consultancy across Australia, focusing on strategies that improve security for organisations of all sizes. Nick also serves as a Non-Executive Director for two impactful organisations—supporting vulnerable communities in Bangladesh and helping tertiary students succeed at a historic college.
+    </div>
+    <a class="mc-popup-link" href="https://www.linkedin.com/in/youngnick/" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
+</div>
 <script>
-// Lol, don't do this- only meant for obfuscation while drafting schedule.
+
 $(document).ready(function() {
     $('#schedule-content').show();
     $('.popup-trigger').magnificPopup({
         type:'inline',
         midClick: true
+    });
+});
+document.querySelectorAll('.mc-popup-trigger').forEach(function(el) {
+    el.addEventListener('click', function() {
+        var mc = el.getAttribute('data-mc');
+        var popup = document.getElementById('mc-popup-' + mc);
+        if (popup) popup.style.display = 'block';
     });
 });
 </script>
