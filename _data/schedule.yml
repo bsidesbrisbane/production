@@ -19,6 +19,16 @@
   track2:
 - time: "09:00"
   track1:
+    title: "Bypassing Intel CET with Counterfeit Objects"
+    presenter: "Thomas Pitt"
+    summary: "Intel's Control-Flow Enforcement Technology (CET) provides hardware-assisted control-flow integrity for x86 processors. Despite its effectiveness, some techniques can bypass CET's protections. This presentation will explore Counterfeit Object-Oriented Programming (COOP) to bypass the Intel CET Shadow Stack, using a Chrome sandbox escapetargetting the SwiftShader software renderer within the GPU process as a case study."
+    bio: "Thomas Pitt is a senior security researcher at Microsoft on the GHOST team. His background is in both offensive and defensive security, with experience spanning from serving as a cyber specialist in the Australian Army, to roles at ParaFlare and Thales."
+    link: "https://www.linkedin.com/in/thomas-pitt-9ab543124/"
+    duration: "30 mins"
+    rowspan: 2
+- time: "09:15"
+- time: "09:30"
+  track1:
     title: "Breaking and Defending Entra ID: Recon, Privilege Escalation, and Real-World Attack Paths"
     presenter: "Cameron Fairbairn"
     summary: "This presentation explores the attack surface of Microsoft Entra ID, demonstrating how adversaries can enumerate, exploit, and escalate privileges in cloud and hybrid environments. We will walk through real-world attack chains and outline effective mitigation strategies to strengthen Entra ID security."
@@ -27,31 +37,21 @@
     duration: "60 mins"
     rowspan: 4
   track2:
-    title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
-    presenter: "Dr. Gowri Ramachandran and Mr. Atticus D'Mello"
-    summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
-    bio: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a> form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
-    link: "#"
-    duration: "45 mins"
-    rowspan: 3
-- time: "09:15"
-- time: "09:30"
+    title: "Developer centric security: AppSec for 2025 and beyond"
+    presenter: "Ben Gittens"
+    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
+    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
+    link: "https://www.linkedin.com/in/ben-gittens/"
+    duration: "30 mins"
+    rowspan: 2
 - time: "09:45"
-  track2:
-    title: "Beyond Identity: The Future of Trust, Attestation, and Assurance"
-    presenter: "Adam Aurisch"
-    summary: "Join Adam Aurisch as he explores the intersection of Self-Sovereign Identity (SSI) and enterprise IAM practices. Drawing from extensive experience across public and private sectors—including projects with Mastercard ID Services and RealMe in New Zealand—Adam will share practical insights into integrating modern identity solutions within complex environments."
-    bio: "Adam Aurisch is the Manager for Information Security and IAM at QUT, with a wealth of experience implementing cutting-edge IAM solutions across public and private sectors. He has played a pivotal role in major global identity projects with organizations like Mastercard ID Services and RealMe in New Zealand, and is committed to balancing robust security with user-centric design."
-    link: "https://www.linkedin.com/in/adamaurisch/"
-    duration: "45 mins"
-    rowspan: 3
 - time: "10:00"
-  track1:
-    title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
-    presenter: "Rhiana Cooke"
-    summary: "This talk will highlight why shadow OT is one of the most prevalent cyber issues in the field. I'll walk through why shadow OT is being deployed, the methods used for its detection, and share real-world examples of incidents I've worked on."
-    bio: "Rhiana is a Cyber Security Specialist and Mechatronics Engineer with a passion for OT security. As an OT Cyber Security Architect at Secolve, she has worked in both mining and manufacturing, gaining experience with control systems, mobile equipment, and cyber security operations."
-    link: "https://www.linkedin.com/in/rhiana-cooke/"
+  track2:
+    title: "Do not obey in advance Cyber Security in the Fight Against Techno-Authoritarianism"
+    presenter: "Dr Joel Panther"
+    summary: "This talk covers real-world examples where encryption, anonymity tools, and similar technologies have helped activists, journalists, and citizens evade state surveillance and censorship. Discussion and case studies highlight how digital resistance strategies have been used to counter oppression."
+    bio: "Joel is a cyber security researcher, penetration tester, and educator with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories, and his current research focuses on offensive security skills development."
+    link: "https://www.linkedin.com/in/joelpanther/"
     duration: "30 mins"
     rowspan: 2
 - time: "10:15"
@@ -66,61 +66,11 @@
 - time: "10:45"
 - time: "11:00"
   track1:
-    title: "Deception in Depth Mindset; How to capture an APT"
-    presenter: "Brent Muir"
-    summary: "This session will introduce the strategy of designing and deploying deception strategies across your environments by leveraging the Mitre Engage adversarial framework. A real-world case study will demonstrate how to implement a deception strategy geared towards the adversaries targeting your organisation."
-    bio: "Brent has over 18 years of experience in the cyber security industry. After 12 years in Australian government and law enforcement leading national cyber teams, he led the global digital forensics and incident response team for a Fortune 500 bank."
-    link: "https://www.linkedin.com/in/brentmuir/"
-    duration: "30 mins"
-    rowspan: 2
-  track2:
-    title: "The importance of threat modelling, and how to get started"
-    presenter: "Heath Moodie"
-    summary: "This talk will help you understand the core questions to ask when starting a CTI capability, why you should use simple threat models, how to build out your first threat model, and provide actionable templates for getting started in 'Helping to understand and solve problems'."
-    bio: "Heath Moodie is a Senior ICS Threat Intelligence Analyst for Dragos APAC. A 5-year RAR veteran and strategy nerd, he is passionate about Cyber Threat Intelligence and its practical application."
-    link: "https://www.linkedin.com/in/heath-moodie/"
-    duration: "30 mins"
-    rowspan: 2
-- time: "11:15"
-- time: "11:30"
-  track1:
-    title: "Threat Hunting with Better Data Visualisation"
-    presenter: "Tatsuya Hasegawa"
-    summary: "This session offers best practices for threat hunting with data visualisation. Tatsuya will discuss the challenges of typical SIEM dashboards and introduce more effective approaches, including advanced charts and custom visualisations. Using a practical example with a public dataset, he will demonstrate how to build a unique hunting dashboard and provide attendees with the next steps to level up their threat hunting skills."
-    bio: "Tatsuya Hasegawa is a threat hunter and data visualisation developer with an extensive list of security certifications. He is a board member of the ISACA Nagoya Chapter, a committee member of the SECCON Open Conference, and a contributor to the open-source project msticpy."
-    link: "https://www.linkedin.com/in/tatsuya-hasegawa-aa3279142"
-    duration: "30 mins"
-    rowspan: 2
-  track2:
-    title: "Developer centric security: AppSec for 2025 and beyond"
-    presenter: "Ben Gittens"
-    summary: "Application security is often seen as a roadblock for developers. This talk explores a new paradigm for AppSec that puts developers at the center, empowering them with the tools and knowledge to build secure applications from the start. We will look at emerging trends and technologies that will shape the future of application security."
-    bio: "Ben Gittens is a software developer and security champion with a passion for bridging the gap between development and security teams. He has extensive experience in building and securing large-scale applications and is an advocate for DevSecOps principles."
-    link: "https://www.linkedin.com/in/ben-gittens/"
-    duration: "30 mins"
-    rowspan: 2
-- time: "11:45"
-- time: "12:00"
-  track1:
-    title: "Lunch"
-    summary: "It's time for a lunch break! While lunch is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
-    type: "break"
-    duration: "90 mins"
-    rowspan: 6
-    colspan: 2
-  track2:
-- time: "12:15"
-- time: "12:30"
-- time: "12:45"
-- time: "13:00"
-- time: "13:15"
-- time: "13:30"
-  track1:
-    title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
-    presenter: "Adriana"
-    summary: "This talk covers essential security practices for WordPress, including strong authentication, regular updates, and proactive defenses. We will discuss key security threats like brute force attacks, SQL injection, and malware, and explore advanced protection techniques to keep your site safe."
-    bio: "With over a decade of experience in IT development, systems administration, and cyber security, Adriana specialises in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
-    link: "https://www.linkedin.com/in/adriana-moreno-dev"
+    title: "Shadow of a Doubt - A Deep-Dive into Shadow OT"
+    presenter: "Rhiana Cooke"
+    summary: "This talk will highlight why shadow OT is one of the most prevalent cyber issues in the field. I'll walk through why shadow OT is being deployed, the methods used for its detection, and share real-world examples of incidents I've worked on."
+    bio: "Rhiana is a Cyber Security Specialist and Mechatronics Engineer with a passion for OT security. As an OT Cyber Security Architect at Secolve, she has worked in both mining and manufacturing, gaining experience with control systems, mobile equipment, and cyber security operations."
+    link: "https://www.linkedin.com/in/rhiana-cooke/"
     duration: "30 mins"
     rowspan: 2
   track2:
@@ -131,6 +81,55 @@
     link: "#"
     duration: "60 mins"
     rowspan: 4
+- time: "11:15"
+- time: "11:30"
+  track1:
+    title: "Deception in Depth Mindset; How to capture an APT"
+    presenter: "Brent Muir"
+    summary: "This session will introduce the strategy of designing and deploying deception strategies across your environments by leveraging the Mitre Engage adversarial framework. A real-world case study will demonstrate how to implement a deception strategy geared towards the adversaries targeting your organisation."
+    bio: "Brent has over 18 years of experience in the cyber security industry. After 12 years in Australian government and law enforcement leading national cyber teams, he led the global digital forensics and incident response team for a Fortune 500 bank."
+    link: "https://www.linkedin.com/in/brentmuir/"
+    duration: "30 mins"
+    rowspan: 2
+- time: "11:45"
+- time: "12:00"
+  track1:
+    title: "Lunch"
+    summary: "It's time for a lunch break! While lunch is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
+    type: "break"
+    duration: "90 mins"
+    rowspan: 4
+    colspan: 2
+- time: "12:15"
+- time: "12:30"
+- time: "12:45"
+- time: "13:00"
+  track1:
+    title: "Threat Hunting with Better Data Visualisation"
+    presenter: "Tatsuya Hasegawa"
+    summary: "This session offers best practices for threat hunting with data visualisation. Tatsuya will discuss the challenges of typical SIEM dashboards and introduce more effective approaches, including advanced charts and custom visualisations. Using a practical example with a public dataset, he will demonstrate how to build a unique hunting dashboard and provide attendees with the next steps to level up their threat hunting skills."
+    bio: "Tatsuya Hasegawa is a threat hunter and data visualisation developer with an extensive list of security certifications. He is a board member of the ISACA Nagoya Chapter, a committee member of the SECCON Open Conference, and a contributor to the open-source project msticpy."
+    link: "https://www.linkedin.com/in/tatsuya-hasegawa-aa3279142"
+    duration: "30 mins"
+    rowspan: 2
+  track2:
+    title: "Beyond Passwords: The Present and Future War on Your Online Identity"
+    presenter: "Sam Gillespie"
+    summary: "Ever wonder why password breaches are still so common? This talk exposes the shocking economics behind credential stuffing attacks and how easy it is for bad actors to profit. We'll explore the industry's fight back, from bot detection to Passkeys, and dive into the looming shift towards an 'identified web' to see how emerging tech like generative AI could either secure or undermine our digital future."
+    bio: "Currently a leader in Identity Defense at Okta, Sam Gillespie brings a unique perspective from his background in game development, where he contributed to Fruit Ninja. He later blended game design with data science at Arkose Labs to create state-of-the-art bot detection solutions. With a decade on the front lines of cyber security, Sam is known for his fast-paced and approachable delivery."
+    link: "https://au.linkedin.com/in/sam-gillespie-47103644"
+    duration: "60 mins"
+    rowspan: 4
+- time: "13:15"
+- time: "13:30"
+  track1:
+    title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
+    presenter: "Adriana"
+    summary: "This talk covers essential security practices for WordPress, including strong authentication, regular updates, and proactive defenses. We will discuss key security threats like brute force attacks, SQL injection, and malware, and explore advanced protection techniques to keep your site safe."
+    bio: "With over a decade of experience in IT development, systems administration, and cyber security, Adriana specialises in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
+    link: "https://www.linkedin.com/in/adriana-moreno-dev"
+    duration: "30 mins"
+    rowspan: 2
 - time: "13:45"
 - time: "14:00"
   track1:
@@ -139,6 +138,19 @@
     summary: "This talk explores how modern aviation's reliance on insecure systems turns the skies into a playground for those who know where to listen. From ADS-B tracking to ACARS manipulation, this session will break down how software-defined radio (SDR) allows for passive eavesdropping, real-time aircraft spoofing, and unexpected attack surfaces."
     bio: "Ryan 'D8RH8R' Williams is a hacker, researcher, and builder of systems that weren't meant to exist. He spends his time reverse-engineering technology, exploring communication networks, and crafting bespoke offensive hardware. His work spans offensive security, adversarial R&D, and privacy consulting."
     link: "https://www.linkedin.com/in/ryan-williams-4068351b8/"
+    duration: "30 mins"
+    rowspan: 2
+  track2:
+    title: "Planning a pentest: A Data-Driven Approach"
+    presenter: "Johannes Van Der Merwe"
+    summary: |
+      Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
+
+      - Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
+      - Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
+      - (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button
+    bio: "Johan is a cybersecurity leader with over 19 years of experience, a Masters degree in Control Engineering, a certificate in applying disruptive technologies for business applications from MIT Sloan school of Management and a graduate from an executive management program from the Gordon Institute of Business Science. He has spent about 9 years in senior leadership roles, incl the roles of CISO and Head of Security Advisory for Orange Cyberdefense ZA and leader of the next-generation Threat and Risk Assessments for BDO Australia. He describes himself as the glue, to bridge the gap between technical expertise and business outcomes, and has led global teams to that affect in tackling some complex cyber challenges with practical, results-driven solutions. From advising executives on risk and resilience to building high-performing security practices that span continents, his focus is providing the right people with effective, actionable intelligence."
+    link: "https://www.linkedin.com/in/johanjvdmerwe/"
     duration: "30 mins"
     rowspan: 2
 - time: "14:15"
@@ -165,23 +177,15 @@
     link: "#"
     rowspan: 3
   track2:
-    title: "Do not obey in advance Cyber Security in the Fight Against Techno-Authoritarianism"
-    presenter: "Dr Joel Panther"
-    summary: "This talk covers real-world examples where encryption, anonymity tools, and similar technologies have helped activists, journalists, and citizens evade state surveillance and censorship. Discussion and case studies highlight how digital resistance strategies have been used to counter oppression."
-    bio: "Joel is a cyber security researcher, penetration tester, and educator with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories, and his current research focuses on offensive security skills development."
-    link: "https://www.linkedin.com/in/joelpanther/"
-    duration: "30 mins"
-    rowspan: 2
+    title: "Beyond Identity: The Future of Trust, Attestation, and Assurance"
+    presenter: "Adam Aurisch"
+    summary: "Join Adam Aurisch as he explores the intersection of Self-Sovereign Identity (SSI) and enterprise IAM practices. Drawing from extensive experience across public and private sectors—including projects with Mastercard ID Services and RealMe in New Zealand—Adam will share practical insights into integrating modern identity solutions within complex environments."
+    bio: "Adam Aurisch is the Manager for Information Security and IAM at QUT, with a wealth of experience implementing cutting-edge IAM solutions across public and private sectors. He has played a pivotal role in major global identity projects with organizations like Mastercard ID Services and RealMe in New Zealand, and is committed to balancing robust security with user-centric design."
+    link: "https://www.linkedin.com/in/adamaurisch/"
+    duration: "45 mins"
+    rowspan: 3
 - time: "15:15"
 - time: "15:30"
-  track2:
-    title: "Beyond Passwords: The Present and Future War on Your Online Identity"
-    presenter: "Sam Gillespie"
-    summary: "Ever wonder why password breaches are still so common? This talk exposes the shocking economics behind credential stuffing attacks and how easy it is for bad actors to profit. We'll explore the industry's fight back, from bot detection to Passkeys, and dive into the looming shift towards an 'identified web' to see how emerging tech like generative AI could either secure or undermine our digital future."
-    bio: "Currently a leader in Identity Defense at Okta, Sam Gillespie brings a unique perspective from his background in game development, where he contributed to Fruit Ninja. He later blended game design with data science at Arkose Labs to create state-of-the-art bot detection solutions. With a decade on the front lines of cyber security, Sam is known for his fast-paced and approachable delivery."
-    link: "https://au.linkedin.com/in/sam-gillespie-47103644"
-    duration: "60 mins"
-    rowspan: 4
 - time: "15:45"
   track1:
     title: "From Head Tattoos to Malware: A History of Steganography"
@@ -189,6 +193,14 @@
     summary: "This presentation traces the fascinating history of steganography, from ancient methods like hidden tattoos to modern digital techniques. It explores its applications in both cyber security and cybercrime, examining the ongoing battle between secrecy and detection in the digital age."
     bio: "James is a Principal Consultant with CyberCX specialising in Microsoft Azure architecture, security, and automation with over 25 years of industry experience. He is a published author, a former Microsoft MVP, and a current Microsoft Certified Trainer."
     link: "https://www.linkedin.com/in/jamesbannan/"
+    duration: "30 mins"
+    rowspan: 2
+  track2:
+    title: "The importance of threat modelling, and how to get started"
+    presenter: "Heath Moodie"
+    summary: "This talk will help you understand the core questions to ask when starting a CTI capability, why you should use simple threat models, how to build out your first threat model, and provide actionable templates for getting started in 'Helping to understand and solve problems'."
+    bio: "Heath Moodie is a Senior ICS Threat Intelligence Analyst for Dragos APAC. A 5-year RAR veteran and strategy nerd, he is passionate about Cyber Threat Intelligence and its practical application."
+    link: "https://www.linkedin.com/in/heath-moodie/"
     duration: "30 mins"
     rowspan: 2
 - time: "16:00"
@@ -201,20 +213,15 @@
     link: "https://www.linkedin.com/in/djonesau/"
     duration: "45 mins"
     rowspan: 3
-- time: "16:30"
   track2:
-    title: "Planning a pentest: A Data-Driven Approach"
-    presenter: "Johannes Van Der Merwe"
-    summary: |
-      Using data from prior pentest reports to inform your penetration testing plan. We take the findings in the CyberCX hack report and show how a security manager (like CISO's, CSO's, ISMS Managers, etc) can use that to build an understanding which could inform their testing approach in the same way lists and frameworks currently do (e.g. OWASP's top 10 list for API and web application vulnerabilities, and MITRE's ATT&CK framework):
-
-      - Understanding root causes and patterns of co-occurrence (recipes of vulnerabilities)
-      - Use this data and the existence of frameworks like OWASP's top 10 list for API and web application vulnerabilities as well as MITRE's ATT&CK framework to better inform or plan your penetration tests (or adversarial simulations)
-      - (And yes) what does a good pentesting plan look like, shall I crowdsource, manually test or press the big red hack button
-    bio: "Johan is a cybersecurity leader with over 19 years of experience, a Masters degree in Control Engineering, a certificate in applying disruptive technologies for business applications from MIT Sloan school of Management and a graduate from an executive management program from the Gordon Institute of Business Science. He has spent about 9 years in senior leadership roles, incl the roles of CISO and Head of Security Advisory for Orange Cyberdefense ZA and leader of the next-generation Threat and Risk Assessments for BDO Australia. He describes himself as the glue, to bridge the gap between technical expertise and business outcomes, and has led global teams to that affect in tackling some complex cyber challenges with practical, results-driven solutions. From advising executives on risk and resilience to building high-performing security practices that span continents, his focus is providing the right people with effective, actionable intelligence."
-    link: "https://www.linkedin.com/in/johanjvdmerwe/"
-    duration: "30 mins"
-    rowspan: 2
+    title: "Rolling the Risk Dice with GenAI: Early Bets and Emerging Insights"
+    presenter: "Dr. Gowri Ramachandran and Mr. Atticus D'Mello"
+    summary: "This talk presents ongoing research evaluating how effective Generative AI is in supporting risk assessment tasks. We will share early findings, discuss key challenges, and showcase live demos that highlight both the promise and the pitfalls of using GenAI in this context."
+    bio: "<a href='https://www.linkedin.com/in/gowriram' target='_blank' rel='noopener noreferrer'>Dr. Gowri Ramachandran</a> and <a href='https://www.linkedin.com/in/atticus-dmello/' target='_blank' rel='noopener noreferrer'>Mr. Atticus D'Mello</a> form a research team that are investigating the effectiveness of Generative AI in risk assessment contexts, focusing on its potential, limitations, and real-world applicability through early experiments."
+    link: "#"
+    duration: "45 mins"
+    rowspan: 3
+- time: "16:30"
 - time: "16:45"
 - time: "17:00"
   track1:
