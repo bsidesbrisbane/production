@@ -146,6 +146,31 @@ permalink: /schedule/
         font-style: italic;
         color: #ccc;
     }
+    .mc-profile {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        justify-content: center;
+    }
+    .mc-avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #f24784;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .mc-name {
+        font-weight: 600;
+        color: #f24784;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    .mc-name:hover {
+        text-decoration: underline;
+    }
 </style>
 
 <div id="schedule-content" style="display: none;">
@@ -156,8 +181,18 @@ permalink: /schedule/
         <thead>
             <tr>
                 <th class="time-col">Time</th>
-                <th id="track1-header" class="track-col">Track 1</th>
-                <th id="track2-header" class="track-col">Track 2</th>
+                <th id="track1-header" class="track-col">Track 1
+                    <div class="mc-profile">
+                        <img src="/assets/2025/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar" />
+                        <a href="https://www.linkedin.com/in/kelsy-luengen-a26209110//" target="_blank" rel="noopener noreferrer" class="mc-name">Kelsy Luengen</a>
+                    </div>
+                </th>
+                <th id="track2-header" class="track-col">Track 2
+                    <div class="mc-profile">
+                        <img src="/assets/2025/avatar/nick.jfif" alt="Nick Young" class="mc-avatar" />
+                        <a href="https://www.linkedin.com/in/youngnick/" target="_blank" rel="noopener noreferrer" class="mc-name">Nick Young</a>
+                    </div>
+                </th>
             </tr>
         </thead>
         <tbody>
