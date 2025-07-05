@@ -77,11 +77,13 @@
   track2:
     title: "Pretty Privilege – How Pleasing Words and Visuals Will Help You Get Ahead."
     presenter: "Abby & Alex"
-    summary: "In an industry full of technical excellence, complex problem solving, and ever-evolving attack methods, reports, presentations, business cases, and other documentation can seem like an afterthought or a boring admin function. However, paying attention to the words and visuals you use when talking to clients, industry peers, or your boss can enhance the impact of your communication and deliver a much more powerful narrative. Our talk will outline why presentation is important, who should care, and how to take your work to the next level, so you can reap the benefits of pretty privilege."
-    bio: "Abby is a Senior GRC specialist at Division 5 and has been in cyber security for 5 years. Her job is to help clients ensure they have safe and resilient environments via risk assessments, tabletop exercises, and Essential Eight audits. In addition to her work at Division 5, Abby has been a university lecturer, is a whiz at PowerPoint, and loves a good board game.
-
-    Alex is a freelance writer and editor across a variety of industries including travel, fashion and lifestyle, and cyber security. Her work in cyber has seen her editing hundreds of reports across offensive, defensive, and strategy assessments. She is passionate about words, loves an Oxford comma, and can’t get enough of romance novels. "
-    link: "#"
+    summary: |
+      In an industry full of technical excellence, complex problem solving, and ever-evolving attack methods, reports, presentations, business cases, and other documentation can seem like an afterthought or a boring admin function. However, paying attention to the words and visuals you use when talking to clients, industry peers, or your boss can enhance the impact of your communication and deliver a much more powerful narrative. Our talk will outline why presentation is important, who should care, and how to take your work to the next level, so you can reap the benefits of pretty privilege.
+    bio: |
+      Abby is a Senior GRC specialist at Division 5 and has been in cyber security for 5 years. Her job is to help clients ensure they have safe and resilient environments via risk assessments, tabletop exercises, and Essential Eight audits. In addition to her work at Division 5, Abby has been a university lecturer, is a whiz at PowerPoint, and loves a good board game.
+      
+      Alex is a freelance writer and editor across a variety of industries including travel, fashion and lifestyle, and cyber security. Her work in cyber has seen her editing hundreds of reports across offensive, defensive, and strategy assessments. She is passionate about words, loves an Oxford comma, and can't get enough of romance novels.
+    link: "https://www.linkedin.com/in/abby-b-ba3582121/"
     duration: "60 mins"
     rowspan: 4
 - time: "11:15"
