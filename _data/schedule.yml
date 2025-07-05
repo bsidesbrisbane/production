@@ -26,6 +26,7 @@
     link: "https://www.linkedin.com/in/thomas-pitt-9ab543124/"
     duration: "30 mins"
     rowspan: 2
+    colspan: 2
 - time: "09:15"
 - time: "09:30"
   track1:
