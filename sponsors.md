@@ -76,15 +76,16 @@ We understand the cybersecurity challenges faced in IT/OT convergence and build 
 <br />
 
 #### Much Needed Coffee
-<div class="coffee-sponsor-notification">
-  <span class="coffee-sponsor-title">Your logo here?</span>
-  <span class="coffee-animated">Coffee Sponsor needed!</span>
-  <span class="coffee-prices">
-    <span class="coffee-old-price">$3,000</span>
-    <span class="coffee-sale-price">$2,000</span>
-  </span>
-</div>
+<br />
+[![Quad-Carbon](/assets/2025/sponsors/quadcarbon-dark.png#sponsor){:#imgQuadCarbon}](https://quad-carbon.com.au/){:target="_blank"}
 <br /><br />
+*Quad Carbon is a leading provider of precision engineering and advanced technology solutions, proudly headquartered in Brisbane. With deep expertise across Corporate, Enterprise, Resources, and Critical Infrastructure sectors, they are a trusted partner to organisations seeking to streamline operations, reduce complexity, and maximise performance.
+
+Their specialist team draws on over 120 years of combined experience across critical infrastructure domains, supporting public and private sector clients with tailored, high-impact outcomes. Through their Advanced Technical Assistance Centre (A-TAC), Quad Carbon delivers expert project execution, operational support, and ongoing management.
+
+With flexible engagement models and a commitment to clear, pragmatic communication, Quad Carbon helps their customers accelerate delivery, minimise complexity, and maintain cost control in today’s rapidly evolving business landscape.*
+<br />
+<br />
 
 #### Prize Sponsors
 <br />
