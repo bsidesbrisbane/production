@@ -129,7 +129,7 @@
 - time: "13:30"
   track1:
     title: "Fortify Your WordPress: Essential Security Strategies to Keep Hackers Out!"
-    presenter: "Adriana"
+    presenter: "Adriana Moreno"
     summary: "This talk covers essential security practices for WordPress, including strong authentication, regular updates, and proactive defenses. We will discuss key security threats like brute force attacks, SQL injection, and malware, and explore advanced protection techniques to keep your site safe."
     bio: "With over a decade of experience in IT development, systems administration, and cyber security, Adriana specialises in managing complex IT projects, ensuring software security, and maintaining system integrity. She is a committed member of the OWASP community, contributing to the continuous improvement of secure software practices."
     link: "https://www.linkedin.com/in/adriana-moreno-dev"
