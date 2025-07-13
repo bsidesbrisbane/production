@@ -4,21 +4,21 @@
 - name: 🍇 About
   link: /about/
   target: _parent
-- name: 🍈 Tickets
-  link: /tickets/
-  target: _parent
-- name: 🍒 Schedule
-  link: /schedule/
-  target: _parent
-- name: 🍌 Sponsors
-  link: /sponsors/
-  target: _parent
-- name: 🍍 CFC
-  link: /cfc/
-  target: _parent
-- name: 🍓 Volunteers
-  link: /volunteers/
-  target: _parent
+#- name: 🍈 Tickets
+#  link: /tickets/
+#  target: _parent
+#- name: 🍒 Schedule
+#  link: /schedule/
+#  target: _parent
+#- name: 🍌 Sponsors
+#  link: /sponsors/
+#  target: _parent
+#- name: 🍍 CFC
+#  link: /cfc/
+#  target: _parent
+#- name: 🍓 Volunteers
+#  link: /volunteers/
+#  target: _parent
 - name: 🥥 Sponsorship
   link: /sponsorship/
   target: _parent
