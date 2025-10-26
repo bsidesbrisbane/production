@@ -4,7 +4,7 @@
       <h2>Navigation</h2>
       <p style="font-size:22px">
         {% for item in site.data.navigation %}
-          <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #777;"{% endif %} target="{{ item.target }}">
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% endif %} target="{{ item.target }}">
             {{ item.name }}
           </a><br /> 
         {% endfor %}
@@ -14,10 +14,13 @@
   <div class="Countdown">
     <h2>Event Details</h2>
     <p style="font-size:18px">
-      2026 Date TBC
+      18 July 2026
+    </p>
+    <p>
+      QUT Gardens Point Campus - Z Block
     </p>
     <p style="font-size:18px">
-      <!-- Time left: <span id="countdown" class="timer"></span> -->
+      <span id="countdown" class="timer"></span>
     </p>
     <br />
     <p>

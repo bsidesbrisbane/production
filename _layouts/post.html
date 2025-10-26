@@ -65,14 +65,20 @@ layout: default
   
   function typeWriter() {
     if (i < text.length) {
-      document.getElementById('animated-post-description').innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
+      const element = document.getElementById('animated-post-description');
+      if (element) {
+        element.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
     }
   }
 
-  document.getElementById('animated-post-description').style.display = 'initial';
-  typeWriter();
+  const animatedElement = document.getElementById('animated-post-description');
+  if (animatedElement) {
+    animatedElement.style.display = 'initial';
+    typeWriter();
+  }
 
   // Image modal
   var $imgs = [];

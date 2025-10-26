@@ -1,5 +1,5 @@
 var startDate = new Date();
-var endDate = new Date("Sat Jul 12 2025 09:00:00 GMT+1000")
+var endDate = new Date("Sat Jul 18 2026 09:00:00 GMT+1000")
 
 var seconds = (endDate.getTime() - startDate.getTime()) / 1000;
 
@@ -15,12 +15,24 @@ function timer() {
   function pad(n) {
     return (n < 10 ? "0" + n : n);
   }
-  document.getElementById('countdown').innerHTML = pad(days) + "d " + pad(hours) + "h " + pad(minutes) + "m " + pad(remainingSeconds) + "s";
-  if (seconds == 0) {
-    clearInterval(countdownTimer);
-    document.getElementById('countdown').innerHTML = "It's show time!";
+  
+  var countdownElement = document.getElementById('countdown');
+  if (countdownElement) {
+    countdownElement.innerHTML = pad(days) + "d " + pad(hours) + "h " + pad(minutes) + "m " + pad(remainingSeconds) + "s";
+    
+    if (seconds == 0) {
+      clearInterval(countdownTimer);
+      countdownElement.innerHTML = "It's show time!";
+    } else {
+      seconds--;
+    }
   } else {
-    seconds--;
+    // If countdown element doesn't exist, just decrement seconds
+    if (seconds > 0) {
+      seconds--;
+    } else {
+      clearInterval(countdownTimer);
+    }
   }
 }
 var countdownTimer = setInterval('timer()', 1000);

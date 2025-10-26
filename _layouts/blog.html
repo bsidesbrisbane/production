@@ -25,9 +25,9 @@ layout: default
             </div>
             {% endif %}
             {% if site.dash.date_format %}
-              {{ post.date | date: site.dash.date_format }}
+              <span class="post-date-text">{{ post.date | date: site.dash.date_format }}</span>
             {% else %}
-              {{ post.date | date: "%b %-d, %Y" }}
+              <span class="post-date-text">{{ post.date | date: "%b %-d, %Y" }}</span>
             {% endif %}
             {% if site.show_excerpts == true %}
               <div class="post-excerpt">

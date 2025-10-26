@@ -1,24 +1,35 @@
-$color-background-dark: #1E2227;
-$color-background-darker: #15171A;
-$color-foreground: #DAE4ED;
+// New Color Palette - 5 Colors
+// Deep Elderberry (#06031E), Regal Purple (#38324E), Biloba Flower (#AE9CC4), Rose Bud (#F7A899), Bold Orange (#FD632F)
+
+$color-background-dark: #06031E;  // Deep Elderberry for dark backgrounds
+$color-background-darker: #040218;  // Even darker shade
+$color-foreground: #AE9CC4;  // Biloba Flower for light text
 $color-foreground-dark: lighten($color-background-dark, 30%);
 
-$color-background-light: #DAE4ED;
+$color-background-light: #F7A899;  // Rose Bud for light backgrounds
 $color-background-lighter: lighten($color-background-light, 7%);
-$color-foreground-dark: #1E2227;
-$color-foreground-darker: #15171A;
+$color-foreground-dark: #06031E;  // Deep Elderberry for dark text
+$color-foreground-darker: #040218;
 
-$color-pink: #F24784;
-$color-red: #FC4957;
-$color-orange: #EA9D53;
-$color-yellow: #FCBC28;
-$color-bright-yellow: #FFFF00;
-$color-teal: #4BC997;
-$color-green: #50BD6A;
-$color-cyan: #4FC1E4;
-$color-blue: #637AFE;
-$color-indigo: #6775C4;
-$color-purple: #8E59D7;
+// New 5-Color Palette
+$color-deep-elderberry: #06031E;  // Primary dark color
+$color-regal-purple: #38324E;  // Secondary dark purple
+$color-biloba-flower: #AE9CC4;  // Light purple/lavender
+$color-rose-bud: #F7A899;  // Light pink/coral
+$color-bold-orange: #FD632F;  // Bright orange accent
+
+// Legacy color mappings for compatibility
+$color-pink: $color-rose-bud;
+$color-red: darken($color-bold-orange, 10%);
+$color-orange: $color-bold-orange;
+$color-yellow: lighten($color-bold-orange, 15%);
+$color-bright-yellow: lighten($color-bold-orange, 25%);
+$color-teal: mix($color-biloba-flower, $color-bold-orange, 70%);
+$color-green: mix($color-regal-purple, $color-bold-orange, 60%);
+$color-cyan: lighten($color-biloba-flower, 20%);
+$color-blue: $color-regal-purple;
+$color-indigo: darken($color-regal-purple, 10%);
+$color-purple: $color-biloba-flower;
 
 .color-pink { color: $color-pink !important; }
 .color-red { color: $color-red !important; }
@@ -32,6 +43,13 @@ $color-purple: #8E59D7;
 .color-indigo { color: $color-indigo !important; }
 .color-purple { color: $color-purple !important; }
 
+// New 5-Color Palette classes
+.color-deep-elderberry { color: $color-deep-elderberry !important; }
+.color-regal-purple { color: $color-regal-purple !important; }
+.color-biloba-flower { color: $color-biloba-flower !important; }
+.color-rose-bud { color: $color-rose-bud !important; }
+.color-bold-orange { color: $color-bold-orange !important; }
+
 .color-pink-hover:hover { color: $color-pink !important; }
 .color-red-hover:hover { color: $color-red !important; }
 .color-orange-hover:hover { color: $color-orange !important; }
@@ -42,3 +60,10 @@ $color-purple: #8E59D7;
 .color-blue-hover:hover { color: $color-blue !important; }
 .color-indigo-hover:hover { color: $color-indigo !important; }
 .color-purple-hover:hover { color: $color-purple !important; }
+
+// New 5-Color Palette hover classes
+.color-deep-elderberry-hover:hover { color: $color-deep-elderberry !important; }
+.color-regal-purple-hover:hover { color: $color-regal-purple !important; }
+.color-biloba-flower-hover:hover { color: $color-biloba-flower !important; }
+.color-rose-bud-hover:hover { color: $color-rose-bud !important; }
+.color-bold-orange-hover:hover { color: $color-bold-orange !important; }
