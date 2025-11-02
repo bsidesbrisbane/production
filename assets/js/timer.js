@@ -1,10 +1,11 @@
 var startDate = new Date();
-var endDate = new Date("Sat Jul 18 2026 09:00:00 GMT+1000")
+var endDate = new Date("Sat Jul 04 2026 09:00:00 GMT+1000")
 
 var seconds = (endDate.getTime() - startDate.getTime()) / 1000;
 
 var upgradeTime = 16569600;
 var secondsss = upgradeTime;
+
 function timer() {
   var days        = Math.floor(seconds/24/60/60);
   var hoursLeft   = Math.floor((seconds) - (days*86400));
