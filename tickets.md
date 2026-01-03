@@ -8,4 +8,4 @@ permalink: /tickets/
 
 <!-- Add the following to your website's HTML. -->
 <script src="https://events.humanitix.com/scripts/widgets/inline.js" type="module"></script>
-<iframe data-checkout="bsides-brisbane-2025"></iframe>
+<iframe data-checkout="bsides-brisbane-2026"></iframe>
