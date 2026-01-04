@@ -13,7 +13,7 @@
 #- name: 🤝 Sponsors
 #  link: /sponsors/
 #  target: _parent
-- name: 📢 CFC
+- name: 📢 Call for Content
   link: /cfc/
   target: _parent
 #- name: 👥 Volunteers
@@ -25,6 +25,6 @@
 - name: 📰 Recent Posts
   link: /recent/
   target: _parent
-- name: ⚖️ Conduct
+- name: ⚖️ Code of Conduct
   link: /conduct/
   target: _parent
