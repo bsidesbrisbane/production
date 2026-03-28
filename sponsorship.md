@@ -34,10 +34,20 @@ To qualify for this initiative, your business must:
 
 There are only **3 available slots**, so we encourage eligible homegrown businesses to apply promptly and take advantage of this exclusive opportunity to gain greater visibility, engage with industry professionals, and contribute to the broader cyber security conversation.
 
+## Prospectus
+Don't forget to [download the 2026 prospectus here!](/assets/2026/sponsorship/2026_bne_prospectus.pdf){:target="_blank"}
+
 ## Contact us
 Our current sponsorship pack can be downloaded above.
 
 If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email sponsorship@bsidesbrisbane.com to register your interest and find out more.
 
-## Prospectus
-Don't forget to [download the 2026 prospectus here!](/assets/2026/sponsorship/2026_bne_prospectus.pdf){:target="_blank"}
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: "46097576",
+    formId: "545b3c5d-b7d9-44fe-a557-74cc43dd9487",
+    region: "na1"
+  });
+</script>
