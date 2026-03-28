@@ -40,9 +40,9 @@ Don't forget to [download the 2026 prospectus here!](/assets/2026/sponsorship/20
 ## Contact us
 Our current sponsorship pack can be downloaded above.
 
-If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email sponsorship@bsidesbrisbane.com to register your interest and find out more.
+If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email [sponsorship@bsidesbrisbane.com](mailto:sponsorship@bsidesbrisbane.com) to register your interest and find out more, or simply fill out the form below and someone will be in contact.
 
-
+### Contact form
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
