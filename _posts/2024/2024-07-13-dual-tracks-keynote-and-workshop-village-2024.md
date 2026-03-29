@@ -49,37 +49,37 @@ Thank you to everyone who spoke. You built the heart of the conference.
 
 Below are the sponsors. Thank you, all of you, for backing **BSides Brisbane 2024**.
 
-![image](/assets/2024/qgov-dark.png#sponsor)
+![image](/assets/2024/sponsors/qgov-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/mcgrathnicol-dark.svg#sponsor)
+![image](/assets/2024/sponsors/mcgrathnicol-dark.svg#sponsor)
 <br /><br />
 
-![image](/assets/2024/sekuro-dark.png#sponsor)
+![image](/assets/2024/sponsors/sekuro-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/payatu-dark.png#sponsor)
+![image](/assets/2024/sponsors/payatu-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/cybercx-dark.png#sponsor)
+![image](/assets/2024/sponsors/cybercx-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/crest-dark.png#sponsor)
+![image](/assets/2024/sponsors/crest-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/deiterate-dark.png#sponsor)
+![image](/assets/2024/sponsors/deiterate-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/netskope-dark.png#sponsor)
+![image](/assets/2024/sponsors/netskope-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/pa-dark.png#sponsor)
+![image](/assets/2024/sponsors/pa-dark.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/cybersec_people.png#sponsor)
+![image](/assets/2024/sponsors/cybersec_people.png#sponsor)
 <br /><br />
 
-![image](/assets/2024/talenza-dark.svg#sponsor)
+![image](/assets/2024/sponsors/talenza-dark.svg#sponsor)
 <br /><br />
 
 ## Photos from the day

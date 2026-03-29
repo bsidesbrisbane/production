@@ -4,100 +4,49 @@ title: Sponsors
 permalink: /sponsors/
 ---
 
-## This years sponsors
+## This year's sponsors
 We're still looking for sponsors to help run BSides Brisbane, head over to our [sponsorship page](/sponsorship/) for more information and a copy of our prospectus.
 
 ### Platinum Tier
-<br />
-[![Queensland Government](/assets/2025/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.qld.gov.au/){:target="_blank"}
-<br /><br />
-*The newly formed Department of Customer Services, Open Data and Small and Family Business (CDSB) is responsible for driving the Queensland Government's priorities in digital technology, intellectual property and service delivery. They're also responsible for small and family business advocacy, resilience and economic capacity and potential.*
-<br />
+
+{% include sponsor-gap-cta.html label="Temporal gap · Platinum tier" sub="The flagship tier is still showing interference. Lock in Platinum and help us underwrite the core of the day." %}
 
 ### Gold Tier
-<br />
-[![EEHA Automation](/assets/2025/sponsors/eeha-dark.png#sponsor){:#imgEEHA}](https://eehaa.com.au/){:target="_blank"}
-<br /><br />
-*EEHA Automation is a specialist provider of industrial control and automation solutions, with deep expertise across mining, manufacturing, utilities, and critical infrastructure. Our team delivers secure, scalable systems that integrate PLCs, SCADA, IIoT, and advanced networking to ensure reliable and efficient operation of industrial assets.
-<br /><br />
-We understand the cybersecurity challenges faced in IT/OT convergence and build resilient systems with security at the core. Through strategic partnerships with vendors like Fortinet, Microsoft, and Siemens, EEHA helps clients safeguard their industrial environments while maintaining performance and compliance.*
-<br />
+
+{% include sponsor-gap-cta.html label="Temporal gap · Gold tier" sub="This band is wide open. Gold support keeps programmes, swag, and community access on track across timelines." %}
 
 ### Silver Tier
 <br />
-[![BLARGE](/assets/2025/sponsors/blarge-dark.png#sponsor){:#imgBLarge}](https://www.blarge.io/){:target="_blank"}
+[![Sekuro](/assets/2026/sponsors/sekuro-dark.png#sponsor){:#imgSekuro}](https://sekuro.io/){:target="_blank"}
 <br /><br />
-*BLARGE is a specialist Cyber Security Consultancy dedicated to protecting Australian Critical Infrastructure. Leveraging world-class methodologies and frameworks, they draw insights from the best to help businesses manage cyber security risks effectively. With deep expertise and a commitment to excellence, their team is equipped to guide organisations through complex security challenges and safeguard their most critical assets.*
-<br />
-<br />
-[![Flame Tree Cyber](/assets/2025/sponsors/flametree-dark.png#sponsor){:#imgFlameTree}](https://flametreecyber.com.au/){:target="_blank"}
+<i>Sekuro is a cybersecurity and digital resilience provider, with offices across Sydney, Melbourne, Brisbane, Adelaide, and Perth. They bring deep expertise across governance, risk and compliance, offensive security, cloud and platform engineering, and 24/7 managed security services. Trusted by organisations across enterprise, government, finance, and critical infrastructure, Sekuro works with clients to embed security into their digital transformation journey and build long-term organisational resilience.</i>
 <br /><br />
-*Flame Tree Cyber provides comprehensive cyber security solutions designed for government agencies, critical infrastructure providers, educational institutions, and small to medium businesses. Their approach prioritises practical security measures that strengthen resilience, ensure compliance, and establish robust defences against evolving cyber threats. Proudly Australian owned and operated, their name and branding are inspired by the strength and significance of the iconic flame tree.*
-<br />
-<br />
-[![Packaged IT Services](/assets/2025/sponsors/packagedit-dark.png#sponsor){:#imgPackagedIT}](https://www.packagedit.cloud/){:target="_blank"}
-<br /><br />
-*Packaged IT Services is an IT and Cyber Security Managed Service and Consulting provider. We provide monthly priced services, which scale up and down with your business. We have over 35 years of IT experience, which we use to provide modern, cost-effective IT services for your business needs.*
-<br />
-<br />
-[![Rapid7](/assets/2025/sponsors/rapid7-dark.png#sponsor){:#imgRapid7}](https://www.rapid7.com/){:target="_blank"}
-<br /><br />
-*Rapid7 is creating a more secure digital future for all by helping organisations strengthen their security programs in the face of accelerating digital transformation. Our portfolio of best-in-class solutions empowers security professionals to manage risk and eliminate threats across the entire threat landscape from apps to the cloud to traditional infrastructure to the dark web. We foster open source communities and cutting-edge research–using these insights to optimise our products and arm the global security community with the latest in attacker methodology. Trusted by more than 11,000 customers worldwide, our industry-leading solutions and services help businesses stay ahead of attackers, ahead of the competition, and future-ready for what's next.*
-<br />
-
 
 
 ### Bronze Tier
-<br />
-[![Decipher Bureau](/assets/2025/sponsors/decipher-dark.gif#sponsor){:#imgDecipher}](https://www.decipherbureau.com/){:target="_blank"}
-<br /><br />
-*Decipher Bureau offer recruitment and professional services which can be contingent or retained depending on the needs and requirements of our client's business. Working collaboratively with some of the world's leading cyber security teams they will decipher the noise and deliver to exacting standards.*
-<br />
-<br />
-[![Tarian Cyber](/assets/2025/sponsors/tarian-dark.svg#sponsor){:#imgTarian}](https://tarian.com.au/){:target="_blank"}
-<br /><br />
-*Tarian is a Brisbane-based Managed Detection and Response (MDR) house founded in 2022. Utilising the extensive experience from their past, they have developed a portfolio of next-generation Managed Security Services that are hyper-focused on the utilisation of the client's existing investments.*
-<br />
+
+{% include sponsor-gap-cta.html label="Temporal gap · Bronze tier" sub="This slice of the timeline is still open. Help us lock in Bronze and keep the conference within reach for everyone." %}
 
 ### Additional Supporters
 
 #### Electronic Badge and Lanyards
-<br />
-[![Division 5](/assets/2025/sponsors/d5-dark.png#sponsor){:#imgD5}](https://www.division5.io/){:target="_blank"}
-<br /><br />
-*The Division 5 team provides expert strategy, testing, and attack simulation to help you prepare for cyber attacks before they happen.*
-<br />
+
+{% include sponsor-gap-cta.html label="Temporal gap · Badge & lanyards" sub="Everyone needs a proper credential in this timeline. Back badges and lanyards and we will put your name on the journey." %}
 
 #### Venue
 <br />
 [![QUT](/assets/2025/sponsors/qut-dark.png#sponsor){:#imgQUT}](https://www.qut.edu.au/){:target="_blank"}
 <br /><br />
-*QUT (Queensland University of Technology) is a highly successful Australian university with an applied emphasis in courses and research. Based in Brisbane, the university has a global outlook which includes 50,000 students.*
-<br />
+*QUT (Queensland University of Technology) is a major public research university proudly based in Brisbane, with two inner-city campuses at Gardens Point and Kelvin Grove. Known as "a university for the real world," QUT serves more than 50,000 students across disciplines spanning business, engineering, technology, health, law, and creative industries. With strong ties to industry and government, QUT is recognised for applied research and producing work-ready graduates equipped for a rapidly changing world.*
+<br /><br />
 
 #### Much Needed Coffee
 <br />
-[![Quad-Carbon](/assets/2025/sponsors/quadcarbon-dark.png#sponsor){:#imgQuadCarbon}](https://quad-carbon.com.au/){:target="_blank"}
+[![Sekuro](/assets/2026/sponsors/sekuro-dark.png#sponsor){:#imgSekuro}](https://sekuro.io/){:target="_blank"}
 <br /><br />
-<i>Quad Carbon is a leading provider of precision engineering and advanced technology solutions, proudly headquartered in Brisbane. With deep expertise across Corporate, Enterprise, Resources, and Critical Infrastructure sectors, they are a trusted partner to organisations seeking to streamline operations, reduce complexity, and maximise performance.</i>
-
-<i>Their specialist team draws on over 120 years of combined experience across critical infrastructure domains, supporting public and private sector clients with tailored, high-impact outcomes. Through their Advanced Technical Assistance Centre (A-TAC), Quad Carbon delivers expert project execution, operational support, and ongoing management.</i>
-
-<i>With flexible engagement models and a commitment to clear, pragmatic communication, Quad Carbon helps their customers accelerate delivery, minimise complexity, and maintain cost control in today’s rapidly evolving business landscape.</i>
-<br />
-<br />
+<i>Sekuro is a cybersecurity and digital resilience provider, with offices across Sydney, Melbourne, Brisbane, Adelaide, and Perth. They bring deep expertise across governance, risk and compliance, offensive security, cloud and platform engineering, and 24/7 managed security services. Trusted by organisations across enterprise, government, finance, and critical infrastructure, Sekuro works with clients to embed security into their digital transformation journey and build long-term organisational resilience.</i>
+<br /><br />
 
 #### Prize Sponsors
-<br />
-[![CyberCX](/assets/2025/sponsors/cybercx-dark.png#sponsor){:#imgCyberCX}](https://cybercx.com.au/){:target="_blank"}
-<br /><br />
-*CyberCX is the leading provider of professional cyber security and cloud services across Australia and New Zealand. With a workforce of over 1,400 professionals, they are a trusted partner to private and public sector organisations helping their customers confidently manage cyber risk, respond to incidents and build resilience in an increasingly complex and challenging threat environment.*
-<br />
-<br />
-[![CREST](/assets/2025/sponsors/crest-dark.png#sponsor){:#imgCREST}](https://www.crest-approved.org/){:target="_blank"}
-<br /><br />
-*CREST is an international not-for-profit, membership body representing the global cyber security industry. Since 2006 they have been leading the cyber security community to collectively raise the standards of cyber service providers and professionals, quality assuring the sector and in turn providing confidence to the buying community, government and regulators.*
-<br />
 
-<br /><br />
-
+{% include sponsor-gap-cta.html label="Temporal gap · Prize sponsors" sub="CTF wins hit harder with real prizes. Help us stock the vault for teams who put in the hours across the day." %}

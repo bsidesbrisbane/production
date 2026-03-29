@@ -217,3 +217,239 @@ body {
         color: t('foreground-color');
     }
 }
+
+// --- Sponsors page: time travel sponsor gap CTA ---
+@keyframes timetravel-gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes timetravel-flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0.88;
+  }
+  93% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0.94;
+  }
+}
+
+@keyframes timetravel-ping {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.5;
+  }
+  70% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+@keyframes timetravel-chroma {
+  0%,
+  88%,
+  100% {
+    text-shadow:
+      0.06em 0 rgba(0, 245, 255, 0.45),
+      -0.06em 0 rgba(255, 42, 109, 0.4);
+  }
+  90% {
+    text-shadow:
+      -0.1em 0 rgba(0, 245, 255, 0.55),
+      0.1em 0 rgba(255, 42, 109, 0.5);
+  }
+  92% {
+    text-shadow:
+      0.04em 0 rgba(255, 184, 71, 0.6),
+      -0.04em 0 rgba(0, 245, 255, 0.45);
+  }
+}
+
+.timetravel-sponsor-box {
+  position: relative;
+  margin: 1.25rem 0 2rem;
+  padding: 1.5rem 1.35rem 1.65rem;
+  border-radius: 6px;
+  overflow: hidden;
+  animation: timetravel-flicker 5s ease-in-out infinite;
+
+  @include themed() {
+    background: linear-gradient(
+      135deg,
+      rgba(122, 93, 157, 0.12) 0%,
+      rgba(254, 156, 123, 0.08) 50%,
+      rgba(0, 245, 255, 0.06) 100%
+    );
+    border: 1px solid rgba(254, 156, 123, 0.35);
+    box-shadow:
+      0 0 0 1px rgba(0, 245, 255, 0.12),
+      0 4px 28px rgba(122, 93, 157, 0.15);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.04) 2px,
+      rgba(0, 0, 0, 0.04) 4px
+    );
+    pointer-events: none;
+    opacity: 0.35;
+  }
+}
+
+.theme--light .timetravel-sponsor-box::before {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+}
+
+.timetravel-sponsor-cta {
+  position: relative;
+  z-index: 1;
+  display: block;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transform: none !important;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    transform: none !important;
+    border-bottom: none !important;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #fe9c7b;
+    outline-offset: 4px;
+    border-radius: 6px;
+  }
+}
+
+.timetravel-sponsor-ping {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto 0.75rem;
+  border-radius: 50%;
+  background: #00f5ff;
+  box-shadow: 0 0 12px rgba(0, 245, 255, 0.7);
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 245, 255, 0.5);
+    animation: timetravel-ping 2.4s ease-out infinite;
+  }
+}
+
+.timetravel-sponsor-label {
+  display: block;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+
+  @include themed() {
+    color: t('foreground-color');
+    opacity: 0.65;
+  }
+}
+
+.timetravel-sponsor-headline {
+  display: block;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-weight: 700;
+  font-size: clamp(1.65rem, 5vw, 2.35rem);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(
+    90deg,
+    #ffb347 0%,
+    #ffd700 18%,
+    #00f5ff 42%,
+    #7a5d9d 58%,
+    #ff2a6d 78%,
+    #fe9c7b 100%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation:
+    timetravel-gradient-shift 6s ease infinite,
+    timetravel-chroma 5s ease-in-out infinite;
+}
+
+.timetravel-sponsor-sub {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  max-width: 26rem;
+  margin: 0 auto 0.65rem;
+
+  @include themed() {
+    color: t('foreground-color');
+    opacity: 0.85;
+  }
+}
+
+.timetravel-sponsor-linkhint {
+  display: inline-block;
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: #fe9c7b;
+  font-weight: 600;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.timetravel-sponsor-cta:hover .timetravel-sponsor-linkhint,
+.timetravel-sponsor-cta:focus .timetravel-sponsor-linkhint {
+  color: #7a5d9d;
+  text-shadow: 0 0 12px rgba(0, 245, 255, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timetravel-sponsor-box,
+  .timetravel-sponsor-headline,
+  .timetravel-sponsor-ping::after {
+    animation: none !important;
+  }
+
+  .timetravel-sponsor-headline {
+    background-position: 50% 50%;
+  }
+}
