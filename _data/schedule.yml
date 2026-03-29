@@ -28,7 +28,7 @@
   track2:
 - time: "09:15"
   track1:
-    title: "Keynote: [Talk Title TBC]"
+    title: "Keynote"
     presenter: "Joe Grand"
     summary: "Keynote presentation details to be confirmed."
     bio: "Joe Grand is an American electrical engineer, inventor and hardware hacker known in the hacker community as Kingpin. He achieved mainstream popularity after his appearance on Prototype This!, a Discovery Channel television show. He specialises in reverse engineering and finding security flaws in hardware devices. Grand has testified before the U.S. Senate Committee on Governmental Affairs regarding government and homeland computer security under his internet handle, Kingpin. Learn more at <a href='https://grandideastudio.com/' target='_blank' rel='noopener noreferrer'>Grand Idea Studio</a> and <a href='https://offspec.io/' target='_blank' rel='noopener noreferrer'>offspec.io</a>."
@@ -40,6 +40,24 @@
 - time: "09:30"
 - time: "09:45"
 - time: "10:00"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
 - time: "10:15"
 - time: "10:30"
   track1:
@@ -51,9 +69,45 @@
     colspan: 2
   track2:
 - time: "10:45"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "45 mins"
+    rowspan: 3
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "45 mins"
+    rowspan: 3
+    colspan: 1
 - time: "11:00"
 - time: "11:15"
 - time: "11:30"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
 - time: "11:45"
 - time: "12:00"
   track1:
@@ -68,10 +122,46 @@
 - time: "12:30"
 - time: "12:45"
 - time: "13:00"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "60 mins"
+    rowspan: 4
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "60 mins"
+    rowspan: 4
+    colspan: 1
 - time: "13:15"
 - time: "13:30"
 - time: "13:45"
 - time: "14:00"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
 - time: "14:15"
 - time: "14:30"
   track1:
@@ -83,12 +173,66 @@
     colspan: 2
   track2:
 - time: "14:45"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "60 mins"
+    rowspan: 4
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "60 mins"
+    rowspan: 4
+    colspan: 1
 - time: "15:00"
 - time: "15:15"
 - time: "15:30"
 - time: "15:45"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "30 mins"
+    rowspan: 2
+    colspan: 1
 - time: "16:00"
 - time: "16:15"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "45 mins"
+    rowspan: 3
+    colspan: 1
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "45 mins"
+    rowspan: 3
+    colspan: 1
 - time: "16:30"
 - time: "16:45"
 - time: "17:00"

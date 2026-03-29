@@ -303,8 +303,8 @@ permalink: /schedule/
                     </td>
                 {% endif %}
 
-                {% comment %} Logic for Track 2 {% endcomment %}
-                {% if slot.track1.colspan == nil %}
+                {% comment %} Logic for Track 2: show second column whenever track 1 is not full-width (colspan 2). Omitting colspan or using colspan 1 is dual-track mode. {% endcomment %}
+                {% unless slot.track1.colspan == 2 %}
                     {% if slot.track2.title %}
                         {% assign talk = slot.track2 %}
                         <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
@@ -352,7 +352,7 @@ permalink: /schedule/
                     {% elsif slot.track2 %}
                         <td></td>
                     {% endif %}
-                {% endif %}
+                {% endunless %}
             </tr>
             {% endfor %}
         </tbody>

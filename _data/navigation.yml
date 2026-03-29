@@ -7,9 +7,9 @@
 - name: 🎫 Tickets
   link: /tickets/
   target: _parent
-#- name: ⏰ Schedule
-#  link: /schedule/
-#  target: _parent
+- name: ⏰ Schedule
+  link: /schedule/
+  target: _parent
 - name: 🤝 Sponsors
   link: /sponsors/
   target: _parent
