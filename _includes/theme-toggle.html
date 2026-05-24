@@ -36,26 +36,8 @@ function activateDarkTheme() {
 
     // Update here for when dark theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
-        document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-dark.png#sponsor";
         document.getElementById("imgBLarge").style='filter:invert(100%)';
-        document.getElementById("imgDecipher").style='filter:invert(0%)';
-        document.getElementById("imgD5").style='filter:invert(0%)';
-        document.getElementById("imgQUT").style='filter:invert(0%)';
-        document.getElementById("imgTarian").style='filter:invert(0%)';
-        document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-dark.png#sponsor";
-        document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-dark.png#sponsor";
-        document.getElementById("imgEEHA").src="/assets/2025/sponsors/eeha-dark.png#sponsor";
-        document.getElementById("imgRapid7").src="/assets/2025/sponsors/rapid7-dark.png#sponsor";
-        document.getElementById("imgCyberCX").src="/assets/2025/sponsors/cybercx-dark.png#sponsor";
-        document.getElementById("imgCREST").src="/assets/2025/sponsors/crest-dark.png#sponsor";
-        document.getElementById("imgCREST").style='filter:invert(0%)';
-        document.getElementById("imgQuadCarbon").src="/assets/2025/sponsors/quadcarbon-dark.png#sponsor";
-    }
-
-    if (window.location.href.indexOf("ctf-rego") > -1) {
-        document.getElementById("tm").style.backgroundColor = "#15171A";
-        document.getElementById("cpt").style.backgroundColor = "#15171A";
-        document.getElementById("mbr").style.backgroundColor = "#15171A";
+        document.getElementById("imgSekuro").style='filter:invert(100%)';
     }
 }
 
@@ -69,27 +51,9 @@ function activateLightTheme() {
 
     // Update here for when light theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
-        document.getElementById("imgQGov").src="/assets/2025/sponsors/qgov-light.png#sponsor";
         document.getElementById("imgBLarge").style='filter:invert(0%)';
-        document.getElementById("imgFlameTree").src="/assets/2025/sponsors/flametree-light.png#sponsor";
-        document.getElementById("imgDecipher").style='filter:invert(100%)';
-        document.getElementById("imgD5").style='filter:invert(100%)';
-        document.getElementById("imgTarian").style='filter:invert(100%)';
-        document.getElementById("imgQUT").style='filter:invert(0%)';
-        document.getElementById("imgCyberCX").src="/assets/2025/sponsors/cybercx-dark.png#sponsor";
-        document.getElementById("imgCREST").style='filter:invert(100%)';
-        document.getElementById("imgPackagedIT").src="/assets/2025/sponsors/packagedit-light.png#sponsor";
-        document.getElementById("imgEEHA").src="/assets/2025/sponsors/eeha-light.png#sponsor";
-        document.getElementById("imgRapid7").src="/assets/2025/sponsors/rapid7-light.png#sponsor";
-        document.getElementById("imgQuadCarbon").src="/assets/2025/sponsors/quadcarbon-light.png#sponsor";
+        document.getElementById("imgSekuro").style='filter:invert(0%)';
     }
-
-    if (window.location.href.indexOf("ctf-rego") > -1) {
-        document.getElementById("tm").style.backgroundColor = "#DAE4ED";
-        document.getElementById("cpt").style.backgroundColor = "#DAE4ED";
-        document.getElementById("mbr").style.backgroundColor = "#DAE4ED";
-    }
-
 }
 
 if (theme === "dark") {

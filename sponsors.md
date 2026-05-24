@@ -12,14 +12,18 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 {% include sponsor-gap-cta.html label="Temporal gap · Platinum tier" sub="The flagship tier is still showing interference. Lock in Platinum and help us underwrite the core of the day." %}
 
 ### Gold Tier
+<br />
+[![Queensland Government](/assets/2026/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.forgov.qld.gov.au/information-technology/cyber-security/about-the-cyber-security-unit){:target="_blank"}
+<br /><br />
+*The Queensland Government Cyber Security Unit (CSU) is the central body responsible for uplifting cyber security across Queensland's public sector. The CSU sets whole-of-government cyber security policy and guidance, manages shared security services, and leads incident response coordination through the Cyber Defence Centre. The unit works across government agencies, statutory bodies, and local councils to build capability, strengthen governance, and develop the broader cyber security workforce. Guided by a vision of resilience through capability and connection, the CSU plays a lead role in securing the digital services that Queenslanders rely on.*
+<br /><br />
 
-{% include sponsor-gap-cta.html label="Temporal gap · Gold tier" sub="This band is wide open. Gold support keeps programmes, swag, and community access on track across timelines." %}
 
 ### Silver Tier
 <br />
 [![Sekuro](/assets/2026/sponsors/sekuro-dark.png#sponsor){:#imgSekuro}](https://sekuro.io/){:target="_blank"}
 <br /><br />
-<i>Sekuro is a cybersecurity and digital resilience provider, with offices across Sydney, Melbourne, Brisbane, Adelaide, and Perth. They bring deep expertise across governance, risk and compliance, offensive security, cloud and platform engineering, and 24/7 managed security services. Trusted by organisations across enterprise, government, finance, and critical infrastructure, Sekuro works with clients to embed security into their digital transformation journey and build long-term organisational resilience.</i>
+*Sekuro is a cybersecurity and digital resilience provider, with offices across Sydney, Melbourne, Brisbane, Adelaide, and Perth. They bring deep expertise across governance, risk and compliance, offensive security, cloud and platform engineering, and 24/7 managed security services. Trusted by organisations across enterprise, government, finance, and critical infrastructure, Sekuro works with clients to embed security into their digital transformation journey and build long-term organisational resilience.*
 <br /><br />
 
 
@@ -29,9 +33,13 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 ### Additional Supporters
 
-#### Electronic Badge and Lanyards
+#### Electronic Badge
+<br />
+[![BLarge](/assets/2025/sponsors/qut-dark.png#sponsor){:#imgBLarge}](https://www.blarge.io/){:target="_blank"}
+<br /><br />
+*BLARGE is a specialist cyber security consultancy focused on Australian critical infrastructure and operational technology. Based in Australia, BLARGE works with organisations to cut through the complexity of cyber security, drawing on world-class methodologies and frameworks to help clients manage risk with confidence. Their team brings hands-on experience across cyber security risk management, architecture, and program advisory, helping organisations navigate challenges and build practical, effective security programs.*
+<br /><br />
 
-{% include sponsor-gap-cta.html label="Temporal gap · Badge & lanyards" sub="Everyone needs a proper credential in this timeline. Back badges and lanyards and we will put your name on the journey." %}
 
 #### Venue
 <br />
