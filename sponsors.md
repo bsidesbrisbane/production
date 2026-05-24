@@ -35,7 +35,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 #### Electronic Badge
 <br />
-[![BLarge](/assets/2025/sponsors/qut-dark.png#sponsor){:#imgBLarge}](https://www.blarge.io/){:target="_blank"}
+[![BLARGE](/assets/2026/sponsors/blarge-dark.png#sponsor){:#imgBLarge}](https://www.blarge.io/){:target="_blank"}
 <br /><br />
 *BLARGE is a specialist cyber security consultancy focused on Australian critical infrastructure and operational technology. Based in Australia, BLARGE works with organisations to cut through the complexity of cyber security, drawing on world-class methodologies and frameworks to help clients manage risk with confidence. Their team brings hands-on experience across cyber security risk management, architecture, and program advisory, helping organisations navigate challenges and build practical, effective security programs.*
 <br /><br />
@@ -43,7 +43,7 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 #### Venue
 <br />
-[![QUT](/assets/2025/sponsors/qut-dark.png#sponsor){:#imgQUT}](https://www.qut.edu.au/){:target="_blank"}
+[![QUT](/assets/2026/sponsors/qut-dark.png#sponsor){:#imgQUT}](https://www.qut.edu.au/){:target="_blank"}
 <br /><br />
 *QUT (Queensland University of Technology) is a major public research university proudly based in Brisbane, with two inner-city campuses at Gardens Point and Kelvin Grove. Known as "a university for the real world," QUT serves more than 50,000 students across disciplines spanning business, engineering, technology, health, law, and creative industries. With strong ties to industry and government, QUT is recognised for applied research and producing work-ready graduates equipped for a rapidly changing world.*
 <br /><br />
