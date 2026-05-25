@@ -26,6 +26,14 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 *Sekuro is a cybersecurity and digital resilience provider, with offices across Sydney, Melbourne, Brisbane, Adelaide, and Perth. They bring deep expertise across governance, risk and compliance, offensive security, cloud and platform engineering, and 24/7 managed security services. Trusted by organisations across enterprise, government, finance, and critical infrastructure, Sekuro works with clients to embed security into their digital transformation journey and build long-term organisational resilience.*
 <br /><br />
 
+[![PackagedIT](/assets/2026/sponsors/packagedit-dark.png#sponsor){:#PackagedIT}](https://www.packagedit.com.au/){:target="_blank"}
+<br /><br />
+*Packaged IT is a Queensland-based managed IT and cyber security consultancy serving businesses across Brisbane and the Gold Coast. Founded in 2023, they offer managed IT services, cyber security, IT architecture, compliance, and virtual IT leadership, with security embedded within everything they provide by default. Packaged IT holds SMB1001 Gold Certification, and is final audit stages for ISO27001 and ISO27701, as part of an ongoing commitment to the highest security standards for their clients.
+<br /><br />
+Packaged IT is a Silver Sponsor of BSides Brisbane, supported through our local Queensland business programme, recognising them as one of a small number of homegrown businesses we're proud to elevate within the Queensland cyber security community.*
+<br /><br />
+
+
 
 ### Bronze Tier
 
