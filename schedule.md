@@ -130,7 +130,7 @@ permalink: /schedule/
         border-bottom: 1px solid #f24784;
     }
 
-    .popup-summary.popup-track2 h3 {
+    .popup-summary.popup-track2 h3 { 
         border-bottom: 1px solid rgba(2, 245, 255, 1);
     }
     .popup-section {
@@ -241,14 +241,14 @@ permalink: /schedule/
                 <th class="time-col">Time</th>
                 <th id="track1-header" class="track-col">Track 1
                     <div class="mc-profile track1">
-                        <img src="/assets/2025/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar track1" />
-                        <span class="mc-name mc-popup-trigger" data-mc="kelsy">Kelsy Luengen</span>
+                        <img src="/assets/2026/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar track1" />
+                        <span class="mc-name mc-popup-trigger" data-mc="1">Kelsy Luengen</span>
                     </div>
                 </th>
                 <th id="track2-header" class="track-col">Track 2
                     <div class="mc-profile track2">
-                        <img src="/assets/2025/avatar/nick.jfif" alt="Nick Young" class="mc-avatar track2" />
-                        <span class="mc-name mc-popup-trigger" data-mc="nick">Nick Young</span>
+                        <img src="/assets/2026/avatar/avatar.png" alt="TBC" class="mc-avatar track2" />
+                        <span class="mc-name mc-popup-trigger" data-mc="2">TBC</span>
                     </div>
                 </th>
             </tr>
