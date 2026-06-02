@@ -11,6 +11,10 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 
 {% include sponsor-gap-cta.html label="Temporal gap · Platinum tier" sub="The flagship tier is still showing interference. Lock in Platinum and help us underwrite the core of the day." %}
 
+### Diamond Tier
+
+{% include sponsor-gap-cta.html label="Temporal gap · Diamond tier" sub="The top of the timeline is still unclaimed. Lock in Diamond and help us push BSides Brisbane even further." %}
+
 ### Gold Tier
 <br />
 [![Queensland Government](/assets/2026/sponsors/qgov-dark.png#sponsor){:#imgQGov}](https://www.forgov.qld.gov.au/information-technology/cyber-security/about-the-cyber-security-unit){:target="_blank"}
@@ -36,8 +40,11 @@ Packaged IT is a Silver Sponsor of BSides Brisbane, supported through our local 
 
 
 ### Bronze Tier
-
-{% include sponsor-gap-cta.html label="Temporal gap · Bronze tier" sub="This slice of the timeline is still open. Help us lock in Bronze and keep the conference within reach for everyone." %}
+<br />
+[![ISOC](/assets/2026/sponsors/isoc-dark.png#sponsor){:#imgISOC}](https://www.internetsociety.org/){:target="_blank"}
+<br /><br />
+*The Internet Society (ISOC) is a global, community-driven nonprofit guided by the vision that the Internet is for everyone. Together with the Internet Society Foundation, ISOC provides technical and policy expertise, infrastructure, funding, and skills training, the building blocks of an accessible, reliable, and secure Internet. Rooted in the origins of the Internet, the Society works with members, chapters, and partners worldwide on connectivity, governance, privacy, and security so more people can benefit from an open, trusted network.*
+<br /><br />
 
 ### Additional Supporters
 
