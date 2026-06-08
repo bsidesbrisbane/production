@@ -94,11 +94,11 @@
 - time: "11:15"
 - time: "11:30"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "From Charger to Internal Network: Breaking a Smart EV Charger"
+    presenter: "Brendan Scarvell"
+    summary: "EV chargers are becoming a common part of home and business networks, but they often don't get much security attention. This talk covers the discovery of a vulnerability leading to remote code execution in a smart EV charger. It also looks at how built-in IoTHotspot functionality can turn a compromised charger into a pivot point into internal networks. The session will walk through the research process, vulnerability discovery, exploitation, and the broader risks of increasingly connected charging infrastructure."
+    bio: "Brendan is a security researcher and co-founder of Signal 11, with a background spanning web application, network, hardware, and embedded device security. His work focuses on finding and exploiting vulnerabilities in real-world systems, with a particular interest in connected devices and the security risks created when consumer and business infrastructure overlap."
+    link: "https://x.com/bscarvell"
     duration: "30 mins"
     rowspan: 2
     colspan: 1
