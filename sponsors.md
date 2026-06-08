@@ -22,6 +22,11 @@ We're still looking for sponsors to help run BSides Brisbane, head over to our [
 *The Queensland Government Cyber Security Unit (CSU) is the central body responsible for uplifting cyber security across Queensland's public sector. The CSU sets whole-of-government cyber security policy and guidance, manages shared security services, and leads incident response coordination through the Cyber Defence Centre. The unit works across government agencies, statutory bodies, and local councils to build capability, strengthen governance, and develop the broader cyber security workforce. Guided by a vision of resilience through capability and connection, the CSU plays a lead role in securing the digital services that Queenslanders rely on.*
 <br /><br />
 
+[![Acumenis](/assets/2026/sponsors/acumenis-dark.png#sponsor){:#imgAcumenis}](https://www.acumenis.com.au/){:target="_blank"}
+<br /><br />
+*Acumenis is an independent Australian cyber security consultancy, serving Brisbane and clients across Australia since 2017. The team delivers CREST-accredited penetration testing, ISO 27001 implementation and internal audit, Essential Eight assessments, and ISO 42001 consulting for organisations bringing AI under formal governance. Acumenis is proud to support BSides Brisbane and the local security community it's part of.*
+<br /><br />
+
 
 ### Silver Tier
 <br />
