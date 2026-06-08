@@ -73,11 +73,14 @@
   track2:
 - time: "10:45"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "Purple Teaming yo ICS"
+    presenter: "Bruce Large"
+    summary: |
+      In this presentation Bruce is going to build on where it all started for him with Blue Teaming yo ICS and present Purple Teaming yo ICS. In this presentation Bruce will outline the case for why Critical Infrastructure operators need to do purple teaming to ensure they are defensibly managing cyber security risks for their Operational Technology (OT).
+
+      This presentation will start with a primer on purple teaming and walk through how critical asset operators should develop purple team assessments for their OT systems. This presentation will discuss methods to gather relevant Cyber Threat Intelligence to inform their assessments. Critically for asset operators this presentation will discuss why purple teaming needs to happen in a representative test lab environment initially to give both teams confident in their assessments. The presentation will discuss useful tools and techniques to support asset operators plan and execute their purple team assessment and finally Bruce will discuss how he built his home lab to support this presentation.
+    bio: "Bruce has 20 years experience working with IT and Operational Technology in network, telecommunications and system engineering roles. Bruce has worked in Electricity Generation & Transmission, Railway, Aviation, Emergency Services and Consulting industries. Bruce is the Founder and Principal Cyber Security Architect at BLARGE."
+    link: "https://x.com/beLarge"
     duration: "45 mins"
     rowspan: 3
     colspan: 1
