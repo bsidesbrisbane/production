@@ -245,7 +245,7 @@ permalink: /schedule/
                         <span class="mc-name mc-popup-trigger" data-mc="1">Kelsy Luengen</span>
                     </div>
                 </th>
-                <th id="track2-header" class="track-col">Track 2
+                <th id="track2-header" class="track-col">Workshops
                     <div class="mc-profile track2">
                         <img src="/assets/2026/avatar/avatar.png" alt="TBC" class="mc-avatar track2" />
                         <span class="mc-name mc-popup-trigger" data-mc="2">TBC</span>
