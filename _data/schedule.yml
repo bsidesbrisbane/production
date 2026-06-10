@@ -118,11 +118,18 @@
     duration: "60 mins"
     rowspan: 4
   track2:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "Crisis Control: Competitive Cyber Tabletop Challenge"
+    presenter: "Chris Djamaludin"
+    summary: |
+      **This workshop runs twice — 13:00 and 15:15.** Choose the session that suits your schedule.
+
+      Step into a facilitated tabletop exercise (TTX) run as a mini CTF challenge. Work through a realistic cyber crisis scenario, make the calls that matter, and see how your decisions stack up against other players in the room.
+
+      Designed for executives, board members, and technical practitioners alike, this 90-minute interactive session puts you at the decision table — not just watching from the sidelines. Your choices are scored as you progress, adding a competitive edge to the learning experience.
+
+      **Please bring your own laptop** to participate in the challenge.
+    bio: "Chris Djamaludin facilitates interactive tabletop exercises that bridge the gap between boardroom decision-making and technical cyber response."
+    link: "https://www.linkedin.com/in/chrisdjamaludin/"
     duration: "90 mins"
     rowspan: 6
 - time: "13:15"
@@ -170,11 +177,18 @@
     duration: "60 mins"
     rowspan: 4
   track2:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "Crisis Control: Competitive Cyber Tabletop Challenge"
+    presenter: "Chris Djamaludin"
+    summary: |
+      **This workshop runs twice — 13:00 and 15:15.** Choose the session that suits your schedule.
+
+      Step into a facilitated tabletop exercise (TTX) run as a mini CTF challenge. Work through a realistic cyber crisis scenario, make the calls that matter, and see how your decisions stack up against other players in the room.
+
+      Designed for executives, board members, and technical practitioners alike, this 90-minute interactive session puts you at the decision table — not just watching from the sidelines. Your choices are scored as you progress, adding a competitive edge to the learning experience.
+
+      **Please bring your own laptop** to participate in the challenge.
+    bio: "Chris Djamaludin facilitates interactive tabletop exercises that bridge the gap between boardroom decision-making and technical cyber response."
+    link: "https://www.linkedin.com/in/chrisdjamaludin/"
     duration: "90 mins"
     rowspan: 6
 - time: "15:30"
