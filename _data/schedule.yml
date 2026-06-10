@@ -166,6 +166,7 @@
     rowspan: 2
 - time: "15:00"
 - time: "15:15"
+  track1_empty: true
   track2:
     title: "TBC"
     presenter: "TBC"
@@ -196,6 +197,7 @@
     duration: "45 mins"
     rowspan: 3
 - time: "16:45"
+  track1_empty: true
   track2:
     title: "Track 1 only"
     type: "track1-only"

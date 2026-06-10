@@ -325,6 +325,8 @@ permalink: /schedule/
                         </div>
                         {% endif %}
                     </td>
+                {% elsif slot.track1_empty %}
+                    <td></td>
                 {% endif %}
 
                 {% comment %} Logic for Track 2: show second column whenever track 1 is not full-width (colspan 2). Omitting colspan or using colspan 1 is dual-track mode. {% endcomment %}
