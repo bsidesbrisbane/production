@@ -183,17 +183,12 @@
   track2:
     title: "Track 1 only"
     type: "track1-only"
-    duration: "15 mins"
-    rowspan: 1
+    duration: "30 mins"
+    rowspan: 2
 - time: "17:15"
   track1:
     title: "Thanks from BSides Brisbane & Conference End"
     summary: "A final thank you to all our attendees, speakers, sponsors, and volunteers for making BSides Brisbane 2026 possible. We'll wrap up the day with some closing remarks and announce the after-party details."
     type: "break"
-    duration: "15 mins"
-    rowspan: 1
-  track2:
-    title: "Track 1 only"
-    type: "track1-only"
     duration: "15 mins"
     rowspan: 1
