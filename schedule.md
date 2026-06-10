@@ -230,6 +230,15 @@ permalink: /schedule/
         font-size: 1.5em;
         cursor: pointer;
     }
+    .mc-popup .mc-popup-avatar {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #f24784;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 0.75em;
+    }
     .mc-popup .mc-popup-bio {
         margin-top: 1em;
         font-size: 1em;
@@ -266,12 +275,7 @@ permalink: /schedule/
                         <span class="mc-name mc-popup-trigger" data-mc="1">Kelsy Luengen</span>
                     </div>
                 </th>
-                <th id="track2-header" class="track-col">Workshops
-                    <div class="mc-profile track2">
-                        <img src="/assets/2026/avatar/avatar.png" alt="TBC" class="mc-avatar track2" />
-                        <span class="mc-name mc-popup-trigger" data-mc="2">TBC</span>
-                    </div>
-                </th>
+                <th id="track2-header" class="track-col">Workshops</th>
             </tr>
         </thead>
         <tbody>
@@ -384,19 +388,12 @@ permalink: /schedule/
 </div>
 <div id="mc-popup-1" class="mc-popup track1">
     <span class="mc-popup-close" onclick="document.getElementById('mc-popup-1').style.display='none'">&times;</span>
+    <img src="/assets/2026/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-popup-avatar" />
     <h3>Kelsy Luengen</h3>
     <div class="mc-popup-bio">
         Kelsy Luengen is a security behaviour specialist and researcher, recently submitting her PhD in security-focused behavioural sciences. As a Security Influencer, she drives positive behaviour change and strengthens security culture through engaging campaigns, training, and evidence-based methods. Kelsy excels at translating complex cyber threats into plain English, designing impactful awareness programs, and leading high-risk training initiatives across the Asia-Pacific region. Her doctoral research explores how people respond to cyber security nudges, using eye-tracking to understand threat recognition and protective behaviours. With over 14 years of teaching, training, and coaching experience, Kelsy is passionate about stakeholder engagement, data-driven campaigns, and making security accessible for all.
     </div>
     <a class="mc-popup-link" href="https://www.linkedin.com/in/kelsy-luengen-a26209110//" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
-</div>
-<div id="mc-popup-2" class="mc-popup track2">
-    <span class="mc-popup-close" onclick="document.getElementById('mc-popup-2').style.display='none'">&times;</span>
-    <h3>TBC</h3>
-    <div class="mc-popup-bio">
-        TBC.
-    </div>
-    <a class="mc-popup-link" href="#" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
 </div>
 <script>
 
