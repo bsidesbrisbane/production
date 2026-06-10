@@ -73,6 +73,27 @@ permalink: /schedule/
         border-left: 5px solid rgba(217, 157, 85, 1);
     }
 
+    .talk.track1-only {
+        background: repeating-linear-gradient(
+            -45deg,
+            rgba(80, 80, 80, 0.12),
+            rgba(80, 80, 80, 0.12) 6px,
+            rgba(50, 50, 50, 0.06) 6px,
+            rgba(50, 50, 50, 0.06) 12px
+        );
+        border-left: 5px solid #666;
+        cursor: default;
+        color: #888;
+    }
+
+    .talk.track1-only .talk-title {
+        color: #777;
+        font-weight: 600;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
     .talk-title {
         font-weight: bold;
     }
@@ -308,15 +329,17 @@ permalink: /schedule/
                     {% if slot.track2.title %}
                         {% assign talk = slot.track2 %}
                         <td class="track-cell" {% if talk.rowspan %}rowspan="{{ talk.rowspan }}"{% endif %} {% if talk.colspan %}colspan="{{ talk.colspan }}"{% endif %}>
-                            {% if talk.summary %}
+                            {% if talk.summary and talk.type != 'track1-only' %}
                             <a href="#summary-{{ forloop.index }}-2" class="popup-trigger">
                             {% endif %}
-                                <div class="talk track2{% if talk.type == 'break' %} break{% endif %}">
+                                <div class="talk track2{% if talk.type == 'break' %} break{% elsif talk.type == 'track1-only' %} track1-only{% endif %}">
                                     <div class="talk-title">{{ talk.title }}</div>
+                                    {% unless talk.type == 'track1-only' %}
                                     <div class="talk-presenter">{{ talk.presenter }}</div>
+                                    {% endunless %}
                                     <div class="talk-duration">{{ talk.duration }}</div>
                                 </div>
-                            {% if talk.summary %}
+                            {% if talk.summary and talk.type != 'track1-only' %}
                             </a>
                             <div id="summary-{{ forloop.index }}-2" class="mfp-hide popup-summary{% if talk.type == 'break' %} popup-break{% else %} popup-track2{% endif %}">
                                 <h3>{{ talk.title }}</h3>
