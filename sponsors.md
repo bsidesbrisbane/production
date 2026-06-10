@@ -98,5 +98,9 @@ As a Brisbane-grown company, TechnologyOne is proud to support BSides Brisbane a
 <br /><br />
 
 #### Prize Sponsors
+<br />
 
-{% include sponsor-gap-cta.html label="Temporal gap · Prize sponsors" sub="CTF wins hit harder with real prizes. Help us stock the vault for teams who put in the hours across the day." %}
+[![Signal11](/assets/2026/sponsors/signal11-dark.png#sponsor){:#imgSignal11}](https://signal11.io/){:target="_blank"}
+<br /><br />
+*Signal 11 is an AI-augmented offensive cybersecurity consultancy specialising in expert-led penetration testing, hardware and IoT hacking, red team exercises, application security, and secure code review. They combine real-world attack simulation, vulnerability research, and AI-assisted workflows to help organisations uncover critical weaknesses, strengthen defences, and move beyond checkbox security.*
+<br /><br />
