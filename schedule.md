@@ -362,14 +362,14 @@ permalink: /schedule/
                                     
                                     {% if talk.summary and talk.summary != "Placeholder" %}
                                     <div class="popup-section">
-                                        <h4>Talk Summary</h4>
+                                        <h4>Workshop Summary</h4>
                                         <div>{{ talk.summary | markdownify }}</div>
                                     </div>
                                     {% endif %}
 
                                     {% if talk.bio and talk.bio != "Placeholder" %}
                                     <div class="popup-section">
-                                        <h4>Speaker Bio</h4>
+                                        <h4>Tutor Bio</h4>
                                         <p>{{ talk.bio }}</p>
                                     </div>
                                     {% endif %}
