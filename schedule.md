@@ -175,19 +175,18 @@ permalink: /schedule/
         margin-bottom: 0.5em;
         justify-content: center;
     }
-    .mc-avatar {
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 2px solid #f24784;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    }
-    .mc-avatar.track1 {
-        border: 2px solid #f24784;
-    }
-    .mc-avatar.track2 {
-        border: 2px solid rgba(2,245,255,1);
+    .mc-tag {
+        display: inline-block;
+        padding: 0.15em 0.5em;
+        border-radius: 0.25em;
+        background-color: rgba(242, 71, 132, 0.2);
+        border: 1px solid #f24784;
+        color: #f24784;
+        font-size: 0.75em;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        line-height: 1.4;
     }
     .mc-name {
         font-weight: 600;
@@ -271,7 +270,7 @@ permalink: /schedule/
                 <th class="time-col">Time</th>
                 <th id="track1-header" class="track-col">Track 1
                     <div class="mc-profile track1">
-                        <img src="/assets/2026/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-avatar track1" />
+                        <span class="mc-tag">MC</span>
                         <span class="mc-name mc-popup-trigger" data-mc="1">Kelsy Luengen</span>
                     </div>
                 </th>
