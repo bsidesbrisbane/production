@@ -49,11 +49,16 @@
     duration: "30 mins"
     rowspan: 2
   track2:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "OFDS, Google Earth & KML Mapping Workshop"
+    presenter: "Warren Finch"
+    summary: |
+      This hands-on workshop begins with a detailed introduction to the Open Facility Data Standard (OFDS), Google Earth, and KML for visualising internet infrastructure and facility data.
+
+      After the intro, attendees will work through a guided lab to create their own map.
+
+      **Please bring a laptop** that you can use to install or run QGIS and access Google Earth.
+    bio: "Warren Finch is an IXP Development Expert for the Internet Society."
+    link: "https://www.linkedin.com/in/warrenfinch/"
     duration: "2 hours"
     rowspan: 8
 - time: "10:15"
