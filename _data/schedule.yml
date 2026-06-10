@@ -123,8 +123,8 @@
     summary: "TBC"
     bio: "TBC"
     link: "TBC"
-    duration: "4 hours"
-    rowspan: 16
+    duration: "90 mins"
+    rowspan: 6
 - time: "13:15"
 - time: "13:30"
 - time: "13:45"
@@ -145,19 +145,12 @@
     type: "break"
     duration: "15 mins"
     rowspan: 1
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "15 mins"
+    rowspan: 1
 - time: "14:45"
-  track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
-    duration: "60 mins"
-    rowspan: 4
-- time: "15:00"
-- time: "15:15"
-- time: "15:30"
-- time: "15:45"
   track1:
     title: "TBC"
     presenter: "TBC"
@@ -166,8 +159,34 @@
     link: "TBC"
     duration: "30 mins"
     rowspan: 2
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "30 mins"
+    rowspan: 2
+- time: "15:00"
+- time: "15:15"
+  track2:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "90 mins"
+    rowspan: 6
+- time: "15:30"
+- time: "15:45"
+  track1:
+    title: "TBC"
+    presenter: "TBC"
+    summary: "TBC"
+    bio: "TBC"
+    link: "TBC"
+    duration: "60 mins"
+    rowspan: 4
 - time: "16:00"
 - time: "16:15"
+- time: "16:30"
   track1:
     title: "TBC"
     presenter: "TBC"
@@ -176,8 +195,12 @@
     link: "TBC"
     duration: "45 mins"
     rowspan: 3
-- time: "16:30"
 - time: "16:45"
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "15 mins"
+    rowspan: 1
 - time: "17:00"
   track1:
     title: "CTF Announcements"
