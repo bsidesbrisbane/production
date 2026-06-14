@@ -71,27 +71,44 @@
     rowspan: 1
 - time: "10:45"
   track1:
+    title: "The Accidental Security Architect (and why that needs to change)"
+    presenter: "Lidia Giuliano"
+    summary: |
+      Security Architecture is a strategic and high-impact position. It demands broad and deep technical skill sets across IT and security. Despite this demand, no clear definition exists for the role. Subsequently, no clear pathway exists to becoming a security architect, leading to fragmented expectations, skills, and responsibilities across the industry.
+
+      This needed to change. In 2025, we surveyed 332 practicing security architects globally across industries and regions to understand their career pathways, their formal and informal training, and their daily responsibilities — to answer the question: What is a Security Architect? The results reveal consistent and troubling patterns.
+
+      This talk walks through the research and findings, covering overall themes by region, industry, and other segments to help diagnose the problems facing the sector. We then establish a blueprint for security architecture roles and careers so that security architecture will remain effective and sustainable into the future.
+
+      For aspiring architects, we highlight what skills and experience are the best pathway to landing that position. For practicing architects, we raise the most common challenges faced by your peers and provide a standardised and clear position description for your role. For managers and leaders, we outline how security architecture must be structured to deliver genuine value for your organisation, as well as give you the tools to identify and reduce the sources of friction that lead to retention and hiring challenges.
+
+      Whether you're aspiring, practicing, or hiring, this talk will provide the benchmarks and blueprint the industry has been missing!
+    bio: "Lidia Giuliano has been involved in the information security field for over 20 years, working in the financial, defence, telco, retail and health care sectors. She has an extensive background in security with a key focus on defensive, cloud security and security architecture.<br /><br />In her spare time, she loves mentoring others on their security presentations, reads way too many CFPs, and you'll find her on the beach drinking the occasional Aperol Spritz."
+    link: "https://www.linkedin.com/in/lidia-giuliano/"
+    duration: "30 mins"
+    rowspan: 2
+- time: "11:00"
+- time: "11:15"
+  track1:
     title: "Purple Teaming yo ICS"
     presenter: "Bruce Large"
     summary: |
-      In this presentation Bruce is going to build on where it all started for him with Blue Teaming yo ICS and present Purple Teaming yo ICS. In this presentation Bruce will outline the case for why Critical Infrastructure operators need to do purple teaming to ensure they are defensibly managing cyber security risks for their Operational Technology (OT).
+      In this presentation Bruce builds on where it all started with Blue Teaming yo ICS and presents Purple Teaming yo ICS. Bruce will outline the case for why Critical Infrastructure operators need to do purple teaming to ensure they are defensibly managing cyber security risks for their Operational Technology (OT).
 
-      This presentation will start with a primer on purple teaming and walk through how critical asset operators should develop purple team assessments for their OT systems. This presentation will discuss methods to gather relevant Cyber Threat Intelligence to inform their assessments. Critically for asset operators this presentation will discuss why purple teaming needs to happen in a representative test lab environment initially to give both teams confident in their assessments. The presentation will discuss useful tools and techniques to support asset operators plan and execute their purple team assessment and finally Bruce will discuss how he built his home lab to support this presentation.
+      This presentation will start with a primer on purple teaming and walk through how critical asset operators should develop purple team assessments for their OT systems. It will discuss methods to gather relevant Cyber Threat Intelligence to inform assessments. Critically for asset operators, Bruce will discuss why purple teaming needs to happen in a representative test lab environment initially to give both teams confidence in their assessments. The presentation will cover useful tools and techniques to support asset operators plan and execute their purple team assessment, and finally Bruce will discuss how he built his home lab to support this presentation.
+
+      **Session outline:**
+      - Why Purple Teaming?
+      - What is Purple Teaming?
+      - Where to find Cyber Threat Intelligence to support your Purple Team scenario?
+      - What are some relevant Purple Teaming Scenarios for different OT Systems?
+      - Why you should do this in a representative lab environment?
+      - Purple Teaming Tools to help you run an OT Purple Team
     bio: "Bruce has 20 years experience working with IT and Operational Technology in network, telecommunications and system engineering roles. Bruce has worked in Electricity Generation & Transmission, Railway, Aviation, Emergency Services and Consulting industries. Bruce is the Founder and Principal Cyber Security Architect at BLARGE."
-    link: "https://x.com/beLarge"
+    link: "https://www.linkedin.com/in/blargeau/"
     duration: "45 mins"
     rowspan: 3
-- time: "11:00"
-- time: "11:15"
 - time: "11:30"
-  track1:
-    title: "From Charger to Internal Network: Breaking a Smart EV Charger"
-    presenter: "Brendan Scarvell"
-    summary: "EV chargers are becoming a common part of home and business networks, but they often don't get much security attention. This talk covers the discovery of a vulnerability leading to remote code execution in a smart EV charger. It also looks at how built-in IoTHotspot functionality can turn a compromised charger into a pivot point into internal networks. The session will walk through the research process, vulnerability discovery, exploitation, and the broader risks of increasingly connected charging infrastructure."
-    bio: "Brendan is a security researcher and co-founder of Signal 11, with a background spanning web application, network, hardware, and embedded device security. His work focuses on finding and exploiting vulnerabilities in real-world systems, with a particular interest in connected devices and the security risks created when consumer and business infrastructure overlap."
-    link: "https://x.com/bscarvell"
-    duration: "30 mins"
-    rowspan: 2
 - time: "11:45"
 - time: "12:00"
   track1:
@@ -110,13 +127,13 @@
 - time: "12:45"
 - time: "13:00"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
-    duration: "60 mins"
-    rowspan: 4
+    title: "From Charger to Internal Network: Breaking a Smart EV Charger"
+    presenter: "Brendan Scarvell"
+    summary: "EV chargers are becoming a common part of home and business networks, but they often don't get much security attention. This talk covers the discovery of a vulnerability leading to remote code execution in a smart EV charger. It also looks at how built-in IoTHotspot functionality can turn a compromised charger into a pivot point into internal networks. The session will walk through the research process, vulnerability discovery, exploitation, and the broader risks of increasingly connected charging infrastructure."
+    bio: "Brendan is a security researcher and co-founder of Signal 11, with a background spanning web application, network, hardware, and embedded device security. His work focuses on finding and exploiting vulnerabilities in real-world systems, with a particular interest in connected devices and the security risks created when consumer and business infrastructure overlap."
+    link: "https://x.com/bscarvell"
+    duration: "30 mins"
+    rowspan: 2
   track2:
     title: "Competitive Cyber Tabletop Challenge Walkthrough"
     presenter: "Chris Djamaludin"
@@ -196,11 +213,22 @@
 - time: "16:00"
 - time: "16:15"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "40 Years of Encoding Flexibility: How BER Ambiguity Breaks SS7 Signalling Firewalls"
+    presenter: "D8RH8R aka Ryan Williams"
+    summary: |
+      SS7 signalling firewalls are the primary defence carriers deploy against phone tracking, SMS interception, and subscriber data theft. These firewalls inspect MAP (Mobile Application Part) messages encoded in ASN.1 BER (Basic Encoding Rules) and apply policy based on the decoded contents — blocking suspicious location queries, filtering unauthorised subscriber lookups, and enforcing GSMA FS.11 category rules.
+
+      The problem: BER was designed for encoding flexibility. The same data can be encoded multiple valid ways. When the firewall's BER decoder and the target network element's decoder disagree about how to parse a PDU, the firewall fails to extract security-critical fields — and if it fails open, the attacker's query passes through uninspected.
+
+      This talk presents a taxonomy of every publicly known SS7/MAP firewall bypass technique, unified under a single root cause: decoder divergence caused by legal-but-rarely-used BER encoding constructs. We cover seven techniques spanning 2018–2024: global opcode substitution, double MAP component injection, extended application context manipulation, long TCAP transaction IDs, missing SCCP subsystem numbers, extended tag encoding (the 9F 00 technique disclosed by Enea in July 2025), and a previously undocumented technique (flag65711) discovered through source code analysis of a production SS7 library.
+
+      For each technique, we show the exact bytes on the wire, explain which BER construct creates the decoder divergence, demonstrate the bypass in a live Osmocom testbed with Wireshark captures, and provide detection signatures.
+
+      We then identify BER constructs that have not yet been exploited — indefinite-length encoding, constructed primitive types, multi-octet tag forms beyond two bytes, and nested encoding ambiguities — providing a research roadmap for both offensive researchers and firewall vendors.
+
+      The talk concludes with six defensive rules for building signalling firewalls that survive BER ambiguity, anchored by the most important: fail closed on decode failure.
+    bio: "Ryan builds things that find the things you missed. Security operations at Applied Computing by day, editor of HVCK magazine and contributor at HVCK Academy by night. Focused on autonomous security infrastructure, offensive tooling, and making defences smarter. Doesn't wait for alerts. Goes looking."
+    link: "https://www.linkedin.com/in/ryan-williams-4068351b8/"
     duration: "45 mins"
     rowspan: 3
 - time: "16:30"
