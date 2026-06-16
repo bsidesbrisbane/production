@@ -176,11 +176,16 @@
     rowspan: 3
 - time: "14:45"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "Piracy as an Emergent Socio-Technical Preservation System"
+    presenter: "Joel Panther"
+    summary: |
+      As digital media shifted from owned objects to licensed services, libraries were replaced by platforms, preservation by authentication, and custody by policy. At the same time, platform enshitification and AI have hollowed out search, archives, public knowledge, and scholarly access.
+
+      Rather than treating modern piracy as a moral failure, this talk reframes it as an emergent response to institutional and information collapse - a form of fault-tolerant infrastructure that arose because official and legal systems abandoned stewardship.
+
+      The goal is not to romanticise or endorse piracy, but to use it as a diagnostic: a signal of where our knowledge systems have failed, and what properties any legitimate successor must restore.
+    bio: "Joel is a cybersecurity researcher, penetration tester, and educator, with over 15 years' experience in system administration, security, and consulting. His PhD produced a framework for designing dynamically generated penetration testing laboratories. His current research interests are centred on offensive security skills development."
+    link: "https://www.linkedin.com/in/joelpanther/"
     duration: "30 mins"
     rowspan: 2
 - time: "15:00"

@@ -207,7 +207,7 @@ permalink: /schedule/
         color: #f1f1f1;
         padding: 25px;
         width: auto;
-        max-width: 400px;
+        max-width: 480px;
         margin: 20px auto;
         position: fixed;
         left: 0; right: 0; top: 20vh;
@@ -230,8 +230,8 @@ permalink: /schedule/
         cursor: pointer;
     }
     .mc-popup .mc-popup-avatar {
-        width: 96px;
-        height: 96px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
         object-fit: cover;
         border: 3px solid #f24784;
@@ -389,7 +389,7 @@ permalink: /schedule/
 </div>
 <div id="mc-popup-1" class="mc-popup track1">
     <span class="mc-popup-close" onclick="document.getElementById('mc-popup-1').style.display='none'">&times;</span>
-    <img src="/assets/2026/avatar/kelsy.jfif" alt="Kelsy Luengen" class="mc-popup-avatar" />
+    <img src="/assets/2026/avatar/kelsy.jpg" alt="Kelsy Luengen" class="mc-popup-avatar" />
     <h3>Kelsy Luengen</h3>
     <div class="mc-popup-bio">
         Kelsy Luengen is a security behaviour specialist and researcher, recently submitting her PhD in security-focused behavioural sciences. As a Security Influencer, she drives positive behaviour change and strengthens security culture through engaging campaigns, training, and evidence-based methods. Kelsy excels at translating complex cyber threats into plain English, designing impactful awareness programs, and leading high-risk training initiatives across the Asia-Pacific region. Her doctoral research explores how people respond to cyber security nudges, using eye-tracking to understand threat recognition and protective behaviours. With over 14 years of teaching, training, and coaching experience, Kelsy is passionate about stakeholder engagement, data-driven campaigns, and making security accessible for all.
