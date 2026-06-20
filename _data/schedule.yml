@@ -127,11 +127,11 @@
 - time: "12:45"
 - time: "13:00"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
+    title: "Threat Actors are Stakeholders"
+    presenter: "Skye Slater"
+    summary: "Threat-Informed GRC reframes governance, risk, and compliance around the real behaviours of adversaries. This talk shows how treating threat actors as stakeholders can turn GRC into a practical prioritisation engine: helping teams cut through noise, focus technical effort where it matters, and make stronger cases for security investment. Attendees will learn how to partner with GRC teams to connect adversary tactics to governance decisions, board conversations, and day-to-day security work."
+    bio: "Skye Slater is a Governance, Risk, and Compliance (GRC) specialist focused on practical, people-centred security. Her work is driven by a simple goal: helping organisations protect the data communities rely on so people can use the internet with greater confidence. She supports organisations in building defence from the inside, preparing for worst-case scenarios, and using threat knowledge to make better security decisions."
+    link: "https://www.linkedin.com/in/skyeslater/"
     duration: "30 mins"
     rowspan: 2
   track2:
