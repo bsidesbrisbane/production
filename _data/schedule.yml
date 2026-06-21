@@ -172,8 +172,8 @@
   track2:
     title: "Track 1 only"
     type: "track1-only"
-    duration: "45 mins"
-    rowspan: 3
+    duration: "60 mins"
+    rowspan: 4
 - time: "14:45"
   track1:
     title: "Piracy as an Emergent Socio-Technical Preservation System"
@@ -198,6 +198,7 @@
     link: "TBC"
     duration: "60 mins"
     rowspan: 4
+- time: "15:30"
   track2:
     title: "Competitive Cyber Tabletop Challenge Walkthrough"
     presenter: "Chris Djamaludin"
@@ -213,7 +214,6 @@
     link: "https://www.linkedin.com/in/chrisdjamaludin/"
     duration: "90 mins"
     rowspan: 6
-- time: "15:30"
 - time: "15:45"
 - time: "16:00"
 - time: "16:15"
@@ -238,11 +238,6 @@
     rowspan: 3
 - time: "16:30"
 - time: "16:45"
-  track2:
-    title: "Track 1 only"
-    type: "track1-only"
-    duration: "45 mins"
-    rowspan: 3
 - time: "17:00"
   track1:
     title: "CTF Announcements"
@@ -250,6 +245,11 @@
     type: "break"
     duration: "15 mins"
     rowspan: 1
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "30 mins"
+    rowspan: 2
 - time: "17:15"
   track1:
     title: "Thanks from BSides Brisbane & Conference End"
