@@ -27,9 +27,9 @@
     rowspan: 1
 - time: "09:15"
   track1:
-    title: "Keynote"
+    title: "Hacks Under Pressure"
     presenter: "Joe Grand"
-    summary: "Keynote presentation details to be confirmed."
+    summary: "Throughout his career, Joe Grand has taken on projects where \"doing it live\" was a necessary evil. Whether hacking cryptocurrency wallets worth millions of dollars or testing prototypes on the streets of San Francisco, the expectation of success in front of others was ever present. Inspired by the title of Rush's tenth studio album, Grace Under Pressure, Joe will talk about the hacks that brought him the most amount of pressure and the often unexpected results that followed."
     bio: "Joe Grand, also known as Kingpin, is an American computer engineer and hardware hacker. He was a member of the legendary hacker group L0pht Heavy Industries and was a co-host of Prototype This on Discovery Channel. He specialises in creating, exploring, manipulating, and teaching about electronic devices. Learn more at <a href='https://joegrand.com' target='_blank' rel='noopener noreferrer'>joegrand.com</a> and <a href='https://grandideastudio.com' target='_blank' rel='noopener noreferrer'>grandideastudio.com</a>."
     link: "https://x.com/joegrand"
     duration: "45 mins"
