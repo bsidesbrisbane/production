@@ -104,3 +104,10 @@ As a Brisbane-grown company, TechnologyOne is proud to support BSides Brisbane a
 <br /><br />
 *Signal 11 is an AI-augmented offensive cybersecurity consultancy specialising in expert-led penetration testing, hardware and IoT hacking, red team exercises, application security, and secure code review. They combine real-world attack simulation, vulnerability research, and AI-assisted workflows to help organisations uncover critical weaknesses, strengthen defences, and move beyond checkbox security.*
 <br /><br />
+
+[![Feind](/assets/2026/sponsors/feind-dark.png#sponsor){:#imgFeind}](https://feindcoffee.com/){:target="_blank"}
+<br /><br />
+*Great coffee, made easy. Feind (think "fiend" for coffee — or just say "fee-nd") was created by Alex and Cameron, two passionate coffee nerds who believe great quality coffee at home should be accessible and easy for everyone without costing the world. Their mission is to create products that educate and enhance your home brewing experience — coffee without the snob, no matter where you are on your journey.*
+<br /><br />
+*Feind has provided local coffee as speaker gifts at BSides Brisbane for several years running, and we're thrilled to celebrate a local Brisbane business that keeps showing up for the community.*
+<br /><br />
