@@ -193,6 +193,11 @@
     link: "https://www.linkedin.com/in/joelpanther/"
     duration: "30 mins"
     rowspan: 2
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "1 hour"
+    rowspan: 4
 - time: "15:00"
 - time: "15:15"
   track1:
@@ -256,16 +261,16 @@
     rowspan: 3
 - time: "17:00"
 - time: "17:15"
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "1 hour"
+    rowspan: 4
 - time: "17:30"
   track1:
     title: "CTF Announcements"
     summary: "Join us for the CTF results and winner announcements. Prizes will be awarded to the top teams."
     type: "break"
-    duration: "15 mins"
-    rowspan: 1
-  track2:
-    title: "Track 1 only"
-    type: "track1-only"
     duration: "15 mins"
     rowspan: 1
 - time: "17:45"
@@ -275,20 +280,10 @@
     type: "break"
     duration: "15 mins"
     rowspan: 1
-  track2:
-    title: "Track 1 only"
-    type: "track1-only"
-    duration: "15 mins"
-    rowspan: 1
 - time: "18:00"
   track1:
     title: "Conference Closed"
     summary: ""
     type: "break"
-    duration: "15 mins"
-    rowspan: 1
-  track2:
-    title: "Track 1 only"
-    type: "track1-only"
     duration: "15 mins"
     rowspan: 1
