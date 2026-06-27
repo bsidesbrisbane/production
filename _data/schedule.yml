@@ -83,7 +83,10 @@
       For aspiring architects, we highlight what skills and experience are the best pathway to landing that position. For practicing architects, we raise the most common challenges faced by your peers and provide a standardised and clear position description for your role. For managers and leaders, we outline how security architecture must be structured to deliver genuine value for your organisation, as well as give you the tools to identify and reduce the sources of friction that lead to retention and hiring challenges.
 
       Whether you're aspiring, practicing, or hiring, this talk will provide the benchmarks and blueprint the industry has been missing!
-    bio: "Lidia Giuliano has been involved in the information security field for over 20 years, working in the financial, defence, telco, retail and health care sectors. She has an extensive background in security with a key focus on defensive, cloud security and security architecture.<br /><br />In her spare time, she loves mentoring others on their security presentations, reads way too many CFPs, and you'll find her on the beach drinking the occasional Aperol Spritz."
+    bio: |
+      Lidia Giuliano has been involved in the information security field for over 20 years, working in the financial, defence, telco, retail and health care sectors. She has an extensive background in security with a key focus on defensive, cloud security and security architecture.
+      
+      In her spare time, she loves mentoring others on their security presentations, reads way too many CFPs, and you'll find her on the beach drinking the occasional Aperol Spritz.
     link: "https://www.linkedin.com/in/lidia-giuliano/"
     duration: "30 mins"
     rowspan: 2
@@ -118,9 +121,10 @@
     duration: "60 mins"
     rowspan: 4
   track2:
-    title: "Track 1 only"
-    type: "track1-only"
-    duration: "1 hour"
+    title: "Lunch"
+    summary: "It's time for a lunch break! While lunch is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
+    type: "break"
+    duration: "60 mins"
     rowspan: 4
 - time: "12:15"
 - time: "12:30"
@@ -170,10 +174,11 @@
     duration: "15 mins"
     rowspan: 1
   track2:
-    title: "Track 1 only"
-    type: "track1-only"
-    duration: "60 mins"
-    rowspan: 4
+    title: "Afternoon Tea"
+    summary: "It's time for an afternoon tea break! While food is not provided, there are many excellent cafes and restaurants just a short walk from the conference venue. Explore the local area and enjoy a well-deserved break."
+    type: "break"
+    duration: "15 mins"
+    rowspan: 1
 - time: "14:45"
   track1:
     title: "Piracy as an Emergent Socio-Technical Preservation System"
@@ -202,6 +207,15 @@
     duration: "30 mins"
     rowspan: 2
 - time: "15:30"
+- time: "15:45"
+  track1:
+    title: "EDR Survival Tactics: An Old Croc Doesn't Need New Tricks"
+    presenter: "Chris Spencer"
+    summary: "This talk dissects the anatomy of a modern Windows EDR sensor, examines its main components, and explores methods (including one or two possibly unpublished techniques) that continue to remain effective. We'll wrap up with pointers on performing EDR security research and building an environment to help you discover new evasion techniques for your next red team engagement."
+    bio: "Chris Spencer is the founder of Ruxcon security conference. With a career rooted in offensive security, he has spent years in security research and red teaming. More recently, he has worked in incident response and threat hunting. Chris once dabbled in pop stardom with Germany and Austria's least-remembered boy band, TESO."
+    link: "https://www.linkedin.com/in/ruxcon/"
+    duration: "60 mins"
+    rowspan: 4
   track2:
     title: "Competitive Cyber Tabletop Challenge Walkthrough"
     presenter: "Chris Djamaludin"
@@ -217,15 +231,6 @@
     link: "https://www.linkedin.com/in/chrisdjamaludin/"
     duration: "90 mins"
     rowspan: 6
-- time: "15:45"
-  track1:
-    title: "EDR Survival Tactics: An Old Croc Doesn't Need New Tricks"
-    presenter: "Chris Spencer"
-    summary: "This talk dissects the anatomy of a modern Windows EDR sensor, examines its main components, and explores methods (including one or two possibly unpublished techniques) that continue to remain effective. We'll wrap up with pointers on performing EDR security research and building an environment to help you discover new evasion techniques for your next red team engagement."
-    bio: "Chris Spencer is the founder of Ruxcon security conference. With a career rooted in offensive security, he has spent years in security research and red teaming. More recently, he has worked in incident response and threat hunting. Chris once dabbled in pop stardom with Germany and Austria's least-remembered boy band, TESO."
-    link: "https://www.linkedin.com/in/ruxcon/"
-    duration: "60 mins"
-    rowspan: 4
 - time: "16:00"
 - time: "16:15"
 - time: "16:30"
