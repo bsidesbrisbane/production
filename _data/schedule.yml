@@ -191,13 +191,16 @@
 - time: "15:00"
 - time: "15:15"
   track1:
-    title: "TBC"
-    presenter: "TBC"
-    summary: "TBC"
-    bio: "TBC"
-    link: "TBC"
-    duration: "60 mins"
-    rowspan: 4
+    title: "The Honest Conman"
+    presenter: "Malcolm Gregory"
+    summary: |
+      We are trained to recognise social engineering as something attackers do to us. Reciprocity, trust, relevance, urgency: we can name every lever. Then we walk back to our desk and try to change human behaviour with a policy document.
+
+      This talk is about the reframe. Every principle attackers use to break in is available to defenders to build culture. Used ethically, deliberately, and out in the open, that is not manipulation. That is the job.
+    bio: "Malcolm is a one-person security function pretending to be a department across four business units. He spent over a decade in helpdesk and IT service delivery before security started looking more interesting. It mostly is.<br /><br />He holds a CISSP and an unreasonable number of postgraduate degrees, none of which prepared him for the actual job, which turns out to be mostly conversations. He has spent the last eight years figuring out that everything he was trained to spot in an attack works rather well in reverse."
+    link: "https://www.linkedin.com/in/malcolmgregory/"
+    duration: "30 mins"
+    rowspan: 2
 - time: "15:30"
   track2:
     title: "Competitive Cyber Tabletop Challenge Walkthrough"
@@ -215,8 +218,18 @@
     duration: "90 mins"
     rowspan: 6
 - time: "15:45"
+  track1:
+    title: "EDR Survival Tactics: An Old Croc Doesn't Need New Tricks"
+    presenter: "Chris Spencer"
+    summary: "This talk dissects the anatomy of a modern Windows EDR sensor, examines its main components, and explores methods (including one or two possibly unpublished techniques) that continue to remain effective. We'll wrap up with pointers on performing EDR security research and building an environment to help you discover new evasion techniques for your next red team engagement."
+    bio: "Chris Spencer is the founder of Ruxcon security conference. With a career rooted in offensive security, he has spent years in security research and red teaming. More recently, he has worked in incident response and threat hunting. Chris once dabbled in pop stardom with Germany and Austria's least-remembered boy band, TESO."
+    link: "https://www.linkedin.com/in/ruxcon/"
+    duration: "60 mins"
+    rowspan: 4
 - time: "16:00"
 - time: "16:15"
+- time: "16:30"
+- time: "16:45"
   track1:
     title: "40 Years of Encoding Flexibility: How BER Ambiguity Breaks SS7 Signalling Firewalls"
     presenter: "D8RH8R aka Ryan Williams"
@@ -225,7 +238,7 @@
 
       The problem: BER was designed for encoding flexibility. The same data can be encoded multiple valid ways. When the firewall's BER decoder and the target network element's decoder disagree about how to parse a PDU, the firewall fails to extract security-critical fields — and if it fails open, the attacker's query passes through uninspected.
 
-      This talk presents a taxonomy of every publicly known SS7/MAP firewall bypass technique, unified under a single root cause: decoder divergence caused by legal-but-rarely-used BER encoding constructs. We cover seven techniques spanning 2018–2024: global opcode substitution, double MAP component injection, extended application context manipulation, long TCAP transaction IDs, missing SCCP subsystem numbers, extended tag encoding (the 9F 00 technique disclosed by Enea in July 2025), and a previously undocumented technique (flag65711) discovered through source code analysis of a production SS7 library.
+      This talk presents a taxonomy of every publicly known SS7/MAP firewall bypass technique, unified under a single root cause: decoder divergence caused by legal-but-rarely-used BER encoding constructs. We cover seven techniques spanning 2018-2024: global opcode substitution, double MAP component injection, extended application context manipulation, long TCAP transaction IDs, missing SCCP subsystem numbers, extended tag encoding (the 9F 00 technique disclosed by Enea in July 2025), and a previously undocumented technique (flag65711) discovered through source code analysis of a production SS7 library.
 
       For each technique, we show the exact bytes on the wire, explain which BER construct creates the decoder divergence, demonstrate the bypass in a live Osmocom testbed with Wireshark captures, and provide detection signatures.
 
@@ -239,6 +252,8 @@
 - time: "16:30"
 - time: "16:45"
 - time: "17:00"
+- time: "17:15"
+- time: "17:30"
   track1:
     title: "CTF Announcements"
     summary: "Join us for the CTF results and winner announcements. Prizes will be awarded to the top teams."
@@ -248,12 +263,29 @@
   track2:
     title: "Track 1 only"
     type: "track1-only"
-    duration: "30 mins"
-    rowspan: 2
-- time: "17:15"
+    duration: "15 mins"
+    rowspan: 1
+- time: "17:45"
   track1:
-    title: "Thanks from BSides Brisbane & Conference End"
+    title: "Thanks from BSides Brisbane"
     summary: "A final thank you to all our attendees, speakers, sponsors, and volunteers for making BSides Brisbane 2026 possible. We'll wrap up the day with some closing remarks and announce the after-party details."
     type: "break"
+    duration: "15 mins"
+    rowspan: 1
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
+    duration: "15 mins"
+    rowspan: 1
+- time: "18:00"
+  track1:
+    title: "Conference Closed"
+    summary: ""
+    type: "break"
+    duration: "15 mins"
+    rowspan: 1
+  track2:
+    title: "Track 1 only"
+    type: "track1-only"
     duration: "15 mins"
     rowspan: 1
