@@ -23,6 +23,13 @@ Conference staff will be happy to help participants contact hotel/venue security
 
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
+## Delegate privacy
+Participants must not share delegate information—including names, contact details, employer details, badge information, or any other identifying or personal information—with any party without that delegate’s explicit consent.
+
+This prohibition applies to sponsors, speakers, volunteers, staff, and attendees alike. It includes collecting, distributing, soliciting, or compiling delegate information for commercial, recruitment, marketing, or any other purpose.
+
+Anyone who instigates, supports, or otherwise enables the sharing of delegate information with anyone—including other delegates—violates this Code of Conduct. Conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+
 ## Entry and Ticketing Policy
 The organisers reserve the right to refuse entry to, or remove from the event, any individual whose behaviour, attitude, or public conduct (including at other events or online) is deemed inappropriate, disruptive, or contrary to the values and standards of this Code of Conduct. This includes the right to cancel tickets or registration at any time, with or without refund, at the organisers’ discretion.
 

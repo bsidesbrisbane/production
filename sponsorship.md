@@ -34,6 +34,11 @@ To qualify for this initiative, your business must:
 
 There are only **3 available slots**, so we encourage eligible homegrown businesses to apply promptly and take advantage of this exclusive opportunity to gain greater visibility, engage with industry professionals, and contribute to the broader cyber security conversation.
 
+## Delegate privacy
+Under no circumstances do we provide a list of attendees to sponsors as part of any sponsorship tier. We value the privacy of our delegates and will not share attendee names, contact details, registration information, or any other identifying data with sponsors or third parties as a benefit of sponsorship.
+
+If you have questions about how we protect delegate information, contact us at [sponsorship@bsidesbrisbane.com](mailto:sponsorship@bsidesbrisbane.com).
+
 ## Prospectus
 Don't forget to [download the 2026 prospectus here!](/assets/2026/sponsorship/2026_bne_prospectus.pdf){:target="_blank"}
 
