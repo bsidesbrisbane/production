@@ -33,5 +33,7 @@ Anyone who instigates, supports, or otherwise enables the sharing of delegate in
 ## Entry and Ticketing Policy
 The organisers reserve the right to refuse entry to, or remove from the event, any individual whose behaviour, attitude, or public conduct (including at other events or online) is deemed inappropriate, disruptive, or contrary to the values and standards of this Code of Conduct. This includes the right to cancel tickets or registration at any time, with or without refund, at the organisers’ discretion.
 
+We take reports from other conferences and event organisers seriously. If you are a persistent or repeat source of disruption, harassment, or other conduct of concern at other events, and those organisers have brought this to our attention, we reserve the right to deny you entry or cancel your registration, with or without refund, at our discretion.
+
 ## Photos and Recording
 While the odd photo will be taken (with consent) by our official photographer for marketing and social media purposes, BSides Brisbane will not be recording any of the presentations and would like to ensure that the participants do the same. Should you be seen recording any presentations or workshops, you will be asked to leave the conference immediately.
