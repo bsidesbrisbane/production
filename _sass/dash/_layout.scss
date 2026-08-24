@@ -25,7 +25,9 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-family: $heading-font-family;
+  font-weight: 500;
+  letter-spacing: 0.06em;
   margin-bottom: 0;
   float: left;
 

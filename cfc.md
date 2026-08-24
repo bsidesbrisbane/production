@@ -2,6 +2,7 @@
 layout: page
 title: Call For Content
 permalink: /cfc/
+flag: cfc
 ---
 
 <style>
@@ -12,14 +13,14 @@ permalink: /cfc/
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(6, 3, 30, 0.3);
-    border: 2px solid #FD632F;
+    border: 2px solid #C1121F;
 }
 
 .ms-form-wrapper iframe {
     display: block;
     width: 100%;
     border: none;
-    background-color: #06031E;
+    background-color: #0B0A09;
     /* Apply color filter to adjust Microsoft Form colors to match site theme */
     filter: brightness(0.95) contrast(1.05) saturate(1.1);
 }
@@ -32,7 +33,7 @@ permalink: /cfc/
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #FD632F, #F7A899, #AE9CC4, #38324E);
+    background: linear-gradient(90deg, #C1121F, #D4A017, #C9BDAA, #1A1612);
     z-index: 1;
     pointer-events: none;
 }

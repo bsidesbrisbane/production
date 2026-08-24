@@ -5,17 +5,19 @@ permalink: /about/
 ---
 
 ## A bit about us
-BSides Brisbane was founded by [joshua1909](https://twitter.com/joshua1909){:target="_blank"} and [bman013](https://www.linkedin.com/in/brodiecarter){:target="_blank"}, driven by a desire to create something unique to the local Brisbane cyber security scene. 
+BSides Brisbane was founded by [joshua1909](https://twitter.com/joshua1909){:target="_blank"} and [bman013](https://www.linkedin.com/in/brodiecarter){:target="_blank"} because Brisbane needed a room where the technical work could actually get airtime. Not a sales floor. Not a four-track slog with a vendor hall eating the hallway. A Saturday for people who break things, build defences, and still want to talk about how it really works.
 
-It isn't your typical cyber tech conference; it's more like a cyber jam session where knowledge and experiences collide. We've been running wild since 2019, hosting sessions that dive deep into live hacks, defensive measures, effective security policy, and everything in between. Our vibe? Casual, inclusive, and downright passionate about all things cyber.
+We have been running since **2019**. The talks go deep. Live hacks, exploit chains, detection engineering, hardware on the bench, policy that has to survive contact with production. If the slide deck could have been a brochure, it does not belong here.
 
-Since we kicked off, we've been crafting an atmosphere where bytes meet banter, and everyone is welcome to geek out and grow together.
+The room is still mixed on purpose. Students next to incident responders. First-time speakers next to people who have been doing this for twenty years. That mix is the point. Everyone is welcome to geek out and get better in public.
 
-## The vibe
-Each BSides is a community driven framework for building events for and by information security community members. The goal is to expand the spectrum of conversation beyond the traditional confines of space and time. It creates opportunities for individuals to both present and participate in an intimate atmosphere that encourages collaboration. It is an intense event with discussions, demos, and interaction from participants. It is where conversations for the next-big-thing are happening. It won’t all be perfect, in fact I would be surprised if any of it really is, but we will be busting our ass to make sure everyone that attends gets the most out of it as they possibly can, and that everyone has a blast.
+## The underground bit
+BSides started as the overflow room. The talks that did not fit the big commercial programme. We are still that event. Community-run, volunteer-crewed, and stubborn about keeping the door cheap enough that the people who *do* the work can walk in.
+
+You will get discussions, demos, and arguments in the corridor. It will not all be polished. We would be surprised if it was. We will bust our ass so the people on stage have something real to show, the CTF has teeth, and everyone who shows up gets a day that feels like a hacker conference rather than a product tour.
 
 ## Our vision
-When this whole thing first kicked off, we wanted to do something different. We didn’t want to deliver a 4 track conference with a vendor hall and an overloaded schedule with so much content that would ultimately lead to attendees being overwhelmed (and underwhelmed). Our true vision for BSides is to deliver content in a slightly different way, a focus on more workshop and interactive style presentations and events. We want to raise security awareness, assist in learning, and have likeminded and passionate people connect in fun and interesting ways. All while keeping the conference accessible and affordable to all.
+We never wanted the overloaded schedule that leaves you underwhelmed. The vision is still workshops, interactive sessions, and talks with enough technical meat that you leave with something you can use on Monday. Raise the skill floor. Keep the curious in the room. Stay accessible and affordable. Keep the underground vibe alive while the rest of the industry sands the edges off.
 
 ## Extended thank you
-We would love to use this opportunity to extend a huge thank you to everyone that has attendance, or assisted in the running of BSides Brisbane over the past few years. A special callout however to Bruce Large aka. [beLarge/BFL](https://twitter.com/beLarge){:target="_blank"} for the continued support through both MC and his presentations, and as well to [nomad](https://twitter.com/nomadhax){:target="_blank"} for his thankless efforts in running the CTF year on year. Without the people we have supporting us, there would be no conference.
+A huge thank you to everyone who has attended or helped run BSides Brisbane over the past few years. A special callout to [Jake Dunn](https://twitter.com/nomadhax){:target="_blank"} (aka Nomad) for the thankless work of running the CTF year on year. Without the people supporting us, there would be no conference.

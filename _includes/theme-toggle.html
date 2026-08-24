@@ -36,8 +36,10 @@ function activateDarkTheme() {
 
     // Update here for when dark theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
-        document.getElementById("imgBLarge").style='filter:invert(100%)';
-        document.getElementById("imgSekuro").style='filter:invert(0%)';
+        const imgBLarge = document.getElementById("imgBLarge");
+        const imgSekuro = document.getElementById("imgSekuro");
+        if (imgBLarge) imgBLarge.style = 'filter:invert(100%)';
+        if (imgSekuro) imgSekuro.style = 'filter:invert(0%)';
     }
 }
 
@@ -51,8 +53,10 @@ function activateLightTheme() {
 
     // Update here for when light theme enabled.
     if (window.location.href.indexOf("/sponsors/") > -1) {
-        document.getElementById("imgBLarge").style='filter:invert(0%)';
-        document.getElementById("imgSekuro").style='filter:invert(0%)';
+        const imgBLarge = document.getElementById("imgBLarge");
+        const imgSekuro = document.getElementById("imgSekuro");
+        if (imgBLarge) imgBLarge.style = 'filter:invert(0%)';
+        if (imgSekuro) imgSekuro.style = 'filter:invert(0%)';
     }
 }
 

@@ -45,7 +45,9 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-orange;
+  color: $color-crimson;
+  font-family: $heading-font-family;
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -97,10 +99,12 @@ video {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-family: $heading-font-family;
+  font-weight: 700;
   margin-top: 1em;
   margin-bottom: 0.4em;
   text-align: left;
+  letter-spacing: 0.02em;
 }
 
 /**
@@ -244,37 +248,45 @@ img[src$="#sponsor"] {
   width: 200px;
   height: 62px;
   cursor: pointer;
-  color: #fff;
+  color: $color-ivory;
   font-size: 17px;
-  border-radius: 1rem;
-  border: none;
+  font-family: $heading-font-family;
+  letter-spacing: 0.04em;
+  border-radius: 0;
+  border: 1px solid $color-amber;
   position: relative;
-  background: #100720;
-  transition: 0.1s;
+  background: $color-ink;
+  transition: 0.15s;
 }
 
 #buy::after {
   content: '';
   width: 100%;
   height: 100%;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%, $color-bright-yellow 17.8%, $color-orange 100.2% );
-  filter: blur(15px);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, $color-amber 10%, $color-crimson 100%);
+  filter: blur(16px);
   z-index: -1;
   position: absolute;
   left: 0;
   top: 0;
+  opacity: 0.85;
+}
+
+#buy:hover {
+  color: $color-ink;
+  background: $color-amber;
 }
 
 #buy:active {
-  transform: scale(0.9) rotate(3deg);
-  background: radial-gradient( circle farthest-corner at 10% 20%, $color-bright-yellow 17.8%, $color-orange 100.2% );
-  transition: 0.5s;
+  transform: scale(0.96);
+  background: radial-gradient(circle farthest-corner at 10% 20%, $color-amber 17.8%, $color-crimson 100.2%);
+  transition: 0.4s;
 }
 
 .regobtn {
   display: inline-block;
   border-radius: 4px;
-  background-color: #F24784;
+  background-color: $color-crimson;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -314,7 +326,7 @@ img[src$="#sponsor"] {
 .trackbtn1 {
   display: inline-block;
   border-radius: 4px;
-  background-color: #F24784;
+  background-color: $color-crimson;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -327,7 +339,7 @@ img[src$="#sponsor"] {
 }
 
 .trackbtn1:hover {
-  background-color: #fc985e;
+  background-color: $color-amber;
 }
 
 .trackbtn1 span {
@@ -358,7 +370,7 @@ img[src$="#sponsor"] {
 .trackbtn2 {
   display: inline-block;
   border-radius: 4px;
-  background-color: rgba(255,94,247,1);
+  background-color: $color-amber;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -371,7 +383,7 @@ img[src$="#sponsor"] {
 }
 
 .trackbtn2:hover {
-  background-color: rgba(2,245,255,1);
+  background-color: $color-crimson;
 }
 
 .trackbtn2 span {

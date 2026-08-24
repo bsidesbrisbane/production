@@ -4,9 +4,21 @@
       <h2>Navigation</h2>
       <p style="font-size:22px">
         {% for item in site.data.navigation %}
+          {% assign show_item = true %}
+          {% if item.flag == 'tickets' and site.tickets == false %}
+            {% assign show_item = false %}
+          {% elsif item.flag == 'volunteers' and site.volunteers == false %}
+            {% assign show_item = false %}
+          {% elsif item.flag == 'schedule' and site.schedule == false %}
+            {% assign show_item = false %}
+          {% elsif item.flag == 'cfc' and site.cfc == false %}
+            {% assign show_item = false %}
+          {% endif %}
+          {% if show_item %}
           <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% endif %} target="{{ item.target }}">
             {{ item.name }}
-          </a><br /> 
+          </a><br />
+          {% endif %}
         {% endfor %}
       </p>
     </nav>
@@ -14,7 +26,7 @@
   <div class="Countdown">
     <h2>Event Details</h2>
     <p style="font-size:18px">
-      04 July 2026
+      Saturday 10 July 2027
     </p>
     <p>
       QUT Gardens Point Campus - Z Block
@@ -22,15 +34,19 @@
     <p style="font-size:18px">
       <span id="countdown" class="timer"></span>
     </p>
+    {% unless site.tickets == false %}
     <br />
     <p>
       <button id="buy" onclick="window.open('https://events.humanitix.com/bsides-brisbane-2026')">
         <strong>View on Humantix!</strong>
-      </button> 
+      </button>
     </p>
+    {% endunless %}
   </div>
 </div>
+{% unless site.tickets == false %}
 <script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
+{% endunless %}
 <script>
   console.log(`
   ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ 

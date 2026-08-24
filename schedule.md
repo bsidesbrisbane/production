@@ -2,6 +2,7 @@
 layout: page
 title: Schedule
 permalink: /schedule/
+flag: schedule
 ---
 
 <style>
@@ -34,10 +35,10 @@ permalink: /schedule/
         /* This column doesn't have a special color, so it gets the default dark underline */
     }
     #track1-header {
-        border-bottom-color: #f24784;
+        border-bottom-color: #C1121F;
     }
     #track2-header {
-        border-bottom-color: rgba(2,245,255,1);
+        border-bottom-color: #D4A017;
     }
     .time-col {
         width: 10%;
@@ -59,13 +60,13 @@ permalink: /schedule/
     }
 
     .talk.track1 {
-        background-color: rgba(242, 71, 132, 0.1);
-        border-left: 5px solid #f24784;
+        background-color: rgba(193, 18, 31, 0.1);
+        border-left: 5px solid #C1121F;
     }
 
     .talk.track2 {
-        background-color: rgba(2, 245, 255, 0.1);
-        border-left: 5px solid rgba(2,245,255,1);
+        background-color: rgba(212, 160, 23, 0.1);
+        border-left: 5px solid #D4A017;
     }
 
     .talk.break {
@@ -101,13 +102,13 @@ permalink: /schedule/
         font-style: italic;
     }
     .talk.track1 .talk-presenter {
-        color: #b33e6f;
+        color: #9B1B2E;
     }
     .talk.break .talk-presenter {
         color: rgba(85, 145, 217, 1)
     }
     .talk.track2 .talk-presenter {
-        color: #02a8b3;
+        color: #D4A017;
     }
 
     .popup-trigger {
@@ -127,13 +128,13 @@ permalink: /schedule/
     }
 
     .popup-summary.popup-track1 {
-        border: 1.5px solid #f24784;
-        box-shadow: 0 0 20px rgba(242, 71, 132, 0.5);
+        border: 1.5px solid #C1121F;
+        box-shadow: 0 0 20px rgba(193, 18, 31, 0.5);
     }
 
     .popup-summary.popup-track2 {
-        border: 1px solid rgba(2, 245, 255, 1);
-        box-shadow: 0 0 20px rgba(2, 245, 255, 0.5);
+        border: 1px solid rgba(212, 160, 23, 1);
+        box-shadow: 0 0 20px rgba(212, 160, 23, 0.5);
     }
 
     .popup-summary.popup-break {
@@ -148,11 +149,11 @@ permalink: /schedule/
     }
 
     .popup-summary.popup-track1 h3 {
-        border-bottom: 1px solid #f24784;
+        border-bottom: 1px solid #C1121F;
     }
 
     .popup-summary.popup-track2 h3 { 
-        border-bottom: 1px solid rgba(2, 245, 255, 1);
+        border-bottom: 1px solid rgba(212, 160, 23, 1);
     }
     .popup-section {
         margin-top: 20px;
@@ -179,9 +180,9 @@ permalink: /schedule/
         display: inline-block;
         padding: 0.15em 0.5em;
         border-radius: 0.25em;
-        background-color: rgba(242, 71, 132, 0.2);
-        border: 1px solid #f24784;
-        color: #f24784;
+        background-color: rgba(193, 18, 31, 0.2);
+        border: 1px solid #C1121F;
+        color: #C1121F;
         font-size: 0.75em;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -190,13 +191,13 @@ permalink: /schedule/
     }
     .mc-name {
         font-weight: 600;
-        color: #f24784;
+        color: #C1121F;
         text-decoration: none;
         font-size: 1em;
         cursor: pointer;
     }
     .mc-profile.track2 .mc-name {
-        color: #02a8b3;
+        color: #D4A017;
     }
     .mc-name:hover {
         text-decoration: underline;
@@ -213,13 +214,13 @@ permalink: /schedule/
         left: 0; right: 0; top: 20vh;
         z-index: 9999;
         border-radius: 8px;
-        border: 2px solid #f24784;
-        box-shadow: 0 0 20px rgba(242, 71, 132, 0.5);
+        border: 2px solid #C1121F;
+        box-shadow: 0 0 20px rgba(193, 18, 31, 0.5);
         text-align: center;
     }
     .mc-popup.track2 {
-        border: 2px solid rgba(2,245,255,1);
-        box-shadow: 0 0 20px rgba(2, 245, 255, 0.5);
+        border: 2px solid #D4A017;
+        box-shadow: 0 0 20px rgba(212, 160, 23, 0.5);
     }
     .mc-popup .mc-popup-close {
         position: absolute;
@@ -234,7 +235,7 @@ permalink: /schedule/
         height: 160px;
         border-radius: 50%;
         object-fit: cover;
-        border: 3px solid #f24784;
+        border: 3px solid #C1121F;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         margin-bottom: 0.75em;
     }
@@ -246,14 +247,14 @@ permalink: /schedule/
         display: inline-block;
         margin-top: 1em;
         color: #fff;
-        background: #f24784;
+        background: #C1121F;
         padding: 0.4em 1em;
         border-radius: 0.5em;
         text-decoration: none;
         font-weight: bold;
     }
     .mc-popup.track2 .mc-popup-link {
-        background: #02a8b3;
+        background: #D4A017;
     }
     .mc-popup .mc-popup-link:hover {
         text-decoration: underline;

@@ -18,6 +18,13 @@ permalink: /recent/:year/:month/:day/:title:output_ext
 
 environment: production
 
+# Seasonal page visibility (true = shown, false = hidden)
+# Restart `bundle exec jekyll serve` after changing these values.
+tickets: false                                                                                                                                                                                                   
+volunteers: false
+schedule: false
+cfc: false
+
 # jekyll-dash date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 dash:

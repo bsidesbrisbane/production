@@ -1,5 +1,5 @@
 var startDate = new Date();
-var endDate = new Date("Sat Jul 04 2026 09:00:00 GMT+1000")
+var endDate = new Date("Sat Jul 10 2027 09:00:00 GMT+1000")
 
 var seconds = (endDate.getTime() - startDate.getTime()) / 1000;
 

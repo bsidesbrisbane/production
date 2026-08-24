@@ -1,24 +1,24 @@
 $themes: (
         dark: (
-                background-color: $color-deep-elderberry,
-                background-color-alt: $color-background-darker,
-                foreground-color: $color-biloba-flower,
-                foreground-color-alt: lighten($color-foreground-dark, 10%),
-                foreground-color-contrast: white,
-                quote-primary: lighten($color-bold-orange, 15%),  // Bold Orange for quotes
-                quote-secondary: $color-bold-orange,
-                list-primary: lighten($color-rose-bud, 20%),  // Rose Bud for lists
-                list-secondary: $color-rose-bud
+                background-color: $color-shadow,
+                background-color-alt: $color-ink,
+                foreground-color: $color-smoke,
+                foreground-color-alt: darken($color-smoke, 18%),
+                foreground-color-contrast: $color-ivory,
+                quote-primary: $color-amber,
+                quote-secondary: $color-crimson,
+                list-primary: lighten($color-smoke, 8%),
+                list-secondary: $color-smoke
         ),
         light: (
                 background-color: $color-background-lighter,
-                background-color-alt: $color-background-light,
-                foreground-color: $color-deep-elderberry,
-                foreground-color-alt: $color-background-darker,
-                foreground-color-contrast: black,
-                quote-primary: $color-bold-orange,  // Bold Orange for quotes
-                quote-secondary: darken($color-bold-orange, 15%),
-                list-primary: $color-regal-purple,  // Regal Purple for lists
-                list-secondary: lighten($color-regal-purple, 20%)
+                background-color-alt: $color-ivory,
+                foreground-color: $color-ink,
+                foreground-color-alt: $color-shadow,
+                foreground-color-contrast: $color-ink,
+                quote-primary: $color-crimson,
+                quote-secondary: darken($color-crimson, 10%),
+                list-primary: $color-shadow,
+                list-secondary: lighten($color-shadow, 16%)
         ),
 );

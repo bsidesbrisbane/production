@@ -1,9 +1,12 @@
-<div class="timetravel-sponsor-box">
-  <a href="{{ '/sponsorship/' | relative_url }}" class="timetravel-sponsor-cta">
-    <span class="timetravel-sponsor-ping" aria-hidden="true"></span>
-    <span class="timetravel-sponsor-label">{{ include.label }}</span>
-    <span class="timetravel-sponsor-headline">{{ include.headline | default: "We need you" }}</span>
-    <span class="timetravel-sponsor-sub">{{ include.sub }}</span>
-    <span class="timetravel-sponsor-linkhint">{{ include.hint | default: "Open sponsorship portal →" }}</span>
+<div class="noir-sponsor-box">
+  <a href="{{ '/sponsorship/' | relative_url }}" class="noir-sponsor-cta">
+    <span class="noir-sponsor-frame" aria-hidden="true">
+      <span class="noir-sponsor-frame-mark">Your logo here</span>
+    </span>
+    <span class="noir-sponsor-ping" aria-hidden="true"></span>
+    <span class="noir-sponsor-label">{{ include.label }}</span>
+    <span class="noir-sponsor-headline">{{ include.headline | default: "We need you" }}</span>
+    <span class="noir-sponsor-sub">{{ include.sub }}</span>
+    <span class="noir-sponsor-linkhint">{{ include.hint | default: "Open sponsorship portal →" }}</span>
   </a>
 </div>

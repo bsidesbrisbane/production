@@ -7,18 +7,22 @@
 - name: 🎫 Tickets
   link: /tickets/
   target: _parent
+  flag: tickets
 - name: ⏰ Schedule
   link: /schedule/
   target: _parent
+  flag: schedule
 - name: 🤝 Sponsors
   link: /sponsors/
   target: _parent
 - name: 📢 Call for Content
   link: /cfc/
   target: _parent
+  flag: cfc
 - name: 👥 Volunteers
   link: /volunteers/
   target: _parent
+  flag: volunteers
 - name: 💼 Sponsorship
   link: /sponsorship/
   target: _parent

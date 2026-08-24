@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-<html class="{% if site.dash.rtl %}direction--rtl{% else %}direction--ltr{% endif %}"lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html class="{% if site.dash.rtl %}direction--rtl{% else %}direction--ltr{% endif %}" lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
 
   <body>
 
-    <!-- Animated Background Effect -->
-    <css-doodle class="animated-background">
+    <div class="noir-vignette" aria-hidden="true"></div>
+    <div class="noir-lamp" aria-hidden="true"></div>
+
+    <css-doodle class="animated-background noir-rain">
       :doodle {
-        @grid: 300x1/ 50vmin;
+        @grid: 70x1 / 100% 100%;
+        overflow: hidden;
       }
-      :container {
-        perspective: 15vmin;
-      }
-      
-      @place-cell: center;
-      @size: 50% 1px;
-      
-      will-change: transform, opacity;
-      transform-style: preserve-3d;
-      
-      background: linear-gradient(to left,
-        @multi(@p([2-4]), @p(#FD632F, #F7A899, #AE9CC4, #38324E, #06031E)),
-        transparent @r(60%)
+
+      @place-cell: @r(100%) @r(100%);
+      @size: 1px @r(16px, 52px);
+
+      background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(201, 189, 170, @r(.18, .55))
       );
+      transform: rotate(14deg);
+      opacity: @r(.2, .7);
+      animation: fall @r(.7s, 1.7s) linear infinite;
+      animation-delay: -@r(3s);
 
-      animation: move @r(1.5s, 3s, .1) linear infinite;
-      animation-delay: -@r(.1s, 3s);
-
-      --trans:
-        translateX(50%)
-        rotateX(@r(-180deg, 180deg))
-        rotateY(@r(-180deg, 180deg))
-        rotateZ(@r(-180deg, 180deg));
-
-      transform-origin: 0 center;
-      transform: var(--trans) scale(2);
-      opacity: 0;
-
-      @keyframes move {
-        20% { opacity: 0.8; }
-        100% { transform: var(--trans) scale(0); }
+      @keyframes fall {
+        from {
+          transform: translateY(-40vh) rotate(14deg);
+        }
+        to {
+          transform: translateY(110vh) rotate(14deg);
+        }
       }
     </css-doodle>
+
+    <div class="noir-blinds" aria-hidden="true"></div>
+    <div class="noir-grain" aria-hidden="true"></div>
 
     {%- include header.html -%}
 

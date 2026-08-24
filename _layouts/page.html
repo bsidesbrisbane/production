@@ -1,10 +1,29 @@
 ---
 layout: default
 ---
+{% assign show_page = true %}
+{% if page.flag == 'tickets' and site.tickets == false %}
+  {% assign show_page = false %}
+{% elsif page.flag == 'volunteers' and site.volunteers == false %}
+  {% assign show_page = false %}
+{% elsif page.flag == 'schedule' and site.schedule == false %}
+  {% assign show_page = false %}
+{% elsif page.flag == 'cfc' and site.cfc == false %}
+  {% assign show_page = false %}
+{% endif %}
+
 {% unless site.dash.show_author == false %}
   {% include author.html %}
 {% endunless %}
 
 {% include navigation.html %}
 
+{% if show_page %}
 {{ content }}
+{% else %}
+<div class="container">
+  <h1>404</h1>
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+{% endif %}
