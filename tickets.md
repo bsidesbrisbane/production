@@ -13,7 +13,7 @@ flag: tickets
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(6, 3, 30, 0.3);
-    border: 2px solid #C1121F;
+    border: 2px solid #D4A017;
 }
 
 .ms-form-wrapper iframe {
@@ -31,7 +31,7 @@ flag: tickets
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #C1121F, #D4A017, #C9BDAA, #1A1612);
+    background: linear-gradient(90deg, #D4A017, #C9BDAA, #1A1612);
     z-index: 1;
     pointer-events: none;
 }

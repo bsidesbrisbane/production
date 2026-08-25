@@ -1,9 +1,10 @@
 @charset "utf-8";
 
 
-$base-font-family: 'Source Sans 3', 'Varela Round', sans-serif;
-$heading-font-family: 'Playfair Display', Georgia, serif;
-$syntax-font-family: 'Roboto Mono', monospace;
+$base-font-family: 'Barlow', 'Inter', system-ui, sans-serif;
+$heading-font-family: 'Big Shoulders Display', 'Oswald', sans-serif;
+$mono-font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+$syntax-font-family: $mono-font-family;
 $base-font-size:   16px !default;
 $post-link-font-size: $base-font-size * 1.25 !default;
 $base-font-weight: 500 !default;

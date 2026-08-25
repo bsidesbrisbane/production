@@ -16,8 +16,8 @@ $themes: (
                 foreground-color: $color-ink,
                 foreground-color-alt: $color-shadow,
                 foreground-color-contrast: $color-ink,
-                quote-primary: $color-crimson,
-                quote-secondary: darken($color-crimson, 10%),
+                quote-primary: $color-amber,
+                quote-secondary: $color-crimson,
                 list-primary: $color-shadow,
                 list-secondary: lighten($color-shadow, 16%)
         ),

@@ -12,5 +12,6 @@
 }
 
 
-@include font('Varela Round', '/assets/fonts/VarelaRound-Regular');
-@include font('Roboto Mono', '/assets/fonts/RobotoMono-Medium');
+// Local faces unused. Primary type loads from Google Fonts (display, body, mono).
+// @include font('Varela Round', '/assets/fonts/VarelaRound-Regular');
+// @include font('Roboto Mono', '/assets/fonts/RobotoMono-Medium');

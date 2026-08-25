@@ -35,7 +35,7 @@ flag: schedule
         /* This column doesn't have a special color, so it gets the default dark underline */
     }
     #track1-header {
-        border-bottom-color: #C1121F;
+        border-bottom-color: #8A382C;
     }
     #track2-header {
         border-bottom-color: #D4A017;
@@ -60,8 +60,8 @@ flag: schedule
     }
 
     .talk.track1 {
-        background-color: rgba(193, 18, 31, 0.1);
-        border-left: 5px solid #C1121F;
+        background-color: rgba(138, 56, 44), 0.1);
+        border-left: 5px solid #8A382C;
     }
 
     .talk.track2 {
@@ -128,8 +128,8 @@ flag: schedule
     }
 
     .popup-summary.popup-track1 {
-        border: 1.5px solid #C1121F;
-        box-shadow: 0 0 20px rgba(193, 18, 31, 0.5);
+        border: 1.5px solid #8A382C;
+        box-shadow: 0 0 20px rgba(138, 56, 44), 0.5);
     }
 
     .popup-summary.popup-track2 {
@@ -149,7 +149,7 @@ flag: schedule
     }
 
     .popup-summary.popup-track1 h3 {
-        border-bottom: 1px solid #C1121F;
+        border-bottom: 1px solid #8A382C;
     }
 
     .popup-summary.popup-track2 h3 { 
@@ -180,9 +180,9 @@ flag: schedule
         display: inline-block;
         padding: 0.15em 0.5em;
         border-radius: 0.25em;
-        background-color: rgba(193, 18, 31, 0.2);
-        border: 1px solid #C1121F;
-        color: #C1121F;
+        background-color: rgba(138, 56, 44), 0.2);
+        border: 1px solid #8A382C;
+        color: #8A382C;
         font-size: 0.75em;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -191,7 +191,7 @@ flag: schedule
     }
     .mc-name {
         font-weight: 600;
-        color: #C1121F;
+        color: #8A382C;
         text-decoration: none;
         font-size: 1em;
         cursor: pointer;
@@ -214,8 +214,8 @@ flag: schedule
         left: 0; right: 0; top: 20vh;
         z-index: 9999;
         border-radius: 8px;
-        border: 2px solid #C1121F;
-        box-shadow: 0 0 20px rgba(193, 18, 31, 0.5);
+        border: 2px solid #8A382C;
+        box-shadow: 0 0 20px rgba(138, 56, 44), 0.5);
         text-align: center;
     }
     .mc-popup.track2 {
@@ -235,7 +235,7 @@ flag: schedule
         height: 160px;
         border-radius: 50%;
         object-fit: cover;
-        border: 3px solid #C1121F;
+        border: 3px solid #8A382C;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         margin-bottom: 0.75em;
     }
@@ -247,7 +247,7 @@ flag: schedule
         display: inline-block;
         margin-top: 1em;
         color: #fff;
-        background: #C1121F;
+        background: #8A382C;
         padding: 0.4em 1em;
         border-radius: 0.5em;
         text-decoration: none;

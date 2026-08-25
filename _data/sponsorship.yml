@@ -1,0 +1,110 @@
+contact: sponsorship@bsidesbrisbane.com
+
+tiers:
+  - name: Platinum
+    price: "$10,000"
+    total: 1
+    remaining: 1
+    tickets: 5
+    benefits:
+      - Repeat shoutout by the MC during the conference
+      - Shoutout by the MC at the end of the day
+      - Logo on the front page
+      - Logo on the sponsors page
+      - Banner space in the main foyer
+      - Table space in the main foyer, bring your own
+      - Full page in the printed schedule
+      - Merch space in attendee bags
+      - Sticker and merch space on the front counter
+      - Listed in the printed schedule
+
+  - name: Diamond
+    price: "$7,000"
+    total: 2
+    remaining: 2
+    tickets: 5
+    benefits:
+      - Repeat shoutout by the MC during the conference
+      - Shoutout by the MC at the end of the day
+      - Logo on the sponsors page
+      - Banner space in the main foyer
+      - Half page in the printed schedule
+      - Merch space in attendee bags
+      - Sticker and merch space on the front counter
+      - Listed in the printed schedule
+
+  - name: Gold
+    price: "$5,000"
+    total: 4
+    remaining: 4
+    tickets: 5
+    benefits:
+      - Shoutout by the MC at the end of the day
+      - Logo on the sponsors page
+      - Quarter page in the printed schedule
+      - Merch space in attendee bags
+      - Sticker and merch space on the front counter
+      - Listed in the printed schedule
+
+  - name: Silver
+    price: "$2,000"
+    total: 10
+    remaining: 10
+    tickets: 2
+    benefits:
+      - Shoutout by the MC at the end of the day
+      - Logo on the sponsors page
+      - Merch space in attendee bags
+      - Sticker and merch space on the front counter
+      - Listed in the printed schedule
+
+  - name: Bronze
+    price: "$1,000"
+    tickets: 2
+    benefits:
+      - Shoutout by the MC at the end of the day
+      - Logo on the sponsors page
+      - Merch space in attendee bags
+      - Sticker and merch space on the front counter
+      - Listed in the printed schedule
+
+extras:
+  - name: Electronic Badge
+    price: "$8,000"
+    total: 1
+    remaining: 1
+    summary: Design and build for 800 delegates.
+
+  - name: Venue
+    price: "$10,000"
+    total: 1
+    remaining: 1
+    summary: Finance venue and AV hire. Two banners inside the venue, bring your own. Includes a Bronze pack.
+
+  - name: IoT Village
+    price: "$4,000"
+    total: 1
+    remaining: 1
+    summary: Consumer IoT and industrial control systems. Prime banner at the village. Includes a Bronze pack.
+
+  - name: T-Shirts
+    price: "$7,000"
+    total: 1
+    remaining: 1
+    summary: Design and print shirts or hoodies for up to 500 delegates. Logo in a prominent place. Includes a Bronze pack.
+
+  - name: Coffee
+    price: "$3,000"
+    total: 1
+    remaining: 1
+    summary: Coffee carts on arrival. Signage at the entry and a shoutout from the MC.
+
+  - name: Villages
+    price: "Enquire"
+    summary: Design your own village. Hardware, software, blue team, red team. Banner placement and MC shoutout. Includes a Bronze pack.
+
+  - name: Prizes
+    price: "$1,000"
+    total: 3
+    remaining: 3
+    summary: Primary CTF and other prizes on the day. MC shoutouts and your logo on the website.

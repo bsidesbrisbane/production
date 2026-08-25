@@ -45,8 +45,11 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color-crimson;
+  @include themed() {
+    color: t('foreground-color-contrast');
+  }
   font-family: $heading-font-family;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 
@@ -154,6 +157,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: $mono-font-family;
   @include relative-font-size(0.9375);
   border-radius: 0.3em;
   @include themed() {
@@ -181,17 +185,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  width: 100%;
+  max-width: 70ch;
   margin-right: auto;
   margin-left: auto;
   padding-right: calc($spacing-unit / 2);
   padding-left: calc($spacing-unit / 2);
+  box-sizing: border-box;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
@@ -249,9 +252,10 @@ img[src$="#sponsor"] {
   height: 62px;
   cursor: pointer;
   color: $color-ivory;
-  font-size: 17px;
-  font-family: $heading-font-family;
-  letter-spacing: 0.04em;
+  font-size: 14px;
+  font-family: $mono-font-family;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   border-radius: 0;
   border: 1px solid $color-amber;
   position: relative;
@@ -263,7 +267,7 @@ img[src$="#sponsor"] {
   content: '';
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, $color-amber 10%, $color-crimson 100%);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, $color-amber 10%, darken($color-amber, 18%) 100%);
   filter: blur(16px);
   z-index: -1;
   position: absolute;
@@ -279,14 +283,14 @@ img[src$="#sponsor"] {
 
 #buy:active {
   transform: scale(0.96);
-  background: radial-gradient(circle farthest-corner at 10% 20%, $color-amber 17.8%, $color-crimson 100.2%);
+  background: $color-amber;
   transition: 0.4s;
 }
 
 .regobtn {
   display: inline-block;
   border-radius: 4px;
-  background-color: $color-crimson;
+  background-color: $color-amber;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -326,7 +330,7 @@ img[src$="#sponsor"] {
 .trackbtn1 {
   display: inline-block;
   border-radius: 4px;
-  background-color: $color-crimson;
+  background-color: $color-amber;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -339,7 +343,7 @@ img[src$="#sponsor"] {
 }
 
 .trackbtn1:hover {
-  background-color: $color-amber;
+  background-color: $color-crimson;
 }
 
 .trackbtn1 span {

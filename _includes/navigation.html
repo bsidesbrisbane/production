@@ -1,8 +1,8 @@
 <div class="container">
-  <div class="Nav">
+  <div class="Nav sidebar">
     <nav>
       <h2>Navigation</h2>
-      <p style="font-size:22px">
+      <ul>
         {% for item in site.data.navigation %}
           {% assign show_item = true %}
           {% if item.flag == 'tickets' and site.tickets == false %}
@@ -15,23 +15,21 @@
             {% assign show_item = false %}
           {% endif %}
           {% if show_item %}
-          <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% endif %} target="{{ item.target }}">
-            {{ item.name }}
-          </a><br />
+          <li>
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% endif %} target="{{ item.target }}">
+              <span class="nav-icon" aria-hidden="true">{% include nav-icon.html name=item.icon %}</span>{{ item.name }}
+            </a>
+          </li>
           {% endif %}
         {% endfor %}
-      </p>
+      </ul>
     </nav>
   </div>
-  <div class="Countdown">
+  <div class="Countdown event-details">
     <h2>Event Details</h2>
-    <p style="font-size:18px">
-      Saturday 10 July 2027
-    </p>
+    <p class="event-date dispatch">Saturday 10 July 2027</p>
+    <p class="label">QUT Gardens Point Campus, Z Block</p>
     <p>
-      QUT Gardens Point Campus - Z Block
-    </p>
-    <p style="font-size:18px">
       <span id="countdown" class="timer"></span>
     </p>
     {% unless site.tickets == false %}

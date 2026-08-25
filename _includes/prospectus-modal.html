@@ -1,0 +1,73 @@
+<dialog id="prospectus-modal" class="prospectus-modal" aria-labelledby="prospectus-title">
+  <div class="prospectus-sheet">
+    <header class="prospectus-head">
+      <p class="prospectus-kicker">Sponsorship pack</p>
+      <h2 id="prospectus-title">What is still on the board</h2>
+      <button type="button" class="prospectus-close js-close-prospectus" aria-label="Close prospectus">Close</button>
+    </header>
+
+    <p class="prospectus-lede">Tiers first, then the extras that actually run the day. Counts are open seats versus seats already taken.</p>
+
+    <h3 class="prospectus-section">Tiers</h3>
+    <div class="prospectus-tiers">
+      {% for tier in site.data.sponsorship.tiers %}
+      {% assign taken = 0 %}
+      {% if tier.total %}
+        {% assign taken = tier.total | minus: tier.remaining %}
+      {% endif %}
+      <article class="prospectus-card{% if tier.remaining == 0 %} is-taken{% endif %}">
+        <header class="prospectus-card-head">
+          <h4>{{ tier.name }}</h4>
+          <p class="prospectus-price">{{ tier.price }}</p>
+        </header>
+        {% if tier.total %}
+        <p class="prospectus-stock">
+          <span>{{ taken }} taken</span>
+          <span>{{ tier.remaining }} of {{ tier.total }} open</span>
+        </p>
+        {% else %}
+        <p class="prospectus-stock"><span>Open</span></p>
+        {% endif %}
+        <p class="prospectus-tickets">{{ tier.tickets }} tickets included.</p>
+        <ul class="prospectus-benefits">
+          {% for benefit in tier.benefits %}
+          <li>{{ benefit }}</li>
+          {% endfor %}
+        </ul>
+        <button type="button" class="prospectus-more js-tell-more" data-kind="tier" data-name="{{ tier.name }}">Tell me more</button>
+      </article>
+      {% endfor %}
+    </div>
+
+    <h3 class="prospectus-section">Individual items</h3>
+    <p class="prospectus-note">These sit beside the tiers. You can take a pack, an item, or both.</p>
+    <div class="prospectus-extras">
+      {% for item in site.data.sponsorship.extras %}
+      {% assign taken = 0 %}
+      {% if item.total %}
+        {% assign taken = item.total | minus: item.remaining %}
+      {% endif %}
+      <article class="prospectus-extra{% if item.remaining == 0 %} is-taken{% endif %}">
+        <header class="prospectus-card-head">
+          <h4>{{ item.name }}</h4>
+          <p class="prospectus-price">{{ item.price }}</p>
+        </header>
+        {% if item.total %}
+        <p class="prospectus-stock">
+          <span>{{ taken }} taken</span>
+          <span>{{ item.remaining }} of {{ item.total }} open</span>
+        </p>
+        {% else %}
+        <p class="prospectus-stock"><span>Open</span></p>
+        {% endif %}
+        <p>{{ item.summary }}</p>
+        <button type="button" class="prospectus-more js-tell-more" data-kind="item" data-name="{{ item.name }}">Tell me more</button>
+      </article>
+      {% endfor %}
+    </div>
+
+    <footer class="prospectus-foot">
+      <a class="prospectus-mail" href="mailto:{{ site.data.sponsorship.contact }}">{{ site.data.sponsorship.contact }}</a>
+    </footer>
+  </div>
+</dialog>

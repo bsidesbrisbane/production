@@ -5,7 +5,7 @@ permalink: /sponsorship/
 ---
 
 ## Prospectus
-### [Download the 2026 prospectus here!](/assets/2026/sponsorship/2026_bne_prospectus.pdf){:target="_blank"}
+{% include prospectus-button.html %}
 
 ## Why support BSides Brisbane?
 Recent successes in Australia and abroad have shown that the information security community continues to grow and along with it, the number of BSides events worldwide continues to increase, each event drawing a bigger crowd. BSides Brisbane was born from a desire to give back to the local Brisbane security community. This year will be the third time running this conference, and we promise to again deliver high quality content, keep the audience and attendees engaged, all while keeping the cost down to ensure its affordable to all.
@@ -40,19 +40,28 @@ Under no circumstances do we provide a list of attendees to sponsors as part of 
 If you have questions about how we protect delegate information, contact us at [sponsorship@bsidesbrisbane.com](mailto:sponsorship@bsidesbrisbane.com).
 
 ## Prospectus
-Don't forget to [download the 2026 prospectus here!](/assets/2026/sponsorship/2026_bne_prospectus.pdf){:target="_blank"}
+{% include prospectus-button.html %}
 
 ## Contact us
-Our current sponsorship pack can be downloaded above.
+If you feel our conference is something you can get behind, we would love your support. Email [sponsorship@bsidesbrisbane.com](mailto:sponsorship@bsidesbrisbane.com) or fill out the form below.
 
-If you feel our conference is something you can get behind, we would love your support and assistance in delivering BSides Brisbane this year. Email [sponsorship@bsidesbrisbane.com](mailto:sponsorship@bsidesbrisbane.com) to register your interest and find out more, or simply fill out the form below and someone will be in contact.
+{% include prospectus-modal.html %}
 
 ### Contact form
+{: #sponsorship-contact}
+<div id="sponsorship-form"></div>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
     portalId: "46097576",
     formId: "545b3c5d-b7d9-44fe-a557-74cc43dd9487",
-    region: "na1"
+    region: "na1",
+    target: "#sponsorship-form",
+    css: "",
+    onFormReady: function ($form) {
+      if (window.bsidesCaptureHubSpotForm) {
+        window.bsidesCaptureHubSpotForm($form);
+      }
+    }
   });
 </script>

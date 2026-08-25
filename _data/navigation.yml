@@ -1,34 +1,44 @@
-- name: 🏠 Home
+- name: Home
+  icon: home
   link: /
   target: _parent
-- name: ℹ️ About
+- name: About
+  icon: info
   link: /about/
   target: _parent
-- name: 🎫 Tickets
+- name: Tickets
+  icon: ticket
   link: /tickets/
   target: _parent
   flag: tickets
-- name: ⏰ Schedule
+- name: Schedule
+  icon: clock
   link: /schedule/
   target: _parent
   flag: schedule
-- name: 🤝 Sponsors
+- name: Sponsors
+  icon: handshake
   link: /sponsors/
   target: _parent
-- name: 📢 Call for Content
+- name: Call for Content
+  icon: bullhorn
   link: /cfc/
   target: _parent
   flag: cfc
-- name: 👥 Volunteers
+- name: Volunteers
+  icon: users
   link: /volunteers/
   target: _parent
   flag: volunteers
-- name: 💼 Sponsorship
+- name: Sponsorship
+  icon: briefcase
   link: /sponsorship/
   target: _parent
-- name: 📰 Recent Posts
+- name: Recent Posts
+  icon: newspaper
   link: /recent/
   target: _parent
-- name: ⚖️ Code of Conduct
+- name: Code of Conduct
+  icon: scale
   link: /conduct/
   target: _parent
